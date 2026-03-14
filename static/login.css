@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+
+.login_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url('images/bg.png'); /* Change background image path */
+}
+
+.login_fbody {
+  width: 520px; 
+  height: 520px;
+  margin: 50px auto; 
+  padding: 50px;
+  background: rgba(0, 42, 133, 0.1); /* Set the alpha channel to 0.1 for 10% opacity */
+  border-radius: 5px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  border: 3px solid rgba(16, 12, 71, 0.5); /* Set the alpha channel to 0.5 for 50% opacity */
+}
+
+
+
+.login_title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 20px; 
+}
+
+span {
+    font-weight: initial;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 20px; 
+}
+
+button[type="submit"] {
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(254, 137, 47, 1); /* Set the alpha channel to 0.8 for 80% opacity */
+  color: rgba(255, 255, 255, 0.8); /* Set the alpha channel to 0.8 for 80% opacity */
+  border: 3px solid rgba(231, 194, 0, 0.5); /* Set the alpha channel to 0.8 for 80% opacity */
+  border-radius: 10px; 
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: rgba(231, 194, 0, 8); /* Set the alpha channel to 0.8 for 80% opacity */
+  border: 3px solid rgba(254, 137, 47, 0.5); /* Set the alpha channel to 0.8 for 80% opacity */
+}
+
+
+.bottom {
+    text-align: center;
+    margin-top: 10px; 
+    color: rgb(255, 248, 248);
+}
+
+.bottom a:hover {
+    text-decoration: underline; 
+    color:#20B2AA;
+}

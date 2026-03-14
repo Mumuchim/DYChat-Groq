@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>DYChat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<div class="sidebar close">
+
+    <!-- Header -->
+    <div class="sidebar__header">
+        <div class="sidebar__brand">
+            <div class="sidebar__logo-mark">
+                <i class='bx bxs-graduation'></i>
+            </div>
+            <div class="sidebar__brand-text">
+                <span class="sidebar__title">DYChat</span>
+                <span class="sidebar__subtitle">DYCI Assistant</span>
+            </div>
+        </div>
+        <button class="sidebar__toggle" id="sidebarToggle">
+            <i class='bx bx-chevrons-left'></i>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sidebar__nav">
+
+        <div class="nav__section-label">Quick Topics</div>
+
+        <!-- Enrollment -->
+        <li class="nav__item">
+            <div class="nav__row">
+                <a href="#" class="nav__link">
+                    <span class="nav__icon-wrap">
+                        <i class='bx bx-edit-alt'></i>
+                    </span>
+                    <span class="nav__label">Enrollment</span>
+                </a>
+                <i class='bx bx-chevron-down nav__arrow'></i>
+            </div>
+            <ul class="nav__dropdown">
+                <li><a href="#" class="nav__sub-link" id="forOldStudentsLink">
+                    <i class='bx bx-user-check'></i> Old Students
+                </a></li>
+                <li><a href="#" class="nav__sub-link" id="forFirstYearStudentsLink">
+                    <i class='bx bx-user-plus'></i> Incoming 1st Year
+                </a></li>
+                <li><a href="#" class="nav__sub-link" id="forTransfereeLink">
+                    <i class='bx bx-transfer'></i> Transferee
+                </a></li>
+                <li><a href="#" class="nav__sub-link" id="forShiftingLink">
+                    <i class='bx bx-shuffle'></i> Shifting
+                </a></li>
+            </ul>
+        </li>
+
+        <!-- Discounts -->
+        <li class="nav__item">
+            <div class="nav__row">
+                <a href="#" class="nav__link">
+                    <span class="nav__icon-wrap">
+                        <i class='bx bxs-discount'></i>
+                    </span>
+                    <span class="nav__label">Discounts</span>
+                </a>
+                <i class='bx bx-chevron-down nav__arrow'></i>
+            </div>
+            <ul class="nav__dropdown">
+                <li><a href="#" class="nav__sub-link" id="freshmen_discount_link"><i class='bx bx-star'></i> Freshmen</a></li>
+                <li><a href="#" class="nav__sub-link" id="alumni_discount_link"><i class='bx bx-medal'></i> DYCI HS Alumni</a></li>
+                <li><a href="#" class="nav__sub-link" id="soloparent_discount_link"><i class='bx bx-heart'></i> Solo-Parent</a></li>
+                <li><a href="#" class="nav__sub-link" id="sibling_discount_link"><i class='bx bx-group'></i> Sibling</a></li>
+                <li><a href="#" class="nav__sub-link" id="employee_discount_link"><i class='bx bx-briefcase'></i> DYCI Employee</a></li>
+                <li><a href="#" class="nav__sub-link" id="full_discount_link"><i class='bx bx-money'></i> Full Payment</a></li>
+                <li><a href="#" class="nav__sub-link" id="student_assistant_link"><i class='bx bx-support'></i> Student Assistant</a></li>
+            </ul>
+        </li>
+
+        <!-- Promissory -->
+        <li class="nav__item">
+            <div class="nav__row">
+                <a href="#" class="nav__link">
+                    <span class="nav__icon-wrap">
+                        <i class='bx bx-file-blank'></i>
+                    </span>
+                    <span class="nav__label">Promissory</span>
+                </a>
+                <i class='bx bx-chevron-down nav__arrow'></i>
+            </div>
+            <ul class="nav__dropdown">
+                <li><a href="#" class="nav__sub-link" id="get_promi_link"><i class='bx bx-info-circle'></i> How to Get</a></li>
+                <li><a href="#" class="nav__sub-link" id="promi_no_pay_link"><i class='bx bx-calendar-check'></i> No Pay w/ Exam</a></li>
+            </ul>
+        </li>
+
+        <!-- Scholarship -->
+        <li class="nav__item">
+            <div class="nav__row">
+                <a href="#" class="nav__link">
+                    <span class="nav__icon-wrap">
+                        <i class='bx bxs-award'></i>
+                    </span>
+                    <span class="nav__label">Scholarship</span>
+                </a>
+                <i class='bx bx-chevron-down nav__arrow'></i>
+            </div>
+            <ul class="nav__dropdown">
+                <li><a href="#" class="nav__sub-link" id="full_academic_link"><i class='bx bx-trophy'></i> Full Academic</a></li>
+                <li><a href="#" class="nav__sub-link" id="partial_academic_link"><i class='bx bx-ribbon'></i> Partial Academic</a></li>
+                <li><a href="#" class="nav__sub-link" id="cultural_athletics_link"><i class='bx bx-run'></i> Cultural & Athletics</a></li>
+                <li><a href="#" class="nav__sub-link" id="brass_band_link"><i class='bx bx-music'></i> Brass Band</a></li>
+                <li><a href="#" class="nav__sub-link" id="government_endorsed_link"><i class='bx bx-buildings'></i> Gov't-Endorsed</a></li>
+            </ul>
+        </li>
+
+    </nav>
+
+    <!-- Footer / Profile -->
+    <div class="sidebar__footer">
+        <div class="sidebar__avatar">
+            <i class='bx bxs-user-circle'></i>
+        </div>
+        <div class="sidebar__user-info">
+            <span class="sidebar__user-name">{{session.name}}</span>
+            <span class="sidebar__user-role">Student</span>
+        </div>
+        <a href="#" onclick="confirmLogout()" class="sidebar__logout" title="Logout">
+            <i class='bx bx-log-out'></i>
+        </a>
+    </div>
+
+</div>
+
+<!-- Main Section -->
+<section class="home-section">
+    <div class="home-content">
+        <i class='bx bx-menu' id="menuToggle"></i>
+        
+    </div>
+    <div class="chatbox__support">
+        <div class="chatbox__messages"></div>
+        <div class="chatbox__footer">
+            <button class="chatbox__add--footer clear__button"><i class='bx bxs-trash-alt'></i></button>
+            <input type="text" id="inputField" placeholder="Ask me anything about DYCI…">
+            <button class="chatbox__send--footer send__button"><i class='bx bxs-send'></i></button>
+        </div>
+    </div>
+</section>
+
+<script>
+    function confirmLogout() {
+        if (confirm("Are you sure you want to log out?")) {
+            window.location.href = "{{ url_for('login') }}";
+        }
+    }
+</script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

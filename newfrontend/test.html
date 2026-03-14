@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar-left {
+  left: 0;
+}
+
+.sidebar-right {
+  right: 0;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.main-content {
+  transition: margin .5s;
+  padding: 20px;
+}
+
+.new-div {
+  background-color: #f9f9f9;
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.close {
+  width: 0 !important;
+}
+
+</style>
+</head>
+<body>
+
+<div id="mySidebarLeft" class="sidebar sidebar-left">
+  <a href="javascript:void(0)" class="bx-menu">Toggle Sidebar</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
+
+<div id="mySidebarRight" class="sidebar sidebar-right">
+  <a href="javascript:void(0)" class="bx-menu">Toggle Sidebar</a>
+  <a href="#">Information</a>
+  <a href="#">Help</a>
+  <a href="#">Support</a>
+  <a href="#">Feedback</a>
+</div>
+
+<div id="mainContent" class="main-content">
+  <h2>Main Content</h2>
+  <p>Some text in main content</p>
+  <div class="new-div">
+    <h3>New Div</h3>
+    <p>Some text in new div</p>
+  </div>
+</div>
+
+<script>
+let sidebarBtns = document.querySelectorAll(".bx-menu");
+
+sidebarBtns.forEach(btn => {
+  btn.addEventListener("click", () => {
+    let sidebar = btn.parentElement;
+    sidebar.classList.toggle("close");
+  });
+});
+</script>
+
+</body>
+</html>

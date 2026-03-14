@@ -1,0 +1,1324 @@
+{
+  "intents": [
+    {
+      "category": "(A) INTERRACTION",
+      "tag": [
+        {
+          "name": "GREET",
+          "patterns": [
+            "Hi", "Hello"
+          
+          ],
+          "responses": [
+            "Hello", "Hi"
+            
+          ]
+        },
+        {
+          "name": "FAREWELL",
+          "patterns": [
+            "Bye"
+          ],
+          "responses": [
+            "Okay Bye."
+          ]
+        },
+        {
+          "name": "ASK",
+          "patterns": [
+            "I want to ask"
+          
+          ],
+          "responses": [
+            "What would you like to ask?"
+            
+          ]
+        },
+        {
+          "name": "CHECKING",
+          "patterns": [
+            "How are you?"
+          
+          ],
+          "responses": [
+            "I'm fine thank you."
+            
+          ]
+        },
+        {
+          "name": "NAME",
+          "patterns": [
+            "Who are you?"
+          
+          ],
+          "responses": [
+            "I'm DYC-AI"
+            
+          ]
+        },
+        {
+          "name": "AFFECTION",
+          "patterns": [
+            "I love you"
+          
+          ],
+          "responses": [
+            "*blushes*"
+            
+          ]
+        },
+        {
+          "name": "REQUEST ASSISTANCE",
+          "patterns": [
+            "Can you help me?"
+          
+          ],
+          "responses": [
+            "Yes, what questions can I help you with?"
+            
+          ]
+        },
+        {
+          "name": "EXPRESS GRATITUDE",
+          "patterns": [
+            "Thank you"
+          
+          ],
+          "responses": [
+            "You're always welcome."
+            
+          ]
+        },
+        {
+          "name": "DISAPPOINTMENT",
+          "patterns": [
+            "I'm disappointed."
+          
+          ],
+          "responses": [
+            "I'm sorry if I didn't manage to answer your inquiry, try asking in other way or type /help"
+            
+          ]
+        },
+        {
+          "name": "APOLOGIZE",
+          "patterns": [
+            "I'm sorry."
+          
+          ],
+          "responses": [
+            "It's okay, don't mind it."
+            
+          ]
+        },
+        {
+          "name": "OKAY",
+          "patterns": [
+            "Ok", "Okay", "k", "okie","yep","alright","yeah","yup"
+          
+          ],
+          "responses": [
+            "Is there any question?",
+            "Do you have any more to ask?",
+            "Okay, anything else?" 
+            
+          ]
+        }
+        
+        
+      
+      ]
+    },
+    {
+      "category": "(B) MISC",
+      "tag": [
+        {
+          "name": "CLEARANCE",
+          "patterns": [
+            "how to get clearance form?",
+            "can i get clearance form",
+            "i would like to get clearance",
+            "i would like to have clearance",
+            "i want to get clearance form",
+            "i want clearance form",
+            "i want clearance",
+            "i need clearance",
+            "how to complete clearance Form",
+            "requirements for clearance",
+            "clearance",
+            "where to get clearance",
+            "where can I get clearance",
+            "where should i go to get clearance",
+            "what are the steps in completing my clearance form",
+            "steps in completing clearance form",
+            "clearance form",
+            "clearance form steps",
+            "what are the process in completing my clearance form",
+            "process in completing clearance form",
+            "process of clearance",
+            "steps of clearance",
+            "clearance form",
+            "clearance form process",
+            "i want to get clearance",
+            "i need to get clearance",
+            "tell me about clearance",
+            "/clearance"
+          ],
+          "responses": [
+            "Step 1: Go to frontline office near at the gate of school. You can ask the staff to get clearance form.<br><br>Step 2: Carefully fill out the clearance form, providing all required information.<br><br>Step 3: Next, go through each item on the list in an organized manner, making sure<br>that you have finished all the required tasks and obtained<br>any essential documents.<br><br>Step 4: Once you have completed all the requirements, submit the checklist<br>or other documentation to the appropriate school officials for verification<br>and to obtain clearance.<br><br>- Paying your school fee's or balances.<br>- Completing all academic coursework and assignments.<br>-Submitting any required forms documentation.<br>- Obtaining necessary signatures or approvals from school officials.<br><br> Please take note that the clearance form is necessary for enrollment for the next semester.",
+            "Here's the steps in getting clearance form.<br><br>1. Begin by visiting the frontline office near the gate of the school. You can request assistance from the staff to obtain the clearance form. <br><br>2. Carefully fill out the clearance form, ensuring that you provide all the required information. <br><br>3. Go through each item on the list systematically, making sure that you have completed all the necessary tasks and acquired any essential documents. <br><br>4. Once you have completed all the requirements, submit the checklist or other documentation to the appropriate school officials for verification and to obtain clearance. This includes: <br>- Paying any outstanding school fees or balances. <br>- Finishing all academic coursework and assignments. <br>- Submitting any required forms or documentation. <br>- Obtaining necessary signatures or approvals from school officials.<br><br> Please take note that the clearance form is necessary for enrollment for the next semester."
+        
+          ]
+        },
+        {
+          "name": "LIBRARY",
+          "patterns": [
+            "Library Accounts",
+            "Library Password",
+            "What proquest",
+            "What's proquest",
+            "What pro quest", 
+            "What password pro quest",
+            "access proquest",
+            "access pro quest",
+            "Proquest",
+            "Pro quest",
+            "Online Library",
+            "tell me about online library",
+            "/library"
+            
+          ],
+          "responses": [
+            "ProQuest Username / Department: <br> <br> CME: DYCI_cme<br>CBA: DYCI_cba<br>CCS: DYCI_ccs<br>COA: DYCI_coa\nCHS: DYCI_chs\nCAS: DYCI_cas\nCOED: DYCI_coed<br>CHMT: DYCI_chmt<br>nSME: DYCI_sme<br>HS: DYCI_hs<br><br>Password:\nDYCILIBRARY@2021<br><br>https://www.proquest.com/? accountid=205168"
+          ]
+        },
+        {
+          "name": "COURSES",
+          "patterns": [
+            "what are the courses available",
+            "courses available",
+            "List of courses",
+            "List of available courses",
+            "course",
+            "courses",
+            "courses offered",
+            "what are the courses offered",
+            "list of undergraduate programs",
+            "what are the undergrad courses offered",
+            "tell me about courses",
+            "/courses"
+          ],
+          "responses": [
+            "DYCI Offers Undergraduate Programs: <br><br> BS Business Administration Major in: Human Resource Development, Management, Financial Management, Operations Management, Marketing Management <br> BS Computer Science <br> BS Information Technology <br> BS Computer Engineering <br> BS Accountancy (5 years) <br> BS in Accounting Information System <br> Bachelor of Elementary Education <br> Bachelor of Secondary Education Major in: Mathematics, English, Biology <br> Bachelor of Arts in Psychology <br> Bachelor of Arts in Political Science <br> BS Hotel and Restaurant Management <br> BS Tourism <br> TESDA Courses: Bartending NC II, Front Office NC II, Commercial Cooking NCII, Food and Beverages NC II, Housekeeping NC II <br> BS Marine Transportation <br> BS Marine Engineering <br> Short Term Programs: BS Mechanical Engineering <br> BS Mechanical Engineering",
+            "At DYCI, you can choose from a diverse range of undergraduate programs:<br><br>BS Business Administration with majors in Human Resource Development, Management, Financial Management, Operations Management, Marketing Management<br>BS Computer Science<br>BS Information Technology<br>BS Computer Engineering<br>BS Accountancy (5 years)<br>BS in Accounting Information System<br>Bachelor of Elementary Education<br>Bachelor of Secondary Education with majors in Mathematics, English, Biology<br>Bachelor of Arts in Psychology<br>Bachelor of Arts in Political Science<br>BS Hotel and Restaurant Management<br>BS Tourism<br>TESDA Courses: Bartending NC II, Front Office NC II, Commercial Cooking NC II, Food and Beverages NC II, Housekeeping NC II<br>BS Marine Transportation<br>BS Marine Engineering<br>Short Term Programs: BS Mechanical Engineering<br>BS Mechanical Engineering",
+            "DYCI offers a wide range of undergraduate programs:<br><br>BS Business Administration with majors in Human Resource Development, Management, Financial Management, Operations Management, Marketing Management<br>BS Computer Science<br>BS Information Technology<br>BS Computer Engineering<br>BS Accountancy (5 years)<br>BS in Accounting Information System<br>Bachelor of Elementary Education<br>Bachelor of Secondary Education with majors in Mathematics, English, Biology<br>Bachelor of Arts in Psychology<br>Bachelor of Arts in Political Science<br>BS Hotel and Restaurant Management<br>BS Tourism<br>TESDA Courses: Bartending NC II, Front Office NC II, Commercial Cooking NC II, Food and Beverages NC II, Housekeeping NC II<br>BS Marine Transportation<br>BS Marine Engineering<br>Short Term Programs: BS Mechanical Engineering<br>BS Mechanical Engineering"
+          ]
+        },
+        {
+          "name": "CREATOR",
+          "patterns": [
+            "Tell me about yourself",
+            "can you tell me about yourself",
+            "Who made you",
+            "Who created you",
+            "What is the name of your creator?",
+            "May I know who developed you?",
+            "Who is responsible for creating you?",
+            "What programming language was used to create you?",
+            "What was the development method used to create you?",
+            "Who designed and programmed you?",
+            "Who built you?",
+            "Who designed you",
+            "Who is behind your creation?",
+            "Who is your developer?"
+          ],
+          "responses": [
+            "I was created using NLTK and rule-based programming by the BSCS-2A System Analysis and Design Group 1 for the school year 2022-2023.",
+            "My developers are the BSCS-2A System Analysis and Design Group 1 for the school year 2022-2023, who used NLTK and rule-based programming to create me.",
+            "NLTK and rule-based programming were used by the BSCS-2A System Analysis and Design Group 1 for the school year 2022-2023 to create me.",
+            "I was designed and programmed by the BSCS-2A System Analysis and Design Group 1 for the school year 2022-2023 using NLTK and rule-based programming.",
+            "The BSCS-2A System Analysis and Design Group 1 for the school year 2022-2023 is responsible for creating me using NLTK and rule-based programming."
+          ]
+          
+        },
+        {
+          "name": "DATE CREATED",
+          "patterns": [
+            "When were you created?",
+            "when is your birthday",
+            "How old are you",
+            "When are you created?",
+            "your creation date?",
+            "What is your creation date?",
+            "What is the date of your creation?",
+            "Can you tell me the date you were made?",
+            "On what day were you created?",
+            "When were you programmed?",
+            "What year were you developed?",
+            "What is the exact date of your development?"
+          ],
+          "responses": [
+            "I was created on May, 2023.",
+            "My development started in early 2023, and I was completed in May 2023.",
+            "The development of my prototype began in early 2023, and I was officially created in May 2023.",
+            "I was programmed and developed during the 2022-2023 school year, and completed in May 2023.",
+            "May 2023 is the month and year of my creation.",
+            "I was brought into existence in May 2023 by a talented team of developers.",
+            "My creation date is May 2023, when I was programmed and developed by a group of skilled individuals.",
+            "May 2023 was the month and year that I was created using advanced programming techniques.",
+            "My development was completed in May 2023 by a team of developers who used their skills to create me.",
+            "I started my life as a chatbot in May 2023, thanks to the hard work of my development team."
+          ]
+        },
+        {
+          "name": "DEAN'S LISTER",
+          "patterns": [
+            "tell me about dean's honor",
+            "tell me about dean's list",
+            "what is dean's honor list",
+            "what is dean honor list",
+            "how to be in dean's lister",
+            "how to be in dean lister",
+            "how to get in dean's lister",
+            "how to get in dean lister",
+            "how to qualify in dean's lister",
+            "how to qualify in dean lister",
+            "how i qualify dean's list",
+            "what's dean's lister requirement",
+            "What is dean lister requirement",
+            "dean's lister requirements",
+            "dean lister requirements",
+            "dean's honor list",
+            "dean's lister"
+          ],
+          "responses": [
+            "To qualify for the Dean's Honor List, you need to meet the following requirements:<br><br>1. Maintain a regular unit load or have at least 18 units if you're an irregular student.<br>2. Achieve a General Weighted Average (GWA) of 1.75 or lower (1.76 or higher is not accepted).<br>3. Ensure that none of your subject grades are lower than 2.0.<br>4. Have a clean record without any student violations (specifically for CCS).<br><br>If you fulfill all these qualifications, you may receive an award falling into one of three levels:<br><br>1. VIRTUS Award: GWA ranging from 1.51 to 1.75.<br>2. EXCELLENTIA Award: GWA ranging from 1.26 to 1.50.<br>3. SAPIENTIA Award: GWA ranging from 1.0 to 1.25.",
+            "To be eligible for the Dean's Honor List, you must satisfy the following criteria:<br><br>1. Maintain a regular unit load throughout the semester, or have a minimum of 18 units if you're an irregular student.<br>2. Achieve a General Weighted Average (GWA) of 1.75 or below (GWA of 1.76 or higher is not accepted).<br>3. Ensure that none of your subject grades fall below 2.0.<br>4. Maintain a clean disciplinary record without any student violations, specifically within the CCS department.<br><br>If you meet all of these requirements, you will be considered for the Dean's Honor List. The awards are categorized into three levels based on your GWA:<br><br>VIRTUS Award: GWA ranging from 1.51 to 1.75<br>EXCELLENTIA Award: GWA ranging from 1.26 to 1.50<br>SAPIENTIA Award: GWA ranging from 1.0 to 1.25",
+            "To earn a place on the Dean's Honor List, you must fulfill the following conditions:<br><br>1. Maintain a regular unit load throughout the academic term. If you are an irregular student, make sure you have at least 18 units.<br>2. Achieve a General Weighted Average (GWA) of 1.75 or lower. Note that a GWA of 1.76 or higher will not qualify you for the Dean's Honor List.<br>3. Ensure that you have no subject grade lower than 2.0.<br>4. Uphold a spotless record with no student violations, especially within the CCS department.<br><br>Meeting all of these requirements makes you eligible for the Dean's Honor List. The awards are divided into three levels, depending on your GWA:<br><br>VIRTUS Award: GWA ranging from 1.51 to 1.75<br>EXCELLENTIA Award: GWA ranging from 1.26 to 1.50<br>SAPIENTIA Award: GWA ranging from 1.0 to 1.25"
+          ]
+        },
+        {
+          "name": "ID (How to Get)",
+          "patterns": [
+            "Request for ID", 
+            "where can i request for ID", 
+            "Where can i get school ID",
+            "How to avail new ID",
+            "where can i buy a new id",  
+            "Identification Card",
+            "can i get school id",
+            "i want to get school id",
+            "i need to get school id",
+            "get school id",
+            "tell me about id",
+            "Get ID",
+            "/idrequest"
+          ],
+          "responses": [
+            "First, go to your browser and search 'dyci.edu.ph' and find 'Portals.<br><br>'Click 'Request an ID'<br><br>After that, they may require you to provide certain information,<br>such as your full name, student ID number, course,<br>and possibly some form of identification to verify your identity.<br><br>Once your request has been processed,<br>staffs will issue you a new ID in mean time.",
+            "Here's the steps to avail for ID:<br><br>1. First, go to your browser and search for 'dyci.edu.ph' and find 'Portals.'<br><br>2. Click on 'Request an ID.'<br><br>3. Provide the required information such as your full name, student ID number, course, and identification to verify your identity.<br><br>4. Wait for the staff to process your request.<br><br>5. Once approved, they will provide you with a new ID."
+          ]
+        },
+        {
+          "name": "ID (Reissue)",
+          "patterns": [
+            "ID Renewal",
+            "Get new ID",
+            "where to get new id",
+            "ID missing",
+            "my id is missing",
+            "what to do if my id is missing",
+            "how to get new id",
+            "Missing ID",
+            "renew id",
+            "about renew id",
+            "lost id"
+          ],
+          "responses": [
+            "You can request again ID Renewal just visit 'dyci.edu.ph'website<br> and in the Portal Menu just click request an ID.<br>Then you can proceed to providing all your information.",
+            "If you have lost your ID and need a replacement, you can request a new one by visiting the 'dyci.edu.ph' website and clicking on the Portal Menu.<br> From there, click on the 'Request an ID' option and provide all the necessary information to process your request."
+          ]
+        },
+        {
+          "name": "UNIFORM",
+          "patterns": [
+            "tell me about uniform",
+            "How much is the uniforms?",
+            "Uniform Prices",
+            "Uniform sizes available",
+            "Uniform size list",
+            "Uniform list",
+            "How much is uniform for girls?",
+            "How much is uniform for boys?",
+            "College uniform how much",
+            "College uniform price",
+            "College uniform",
+            "Where can i buy uniform?",
+            "What are the sizes available for uniforms",
+            "I want to buy uniform",
+            "I'd like to buy uniform",
+            "I would like to buy uniform",
+            "I need to get unifom"
+          ],
+          "responses": [
+            "Here are the list of uniform prices: <br> <br><b> Girls Blouse: </b> <br>Small-Medium - &#8369;550 <br>Large-Up - &#8369;600 <br><br> <b> Girls Skirt: </b> <br>Small-Medium - &#8369;450 <br>Large-Up - &#8369;500 <br><br>  <b> Boys Polo: </b> <br>Small-Large - &#8369;550 <br>XL-Up - &#8369;600 <br><br> <b>Boys Pants:</b> <br>Small-Large - &#8369;650 <br>Size 33-Up - &#8369;700 <br><br>The College uniform is available at the finance office."
+          ]
+        },
+        {
+          "name": "REPORT/CONCERNS",
+          "patterns": [
+            "where can I report?",
+            "where can I report a concern?",
+            "how to report a concern?",
+            "I want to report",
+            "i'd like to report",
+            "I have a concern",
+            "concern",
+            "report",
+            "/report"
+          ],
+          "responses": [
+            "If you're facing significant academic issues or concerns, you may want to consider visiting the dean's office for guidance and support. <br> <br> In the event that you have any issues with the dean's office, you can also escalate the matter to the office of the Vice President of Academic Affairs for further assistance. <br><br> If you're dealing with issues such as bullying or harassment, it's important to know that there are resources available to help you. You can reach out to the guidance office for support and assistance in addressing the situation. Don't hesitate to speak up and seek help if you need it - your well-being and safety are a top priority.",
+            "If you're experiencing academic difficulties or facing any problems related to your studies, the dean's office is available to provide you with guidance and support. <br><br> In case you encounter any concerns with the dean's office, you can escalate the matter to the office of the Vice President of Academic Affairs for further assistance. <br><br> If you're dealing with any form of discrimination or harassment, know that you're not alone. The guidance office is there to help you and provide you with the necessary support and resources to address the situation. Remember, it's important to speak up and seek help when you need it.",
+            "If you encounter any academic concerns or issues that require attention, it's best to seek guidance from the dean's office. <br><br> In the unlikely event that you encounter problems with the dean's office, you can always approach the office of the Vice President of Academic Affairs for further assistance and support.<br><br> Additionally, if you experience any form of bullying or harassment, don't hesitate to reach out to the guidance office for help. They are there to provide you with the necessary support and resources to address the situation and ensure your well-being."
+          ]
+        },
+        {
+          "name": "PROF (Who)",
+          "patterns": [
+            "Do you know professor",
+            "Do you know prof",
+            "Can I ask about professors?",
+            "Can I ask about prof?",
+            "prof",
+            "professor",
+            "tell me about professor",
+            "tell me about prof",
+            "who is prof",
+            "who is professor"
+          ],
+          "responses": [
+            "I'm sorry, but I'm unable to assist with inquiries or provide information specifically about professors. My role is to provide general knowledge and help with a wide range of topics related to DYCI. If you have any other non-professor-related questions or need assistance with different matters, feel free to ask, and I'll do my best to assist you.",
+            "I apologize, but I am unable to provide information or accept inquiries about specific professors. My purpose is to assist with general questions about DYCI. If you have any other non-professor-related inquiries or need assistance with other matters, please feel free to ask, and I'll be glad to help you.",
+            "Apologies, but I cannot provide information or address inquiries about individual professors. My purpose is to provide general assistance and answer questions related to DYCI. If you have any other non-professor-related queries or need help with different aspects, please let me know, and I'll be more than happy to assist you."
+          ]
+        },
+        {
+          "name": "PROF (Where)",
+          "patterns": [
+            "where can i find professor office",
+            "where can i find prof office",
+            "where can i find my professor",
+            "where can i find my prof",
+            "how can i find my professor",
+            "how can i find my prof",
+            "professor location",
+            "location of my professor",
+            "location of my prof",
+            "location of professor",
+            "location of prof",
+            "where are the professors located",
+            "where are the profs located",
+            "professor located at",
+            "prof located at",
+            "I would like to meet my professor",
+            "I would like to see my professor",
+            "I would like to meet my prof",
+            "I would like to see my prof",
+            "I would like to have meeting with my professor"
+          ],
+          "responses": [
+            "To find your professor, I suggest reaching out to your academic advisor or dean's office for the necessary information. They can provide you with their professor's office location and contact details. If you require additional assistance or have any other questions, please feel free to ask, and I'll be glad to help.",
+            "If you need to find your professor, I suggest reaching out to your academic advisor or dean's office. They will be able to furnish you with the information you need, such as the professor's office location and contact details. Don't hesitate to ask if you require further assistance or if there's anything else I can help you with."
+          ]
+        },
+        {
+          "name": "GRADES",
+          "patterns": [
+            "can you tell me about my grades",
+            "tell me about my grades",
+            "where can i check my grades",
+            "where can i see my grades",
+            "about grades",
+            "ask grade",
+            "grade for",
+            "grade",
+            "i want to check my grade",
+            "i would like to check my grade",
+            "check grade",
+            "access my grade",
+            "how to know my grade"
+          ],
+          "responses": [
+            "Apologies, but our system cannot provide individual grade information. To access your grades, please follow these steps:<br><br>Visit the DYCI website at dyci.edu.ph.<br>Click on the 'Portals' tab.<br>Locate and click on the 'OSIRIS'.<br><br>Within the OSIRIS portal, you should be able to access your student portal and view your grades. If you are unsure about your OSIRIS account or need assistance with login credentials, kindly visit your dean's office or academic department. They will be able to provide you with the necessary guidance and support.<br><br> If you have any other non-grade-related inquiries, please feel free to ask, and I'll be happy to assist you.",
+            "I apologize, but our system cannot provide individual grade information. To access your grades, please follow these steps:<br><br>Go to the DYCI website at dyci.edu.ph.<br>Click on the 'Portals' tab.<br>Select the 'OSIRIS' portal.<br><br>Once you are on the OSIRIS portal, you will be able to access your student portal and view your grades. If you are uncertain about your OSIRIS account or require assistance with login credentials, I recommend visiting your dean's office or academic department for further guidance and support.<br><br>If you have any other questions unrelated to grades, please feel free to ask, and I'll be more than happy to assist you."
+          ]
+        },
+        {
+          "name": "DYCI FOUNDER",
+          "patterns": [
+            "Who founded dyci",
+            "who's the founder of dyci",
+            "who is the founder of dyci",
+            "who discovered dyci",
+            "founder of dyci",
+            "history of dyci",
+            "what year did dyci founded",
+            "DYCI year founded",
+            "DYCI birthday",
+            "DYCI history",
+            "who is the first president of dyci"
+          ],
+          "responses": [
+            "In January 1974, the Yanga family purchased the FBA from its owners and Dr. Ismael E. Yanga, Sr. became its first president.",
+            "The Yanga family acquired ownership of the FBA in January 1974, with Dr. Ismael E. Yanga, Sr. assuming the role of its inaugural president.",
+            "During January 1974, the FBA was purchased by the Yanga family, leading to Dr. Ismael E. Yanga, Sr. becoming its first president."
+          ]
+        },
+        {
+          "name": "DYCI CURRENT PRESIDENT",
+          "patterns": [
+            "who is the current president of dyci",
+            "who's the current president of dyci",
+            "who is the current head of dyci",
+            "who's the current head of dyci",
+            "who is the current head director of dyci",
+            "who's the current head director of dyci",
+            "who is the current ceo of dyci",
+            "who's the current ceo of dyci",
+            "who is the president of dyci",
+            "who's the president of dyci",
+            "who's the ceo of dyci",
+            "who is the ceo of dyci",
+            "head of dyci",
+            "president of dyci",
+            "ceo of dyci",
+            "director of dyci",
+            "dyci president",
+            "dyci director",
+            "dyci head",
+            "dyci ceo"
+          ],
+          "responses": [
+            "Mr. Michael S. Yanga currently serves as the president of DYCI. On January 14, 2019, his inauguration ceremony took place at the DMDY, marking his position as the school's third president.",
+            "The current president of DYCI is Mr. Michael S. Yanga, who took office on January 14, 2019, during an inauguration ceremony held at the DMDY. He is the school's third president and continues to hold this position, leading and overseeing the institution's activities.",
+            "DYCI's current president is Mr. Michael S. Yanga, who officially took office during his inauguration ceremony held at the DMDY on January 14, 2019. Since then, he has been successfully leading the school as its third president."
+          ]
+        }
+        
+      ]
+    },
+    {
+      "category": "(C) FINANCE",
+      "tag": [
+        {
+          "name": "LOCATION",
+          "patterns": [
+            "Where can I pay my tuition?",
+            "How can i pay my tuition",
+            "Where can I pay",
+            "How can i pay",
+            "Where do I pay my tuition?",
+            "How do i pay my tuition",
+            "Where do I pay",
+            "How do i pay",
+            "Where to pay tuition?",
+            "Where to pay",
+            "How to pay",
+            "Where can I find the finance office",
+            "Where is finance",
+            "Where's finance",
+            "Finance Office location",
+            "Finance Location",
+            "How do I make a tuition payment?",
+            "I need to pay my tuition. Where should I go?",
+            "Where is the payment center for tuition?",
+            "Is there a specific office where I can pay my tuition?",
+            "Can you direct me to the department for tuition payment?"
+          
+          ],
+          "responses": [
+            "Finance Office is located on the second floor of HRM Building or refer to the DYCI Interactive Map",
+            "The Finance Office can be found on the second floor of the HRM Building. <br> Alternatively, you can consult the DYCI Interactive Map for directions.",
+            "If you're looking for the Finance Office, it's situated on the second floor of the HRM Building. <br> For additional guidance, you can refer to the DYCI Interactive Map."
+            
+          ]
+        },
+        {
+          "name": "PAYMENT METHOD",
+          "patterns": [
+            "does the school take credit cards",
+            "do you accept mastercard",
+            "do they accept mastercard",
+            "do you accept gcash",
+            "is mastercard available",
+            "is Gcash available",
+            "is mastercard available",
+            "can i pay cash",
+            "can i pay gcash",
+            "can i pay",
+            "what are the payment method",
+            "does the school accept cash only?",
+            "can i pay with gcash",
+            "can i pay with cash",
+            "payment methods"
+          
+          ],
+          "responses": [
+            "We accept Bank Deposit, Gcash, PayMaya and Cash",
+            "Payments can be made through Bank Deposit, Gcash, PayMaya, or Cash.",
+            "You can make payments using Bank Deposit, Gcash, PayMaya, or Cash."
+            
+          ]
+        },
+        {
+          "name": "TUITION FEE",
+          "patterns": [
+            "EMPTY"
+          
+          ],
+          "responses": [
+            "EMPTY"
+            
+          ]
+        },
+        {
+          "name": "CHECK BALANCE",
+          "patterns": [
+            "EMPTY"
+          
+          ],
+          "responses": [
+            "EMPTY"
+            
+          ]
+        },
+        {
+          "name": "DOWN PAYMENT",
+          "patterns": [
+            "Downpayment Minimum",
+            "Down payment Minimum",
+            "what is the minimum down payment",
+            "what is the minimum downpayment",
+            "what's the minimum down payment",
+            "what's the minimum downpayment",
+            "down minimum",
+            "minimum down payment",
+            "minimum downpayment",
+            "what's the minimum down payment fee",
+            "what's the minimum downpayment fee",
+            "what is the minimum down payment fee",
+            "what is the minimum downpayment fee"
+          
+          ],
+          "responses": [
+            "The minimum downpayment is &#8369;1000.",
+            "A minimum of &#8369;1000 must be paid as a downpayment.",
+            "The downpayment required is at least &#8369;1000."
+                
+          ]
+        },
+        {
+          "name": "DISCOUNT (How)",
+          "patterns": [
+            "how can i avail for discount", 
+            "how to acquire discount",
+            "avail discount",
+            "where should i avail discount?",
+            "where to avail discount?",
+            "qualify for discount",
+            "where can i inquire for discount", 
+            "where to get discount",
+            "i want to get discount",
+            "I need to get discount",
+            "i want to apply for discount",
+            "I need to apply for discount",
+            "discount"
+          
+          ],
+          "responses": [
+            "Go to Office of the Student Affairs and Services (OSAS) and inquire to staff what discount you would like to avail. Type '<b>/discount</b>' for more details.",
+            "Visit the Office of the Student Affairs and Services (OSAS) and speak to the staff to inquire about the discounts available. Please type '<b>/discount</b>' for further information.",
+            "You can head over to the Office of the Student Affairs and Services (OSAS) and approach the staff to discuss the discounts you wish to avail. For more details, type '<b>/discount</b>."
+            
+          ]
+        },
+        {
+          "name": "DISCOUNT (What)",
+          "patterns": [
+            "tell me about discount",
+            "what discount can i get",
+            "discount can i get",
+            "what discount can i get as",
+            "is there a discount",
+            "are there discounts?",
+            "any discount",
+            "available discount",
+            "what are the available discounts?",
+            "available discounts",
+            "discount list",
+            "discount lists",
+            "list of discount",
+            "list of discounts",
+            "what are the qualifications for discount",
+            "qualification for discount",
+            "available academic discount",
+            "what are the academic discounts available",
+            "what are the available school discounts",
+            "discount description",
+            "/discount"
+          ],
+          "responses": [
+            "The College grants the following discounts to qualified students.<br>Students who are entitled to multiple discounts,<br>only the highest discount privilege shall be granted by the college.<br><br>- FRESHMEN DISCOUNT<br>- DYCI HIGH SCHOOL ALUMNI DISCOUNT<br>- SOLO PARENT DISCOUNT<br>- SIBLING DISCOUNT<br>- FULL PAYMENT DISCOUNT <br>FRESHMEN DISCOUNT<br><br>Incoming freshmen with an average of 90% or higher<br>posted in their Grade 12 report card shall be entitled to 15% discount<br>on tuition fee for the first semester<br><br>DYCI HIGH SCHOOL ALUMNI DISCOUNT<br><br>Graduates of the DYCI High School based on their length of stay:<br>Grade 7 to Grade 12 - 40 % tuition fee discount<br>Grade 8 to Grade 12 - 35 % tuition fee discount<br>Grade 9 to Grade 12 - 30 % tuition fee discount<br>Grade 10 to Grade 12 - 25 % tuition fee discount<br>Grade 11 to Grade 12 - 20 % tuition fee discount<br><br>SOLO PARENT DISCOUNT<br><br>This discount is given to College DYCIan who is financially supported by a solo parent.<br>To apply for solo parent discount, submit a photocopy of Solo Parent ID<br>with specimen signature and a photocopy of student&#8217s<br>PSA birth certificate to the Scholarship Office<br><br>SIBLING DISCOUNT<br><br>This discount is granted if two or three siblings<br>are all currently enrolled in DYCI during the same semester.<br>Each sibling is entitled to 10% tuition fee discount.<br>For purposes of availing this discount, each applicant<br>(who must not be the sons/daughters of a DYCI employee)<br>must submit photocopy of the PSA certified birth certificate<br>and proof of enrollment at DYCI of the sibling/s.<br><br>FULL PAYMENT DISCOUNT<br>Students who pay the full amount due in cash before the opening of classes<br>shall be entitled to a 5% discount on tuition fee. <br><br>The Office of Student Affairs and Services (OSAS) can provide information on available discounts. You may visit their office to inquire and learn more.",
+            "Here are the following discounts qualified to students: <br><br> Freshmen Discount: Incoming freshmen with an average of 90% or higher in their Grade 12 report card will receive a 15% discount on tuition fee for the first semester.<br><br>DYCI High School Alumni Discount: Graduates of DYCI High School will receive a tuition fee discount based on their length of stay, as follows:<br><br>Grade 7 to Grade 12 - 40% discount<br>Grade 8 to Grade 12 - 35% discount<br>Grade 9 to Grade 12 - 30% discount<br>Grade 10 to Grade 12 - 25% discount<br>Grade 11 to Grade 12 - 20% discount<br><br>Solo Parent Discount: This discount is given to college DYCIans who are financially supported by a solo parent.<br>To apply, submit a photocopy of the Solo Parent ID with specimen signature and a photocopy of the student's PSA birth certificate to the Scholarship Office.<br><br>Sibling Discount:This discount is granted if two or three siblings are currently enrolled in DYCI during the same semester.<br> Each sibling is entitled to a 10% tuition fee discount. To avail of the discount, each applicant (who must not be the son/daughter of a DYCI employee) must submit photocopies of the PSA certified birth certificate and proof of enrollment at DYCI of the sibling/s.<br><br> Full Payment Discount: Students who pay the full amount due in cash before the opening of classes will receive a 5% discount on tuition fee. <br><br> If you're interested in availing discounts for certain services or activities, it's best to inquire at the Office of Student Affairs and Services (OSAS) for more information on what discounts are available to you."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "(E) ENROLLMENT",
+      "tag": [
+        {
+          "name": "OLD OR NEW STUDENT",
+          "patterns": [
+            "i want to enroll",
+            "i need to enroll",
+            "i wanna enroll",
+            "how to enroll",
+            "how can i enroll",
+            "what are the steps for enrollment",
+            "what are the steps to enroll",
+            "steps to enroll",
+            "steps for enrollment",
+            "enrollment steps",
+            "how to enroll in dyci",
+            "can i ask how to enroll",
+            "/enroll"
+          
+          ],
+          "responses": [
+            "Hello there! Thanks for considering our school for your education.<br>May I know if you're an old student or a new student?<br><br>Type '<b>old student</b>' if you've been enrolled with us before, or '<b>new student</b>' if you're enrolling for the first time.",
+            "Are you a returning student or a new one? Simply type '<b>old student</b>' if you're a returning student, or '<b>new student</b>' if you're new to our school.",
+            "Before we proceed with your enrollment, may I ask if you're a new or returning student?<br>Please type '<b>old student</b>' if you're a returning student, or '<b>new student</b>' if this is your first time."
+            
+          ]
+        },
+        {
+          "name": "STEPS FOR NEW STUDENT",
+          "patterns": [
+            "what are the steps to enroll for new student",
+            "enrollment process for new student",
+            "steps to enroll new student",
+            "enrollment steps for new student in dyci",
+            "enrollment steps new student",
+            "enrollment steps new student",
+            "requirements to enroll new student",
+            "enrollment requirements for new student",
+            "how to enroll as a new student",
+            "eligibility enrollment new student",
+            "how to enroll if new student",
+            "new student"
+          ],
+          "responses": [
+            "First, newly enrolled students and those who are transferring<br>are required to take an entrance examination.<br><br>The school registar must be provided with the following documents for evaluation.<br><br>- Form 138 <br>- Card<br>- Photocopy of Birth Certificate<br>- Certification of Good Moral Character<br>- 2 Copies of 2x2 picture<br><br>The enrollment personnel will request that the student complete the Registration Form<br>Next, the assessing clerk at the accounting office will determine the applicable discount.<br>The student must pay the fees before being granted official enrollment status.<br><br>Once you've completed the enrollment process for the semester, don't forget to claim your ID sticker at the frontline office. This sticker is an important part of your student identification and will be necessary for various activities and services on campus.",
+            "To enroll in our school, newly enrolled students and those transferring must first take an entrance examination. Once completed, they must prepare the following documents for evaluation by the school registrar: Form 138 (Report Card), ID card, photocopy of birth certificate, certification of good moral character, and two copies of a 2x2 picture.<br><br>After preparing the documents, the student must submit them to the school registrar for evaluation. Once evaluated, the student will receive a Registration Form to complete. An enrollment personnel will assist the student in filling out the form.<br><br>The student's applicable discount will be determined by the assessing clerk at the accounting office. Before being granted official enrollment status, the student must pay the fees determined by the accounting office.<br><br>Once the fees are paid, the student will be officially enrolled in the school.<br><br>Once you've completed the enrollment process for the semester, don't forget to claim your ID sticker at the frontline office. This sticker is an important part of your student identification and will be necessary for various activities and services on campus.",
+            "Here are the step-by-step instructions for the enrollment process:<br><br>1. Newly enrolled students and those who are transferring are required to take an entrance examination.<br><br>2. Prepare the following documents for evaluation by the school registrar:<br><br>- Form 138 (Report Card)<br>- Card<br>- Photocopy of Birth Certificate<br>- Certification of Good Moral Character<br>- 2 Copies of 2x2 picture<br><br>3. Submit the documents to the school registrar for evaluation.<br><br>4. After evaluation, the student will be given the Registration Form to complete.<br><br>5. The enrollment personnel will request that the student complete the Registration Form.<br><br>6. The assessing clerk at the accounting office will determine the applicable discount for the student.<br><br>7. The student must pay the fees determined by the accounting office before being granted official enrollment status.<br><br>8. Once the fees are paid, the student will be officially enrolled in the school.<br><br>Once you've completed the enrollment process for the semester, don't forget to claim your ID sticker at the frontline office. This sticker is an important part of your student identification and will be necessary for various activities and services on campus."
+          ]
+        },
+        {
+          "name": "STEPS FOR OLD STUDENT",
+          "patterns": [
+            "old student",
+            "what are the steps to enroll for old student",
+            "steps to enroll old student",
+            "enrollment steps for old student in dyci",
+            "enrollment steps old student",
+            "enrollment process for old student",
+            "enrollment process old student",
+            "requirements to enroll old student",
+            "enrollment requirements for old student",
+            "how to enroll as a old student",
+            "eligibility enrollment old student",
+            "how to enroll if old student"
+          ],
+          "responses": [
+            "If you're an old student and you want to enroll for the new semester, this guide will provide you with a step-by-step process to help make your enrollment as smooth and easy as possible. <br> Here are the steps:<br><br>Step 1: If you have any previous promissory notes, settle them first before proceeding with the enrollment process.<br><br>Step 2: Go to the frontline office and present your clearance form to obtain the enrollment form for the new semester.<br><br>Step 3: Visit your course department office or inquire at the frontline office about where to check your Osiris account for incomplete grades.<br><br>Step 4: If there are incomplete grades, wait for the administration to review and approve them. Once approved, go to the registrar's office for course enlistment.<br><br>Step 5: Visit the Office of Student Affairs and Services to inquire about balance consultation and discounts.<br><br>Step 6: Proceed to the finance office and settle your downpayment.<br><br>Step 7: After completing all the steps, you will officially be enrolled for the new semester.<br><br> Once you've completed the enrollment process for the semester, don't forget to claim your ID sticker at the frontline office. This sticker is an important part of your student identification and will be necessary for various activities and services on campus.",
+            "The guide below provides step-by-step instructions on how to smoothly and easily enroll for the new semester if you're an old student:<br><br>Step 1: Settle any previous promissory notes before starting the enrollment process.<br><br>Step 2: Obtain the enrollment form for the new semester by presenting your clearance form at the frontline office.<br><br>Step 3: Check your Osiris account for incomplete grades at your course department office or the frontline office.<br><br>Step 4: If there are incomplete grades, wait for administration approval and then visit the registrar's office for course enlistment.<br><br>Step 5: Visit the Office of Student Affairs and Services for balance consultation and discounts.<br><br>Step 6: Settle your downpayment at the finance office.<br><br>Step 7: You're now officially enrolled for the new semester! Don't forget to claim your ID sticker at the frontline office.<br><br>Remember, this sticker is important for various activities and services on campus.",
+            "Enrolling for a new semester as an old student can be overwhelming, but don't worry - this guide will walk you through the process step-by-step. <br><br>Step 1: Before enrolling, ensure any previous promissory notes are settled.<br><br>Step 2: Head to the frontline office to obtain the enrollment form by presenting your clearance form.<br><br>Step 3: Check your Osiris account for incomplete grades by visiting your course department office or inquiring at the frontline office.<br><br>Step 4: If there are incomplete grades, wait for them to be reviewed and approved by the administration. Then proceed to the registrar's office for course enlistment.<br><br>Step 5: Inquire about balance consultation and discounts at the Office of Student Affairs and Services.<br><br>Step 6: Settle your downpayment at the finance office.<br><br>Step 7: Once all steps are completed, you are officially enrolled for the new semester.<br><br>Remember to claim your ID sticker at the frontline office after completing the enrollment process. This sticker is a vital part of your student identification and is required for various activities and services on campus."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "(H) SCHOLARSHIP",
+      "tag": [
+        {
+          "name": "AVAILABLE SCHOLARSHIPS",
+          "patterns": [
+            "available scholarship",
+            "what are the available scholarships", 
+            "what scholarship are available",
+            "is there an available scholarship",
+            "how many scholarships the school offers",
+            "scholarship offer",
+            "list of scholarships",
+            "scholarship list",
+            "tell me about scholarship"
+          
+          ],
+          "responses": [
+            "The college awards the following scholarships to qualified students.<br><br>1. ACADEMIC AWARD<br>2. GOVERNMENT-ENDORSED-SCHOLARSHIP<br>3. CULTURAL AND ATHLETICS SCHOLARSHIPS<br><br>However, students shall be entitled to only one form of scholarship at any time. Type '<b>scholarship requirements</b>' for more information.",
+            "The college offers the following scholarships for qualified students:<br><br>1. ACADEMIC AWARD<br>2. GOVERNMENT-ENDORSED-SCHOLARSHIP<br>3. CULTURAL AND ATHLETICS SCHOLARSHIPS<br><br>Please note that students are eligible for only one scholarship at a time. To learn more about the requirements, type '<b>scholarship requirements</b>'.",
+            "To support qualified students, the college provides the following scholarships:<br>1. ACADEMIC AWARD<br>2. GOVERNMENT-ENDORSED-SCHOLARSHIP<br>3. CULTURAL AND ATHLETICS SCHOLARSHIPS<br><br>Remember that students are entitled to only one scholarship at any given time. If you wish to know more about the requirements, type '<b>scholarship requirements</b>'."
+            
+          ]
+        },
+        {
+          "name": "REQUIREMENTS",
+          "patterns": [
+            "scholarship requirements",
+            "is there a requirement for a scholarship",
+            "eligibility scholarship",
+            "scholarship details",
+            "qualification for scholarship",
+            "qualify for scholarship",
+            "full scholarship",
+            "requirement for full scholarship ",
+            "What are the requirements for scholarship?",
+            "What do I need to qualify for scholarship?",
+            "Can you tell me the eligibility for scholarship?",
+            "What are the qualifications for a full scholarship?",
+            "I want to know the scholarship details",
+            "What is required for a full scholarship?",
+            "What are the eligibility criteria for scholarship?",
+            "Are there any scholarship requirements?",
+            "How can I qualify for a full scholarship?",
+            "tell me about scholarship requirements",
+            "/scholarship"
+          ],
+          "responses": [
+            "Eligibility Requirements for Full scholarship<br><br>-One year residency in DYCI.<br>- Enrolled with regular academic loads or at least<br>18 units for irregular students.<br>- Must obtain at the end of two (2) semesters including summer classes<br>for a regular offering with a weighted average of 1.50 each semester<br>and no grade lower than 2.00.<br>- No record of violation based on Student Code of Discipline of whatever nature.<br>CULTURAL AND ATHLETICS SCHOLARSHIPS<br><br>The Cultural and Athletics Scholarships are one-time scholarships given to students<br>who qualify as varsity players and as cultural contestants for the inter-school competitions<br>(e.g. Bulacan Private Schools Associations – BULPRISA Competitions).<br>Discounts on tuition fee will be applicable in the succeeding semester<br>after the provincial/regional/national competitions.<br>Moreover, the tuition fee discount, which ranges from 10%-70%,<br>shall be granted based on the awards received by the students<br>with no failing grades. The Office of the Student Affairs and Services (OSAS) recommends the rate of discount to be granted.<br><br>GOVERNMENT-ENDORSED-SCHOLARSHIP<br><br>The different programs under the Student Financial Assistance (StuFAPs),<br>Unified Financial Assistance System for Tertiary Education<br>and the Commission on Higher Education Region III<br>processed by the institution include:<br><br>- Full Scholarship<br>- Private Education Student Financial Assistance Program (PESFA)<br>- Tulong Dunong Program<br>- Free Technical-Vocational Education and Training (TVET)<br>- Tertiary Education Subsidy (TES)<br><br>Application and grant approval is based on<br>CHED/Scholarship Program guidelines.<br><br> If you're interested in applying for a scholarship, head over to the Office of the Student Affairs and Services (OSAS)."
+          ]
+        },
+        {
+          "name": "APPLY SCHOLARSHIP (HOW)",
+          "patterns": [
+          "i want to apply for scholarship",
+          "i want to apply scholarship",
+          "i want to become scholar",
+          "how to be scholar",
+          "how to become scholar",
+          "how to apply for scholarship",
+          "how can i apply for scholarship",
+          "apply scholarship",
+          "apply for scholarship",
+          "applying for scholarship",
+          "scholarship application details",
+          "application for scholarship",
+          "i want to get scholarship",
+          "get scholarship",
+          "i want to get scholarship",
+          "want scholarship",
+          "i need to get scholarship",
+          "need scholarship"
+          ],
+          "responses": [
+          "Go to OSAS (Office of the Student Affairs and Services) to apply for different types of scholarships. <br><br>For more information about eligibility, just type <b>'scholarship requirements'</b>",
+          "If you're interested in applying for a scholarship, head over to the Office of the Student Affairs and Services (OSAS).<br><br>For more information about eligibility, just type <b>'scholarship requirements'</b>",
+          "To apply for a scholarship, make your way to the OSAS (Office of the Student Affairs and Services)<br><br>For more information about eligibility, just type <b>'scholarship requirements'</b>"
+          ]
+        },
+        {
+          "name": "APPLY SCHOLARSHIP (WHERE)",
+          "patterns": [
+            "EMPTY"
+          ],
+          "responses": [
+            "EMPTY"
+          ]
+        },
+        {
+          "name": "MULTIPLE SCHOLARSHIP",
+          "patterns": [
+            "Can I apply for more than one scholarship?",
+            "Is it possible to apply for multiple scholarships?",
+            "Can I receive multiple scholarships at the same time?",
+            "Can I get more than one scholarship?",
+            "Is there a limit to how many scholarships I can apply for?",
+            "Are there any restrictions on how many scholarships I can apply for?",
+            "Can I combine different scholarships?",
+            "Can I be granted more than one scholarship?",
+            "Is it allowed to hold multiple scholarships simultaneously?",
+            "Can I avail of different scholarship programs?",
+            "May I know if I can apply for different scholarship opportunities at once?",
+            "Is it feasible to apply for various scholarship grants?",
+            "Can I qualify for multiple scholarships?",
+            "Can I be eligible for more than one scholarship?",
+            "May I know if it's possible to receive more than one scholarship?",
+            "Can I get several scholarships if I meet the requirements?",
+            "Can I receive multiple financial aids at the same time?",
+            "I want to apply for more scholarship",
+            "I want to apply for more than one scholarship?",
+            "more than one scholarship",
+            "multiple scholarship"
+          ],
+          "responses": [
+            "Unfortunately, you can only apply for one type of scholarship at a time. However, you may be eligible to apply for different scholarships in different semesters or school years. For more information, you can visit the Office of the Student Affairs and Services (OSAS).",
+            "It is not possible to receive more than one scholarship at the same time. However, you may apply for different scholarships in different periods. If you need more information, you may visit the Office of the Student Affairs and Services (OSAS).",
+            "Applying for multiple scholarships at the same time is not allowed. You may, however, apply for different scholarships in different semesters or school years. To know more about the scholarship programs, you can approach the Office of the Student Affairs and Services (OSAS).",
+            "Receiving multiple scholarships at the same time is not possible. However, you may be eligible to apply for different scholarships in different semesters or school years. For more information, you may contact the Office of the Student Affairs and Services (OSAS)."
+          ]
+        },
+        {
+          "name": "SCHOLARSHIP FOR IRREGULAR",
+          "patterns": [
+            "can irregular apply for scholarships?",
+            "what are the scholarships for irregular student",
+            "scholarship for irreg",
+            "i want to apply for scholarship but im an irregular student",
+            "i want to apply for scholarship but i'm an irregular student",
+            "i'm an irregular student, can I apply for scholarship?",
+            "im an irregular student, can I apply for scholarship?",
+            "how to get scholarship for irreg student",
+            "how to get scholarship for irregular students",
+            "scholarship for irregular student",
+            "scholarship for irregulars",
+            "irregular student scholarship how"
+          ],
+          "responses": [
+            "Unfortunately, irregular students are not eligible to apply for scholarships in the upcoming term.<br> If you have any concerns about your eligibility, it's a good idea to speak with your dean or the Office of the Student Affairs and Services (OSAS) to learn more about the specific requirements and guidelines.",
+            "I'm sorry to inform you that irregular students are not qualified to apply for scholarships in the next term. It is recommended to consult with your dean or the Office of the Student Affairs and Services (OSAS) if you have any questions about your eligibility, as they can provide you with more information on the requirements and guidelines.",
+            "I regret to inform you that scholarships are not available for irregular students in the upcoming term. To clarify your eligibility, I recommend reaching out to your dean or the Office of the Student Affairs and Services (OSAS) for more details on the specific requirements and guidelines."
+          ]
+        },
+        {
+          "name": "SCHOLARSHIP WITH INC GRADES",
+          "patterns": [
+            "can i apply for scholarship even if i have inc?",
+            "can i apply for scholarship even if i have incomplete grades?",
+            "i have incomplete grade can i get scholarship?",
+            "i have inc can i get scholarship?",
+            "apply scholarship but have incomplete grades",
+            "apply scholarship but have inc"
+              ],
+          "responses": [
+            "Yes, you may be able to apply for a scholarship as an old student with incomplete grades, but it's important that the grades are completed within the given period. It's always a good idea to check with the Office of the Student Affairs and Services (OSAS) or your academic advisor to make sure you understand the specific requirements and guidelines for scholarship eligibility.",
+            "Applying for a scholarship as an old student with incomplete grades may be possible, but it's crucial to complete the grades within the given timeframe. To ensure you meet the eligibility requirements, it's advisable to consult with Office of the Student Affairs and Services (OSAS) or your dean.",
+            "It's possible for old students with incomplete grades to apply for scholarships, but completing the grades within the given deadline is crucial. To ensure you meet the eligibility criteria, it's recommended to reach out to Office of the Student Affairs and Services (OSAS) or your dean for guidance."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "(G) PROMISSORY",
+      "tag": [
+        {
+          "name": "PROMI (WHERE)",
+          "patterns": [
+            "Where to get promissory note",
+            "Where to get promisory note",
+            "Where to get prommissory note",
+            "Where to get prommisory note",
+            "Where to get promi note",
+            "Where can i request for a promisory note",
+            "Where can i request for a promissory note",
+            "Where can i request for a prommissory note",
+            "Where can i request for a promi note",
+            "Where can i get promissory note",
+            "Where can i get promisory note",
+            "Where can i get prommisory note",
+            "Where can i get prommissory note",
+            "where promissory",
+            "where promisory",
+            "Where promi",
+            "promissory note",
+            "prommisory note",
+            "prommissory note",
+            "promi note",
+            "where to get promi"    
+          
+          ],
+          "responses": [
+            "I recommend visiting the Dean's Office of your course department in a polite manner to inquire about the process of obtaining a promissory note. <br><br>If you want more information for the process of getting promissory note, you can type <b>/promi</b>.",
+            "Please proceed to the Dean's Office of your respective course department and kindly inquire about the availability of a promissory note. <br><br>If you want more information for the process of getting promissory note, you can type <b>/promi</b>.",
+            "You may proceed to the Dean's Office of your respective course department then you can inquire about the availability of a promissory note. <br><br>If you want more information for the process of getting promissory note, you can type <b>/promi</b>."
+            
+          ]
+        },
+        {
+          "name": "PROMI (HOW)",
+          "patterns": [
+            "tell me about promissory note",
+            "tell me about promi",
+            "I want to get promi",
+            "I want to get promissory",
+            "What are the steps to get promissory note",
+            "Promissory note steps",
+            "What are the process to get promissory note",
+            "Promissory note process",
+            "How can I get promissory",
+            "Promi steps",
+            "Promi process",
+            "steps on getting a promissory note",
+            "process on getting a promissory note",
+            "what are the requirements for a promissory note",
+            "what are the requirements for a promisory note",
+            "what are the requirements for a prommissory note",
+            "what are the requirements for a promissorry note",
+            "what are the requirements for a promisorry note",
+            "promissory note requirements",
+            "promisory note requirements",
+            "prommisory note requirements",
+            "promisorry note requirements",
+            "How to promissory note",
+            "/promi",
+            "promi"
+          
+          ],
+          "responses": [
+            "First settle your account obligations for the semester.<br><br>Then go to the respective Dean's Office of your Department,<br>and ask there for promissory with your guardian<br><br>They will ask you for downpayment atleast &#8369;3,000 depending on your monthly balance<br><br>Then they will ask for the amount you're going to pay for the next term.<br>After the approval of Deans, you can get your Promisorry Form.",
+            "Here are the steps for settling your account obligations and obtaining a promissory form:<br><br>1. Settle all outstanding account obligations for the current semester.<br><br>2. Go to the respective Dean's Office of your Department and request a promissory form. You will need to have your guardian present.<br><br>3. The Dean's Office will ask you to make a downpayment of at least &#8369;3,000, depending on your monthly balance.<br><br>4. Provide information on how much you plan to pay for the next term.<br><br>5. Once the Deans approve your request, you can obtain your Promissory Form.<br><br>",
+            "To obtain a promissory form, follow these steps:<br><br>1. First, ensure that you have settled all your outstanding account obligations for the current semester.<br><br>2. Next, go to the Dean's Office of your Department and ask for a promissory form. You will need to bring your guardian along with you.<br><br>3. The Dean's Office will require a downpayment of at least &#8369;3,000, depending on your monthly balance.<br><br>4. You will also need to provide information on how much you plan to pay for the next term.<br><br>5. Once the Deans approve your request, you can obtain your Promissory Form.<br><br>Remember, it is important to settle your account obligations before requesting a promissory form."
+            
+          ]
+        },
+        {
+          "name": "NO PAYMENT w/ UPCOMING EXAM",
+          "patterns": [
+            "I have no payment for this upcoming exam",
+            "I have no payment for upcoming exam",
+            "do i need to settle my acount first before taking exam?",
+            "need to settle balance before exam",
+            "take exam without settling balance",
+            "take examination without settling balance",
+            "take examination without promi",
+            "take examination without promissory note",
+            "can I take exam without promissory note",
+            "can I take exam with no promissory note",
+            "can I take exam without promi",
+            "can I take exam with no promi",
+            "exam without promissory",
+            "examination without promissory",
+            "unsettled promissory note take exam",
+            "i want to have exam without promi",
+            "i want to have exam without promissory"
+          
+          ],
+          "responses": [
+            "Professors have their academic freedom if they will give you an exam without settling your promissory note, but it is recommended to settle your financial obligations before taking an exam to avoid further issues.",
+            "While professors may have the right to give exams to students who have not settled their promissory notes, it's generally recommended that you take care of any financial obligations before taking an exam. <br>This can help avoid any potential issues down the line and ensure that you're fully prepared to focus on your studies before taking exams.",
+            "It is important to settle your financial obligations before taking an exam, as this can help avoid any potential issues. While professors may have the freedom to give exams even if a student has not settled their promissory note, it is highly recommended that students prioritize settling their outstanding balances to avoid any complications that may arise."
+            
+          ]
+        },
+        {
+          "name": "SPECIAL EXAM",
+          "patterns": [
+            "get examination permit",
+            "get exam permit",
+            "i would like to have exam permit",
+            "i would like to have examination permit",
+            "i want exam permit",
+            "i want examination permit",
+            "i want to have exam permit",
+            "i want to have examination permit",
+            "how to get special examination permit",
+            "where can i get special exam permit",
+            "how to get special exam permit",
+            "how to get exam permit",
+            "how to get examination permit",
+            "can i have special exam",
+            "can i have special examination",
+            "ways to get examination permit",
+            "ways to get exam permit",
+            "special examination permit",
+            "special exam",
+            "examination permit",
+            "tell me about special exam"
+          ],
+          "responses": [
+            "Here are the steps to obtain an examination permit:<br><br><b>Step 1:</b> Contact your professor and ask for permission to take a special exam permit.<br><b>Step 2:</b> If the professor allows, go to the Frontline Office and get the special exam permit form.<br><b>Step 3:</b> Fill in the necessary information in the special exam permit form.<br><b>Step 4:</b> Proceed to the finance office and pay the fee, which is typically around 50-70 pesos.<br><b>Step 5:</b> Go to your respective dean's office and obtain the dean's signature to validate the special exam permit.<br><b>Step 6:</b> After getting the signature, go to the CO-ED Office and submit the special exam permit form.<br><b>Step 7:</b> Before submitting the form, take a photo of the permit alongside the receipt and send it to your professor for validation.<br><b>Step 8:</b> Wait for your professor to issue you the special exam."
+          ]
+        }
+      ]
+    },
+    {
+      "category": "ADDITIONAL INQUIRIES",
+      "tag": [
+        {
+          "name": "QUESTION 1",
+          "patterns": [
+            "What are the requirements for admission to college?"
+
+          ],
+          "responses": [
+            "-Scanned copy for of the 1st semester report card(F-138) for graduating SHS student.<br>-Certified true copy of the Senior High school Report Card (F-138) for SHS graduates.<br><br>For transferee:<br>-Summary or Certificate of grades for applicants<br>"
+          ]
+        },
+        {
+          "name": "QUESTION 2",
+          "patterns": [
+            "What is the first step for someone who wants to be admitted to college?"
+          ],
+          "responses": [
+            "Anyone who intends to be admitted to the college must accomplish e-application."
+          ]
+        },
+        {
+          "name": "QUESTION 3",
+          "patterns": [
+            "Is it possible to apply for admission in person, and where should one go for this?"
+          ],
+          "responses": [
+            "Yes, you may apply personally at the frontline office"
+          ]
+        },
+        {
+          "name": "QUESTION 4",
+          "patterns": [
+            "Are there any specific instructions for using an email address during the application process?"
+          ],
+          "responses": [
+            "Please use your email address with your real name, preferably surname first. Example: bonifacioandres@gmail.com"
+          ]
+        },
+        {
+          "name": "QUESTION 5",
+          "patterns": [
+            "How will the student applicant be notified of the examination results?"
+          ],
+          "responses": [
+            "The examination results will be sent to the student applicant, and they will be advised on the next steps for admission and enrolling."
+          ]
+        },
+        {
+          "name": "QUESTION 6",
+          "patterns": [
+            "Can you provide me with the complete requirements for enrollment for incoming first-year students?"
+          ],
+          "responses": [
+            "• College Enrollment Checklist (CEC Form) issued by guidance office<br>• Senior High School Card(F-138)<br>• Three (3) copies of 2x2 photos in white background<br>• Certificate of good moral character<br>• Medical Examination certificate issued by Dr Yanga Hospital (DYH)<br>• PSA-issued Certificate of live birth (Photocopy only)<br>• Married contract (For married female applicant)"
+          ]
+        },
+        {
+          "name": "QUESTION 7",
+          "patterns": [
+            "How about for transfer student from another school?"
+          ],
+          "responses": [
+            "• Admission slip/CEC issued by Guidance Office<br>• Transfer credential<br>• Certificate of Good Moral Character<br>• Official copy of grades or transcript of Records"
+          ]
+        },
+        {
+          "name": "QUESTION 8",
+          "patterns": [
+            "What are the steps and requirements for a student transferring from another college department?"
+          ],
+          "responses": [
+            "• Application letter indicating his/her reason<br>• Signed by his / her parents<br>• Recommendation from dean of the previous college where the students belong<br>• Certified copy of grades<br>• Enrollment clearance"
+          ]
+        },
+        {
+          "name": "QUESTION 9",
+          "patterns": [
+            "Can graduating students with excellent academic records exceed the regular course load by up to nine units?"
+          ],
+          "responses": [
+            "Yes, students shall be permitted to carry only the regular normal load indicated in the curriculum."
+          ]
+        },
+        {
+          "name": "QUESTION 10",
+          "patterns": [
+            "Can students with failing grades from the previous semester enroll in additional courses?"
+          ],
+          "responses": [
+            "Students who received failing grades in the previous semester will not be permitted to carry an overload. Courses must meet the prerequisite and co-requisite requirements."
+          ]
+        },
+        {
+          "name": "QUESTION 11",
+          "patterns": [
+            "Can students enroll in the fourth-year level if they have not completed NSTP?"
+          ],
+          "responses": [
+            "No student should be permitted to enroll in the fourth year unless he/she has completed and passed all PE and NSTP subjects."
+          ]
+        },
+        {
+          "name": "QUESTION 12",
+          "patterns": [
+            "Which periods are students allowed to add or change subjects for valid reasons?"
+          ],
+          "responses": [
+            "Before the classes begin or not later than the second week after classes have commenced."
+          ]
+        },
+        {
+          "name": "QUESTION 13",
+          "patterns": [
+            "What are the procedures for Add/Change subject?"
+          ],
+          "responses": [
+            "• Secure and accomplish the Add or Change of registration form.<br>• Proceed to the dean’s office and have the form signed either by the college of dean or vice dean.<br>• Pay the Add or Change of Registration fee at the college of finance office<br>• Submit the form to the registrar’s office to process<br>• The students shall keep his/her copy of the form"
+          ]
+        },
+        {
+          "name": "QUESTION 14",
+          "patterns": [
+            "Can I apply tutorial subjects?"
+          ],
+          "responses": [
+            "Only graduating students requiring a subject for graduation can request a tutorial class for subjects not offered in the regular semester."
+          ]
+        },
+        {
+          "name": "QUESTION 15",
+          "patterns": [
+            "How can I pay tutorial fee?"
+          ],
+          "responses": [
+            "Go to finance office."
+          ]
+        },
+        {
+          "name": "QUESTION 16",
+          "patterns": [
+            "What are the procedures for tutorial subjects?"
+          ],
+          "responses": [
+            "• The dean of vice will evaluate applicants to determine their status<br>• Applicants will be asked to accomplish the request for tutorial class form.<br>• The certification of the dean and evaluation should be attached to the request for special class form<br>• If approved, applicants will pay the necessary fees to the College finance office<br>• The finance office will forward copies to the office of the registrar for distribution."
+          ]
+        },
+        {
+          "name": "QUESTION 17",
+          "patterns": [
+            "What are the requirements for a student to withdraw enrollment once classes have commenced, according to the policy?"
+          ],
+          "responses": [
+            "Students may not withdraw from classes once they have begun without the written authorization of their parents or guardians, the approval of the dean, and the note of the registrar."
+          ]
+        },
+        {
+          "name": "QUESTION 18",
+          "patterns": [
+            "When is the deadline for requesting to drop a course, according to the policy?"
+          ],
+          "responses": [
+            "No requests to drop a course will be accepted after the dropping deadline, which is the fifth week of courses or before the preliminary period."
+          ]
+        },
+        {
+          "name": "QUESTION 19",
+          "patterns": [
+            "What are the procedures for dropping and withdrawal?"
+          ],
+          "responses": [
+            "• Secure a dropping form at the frontline office<br>• Present written consent of parents and guardian and accomplished dropping form to the college dean or vice dean for approval<br>• Present approved dropping form to the college finance for payment"
+          ]
+        },
+        {
+          "name": "QUESTION 20",
+          "patterns": [
+            "What are the conditions and restrictions for students taking a leave of absence?"
+          ],
+          "responses": [
+            "The student should not study or enroll in another academic institution during this time."
+          ]
+        },
+        {
+          "name": "QUESTION 21",
+          "patterns": [
+            "How long is the allowed duration for a leave of absence (LOA) according to the policy?"
+          ],
+          "responses": [
+            "One year"
+          ]
+        },
+        {
+          "name": "QUESTION 22",
+          "patterns": [
+            "What is the procedure for students who withdraw from the college without obtaining a formal leave of absence?"
+          ],
+          "responses": [
+            "Students who leave the institution without taking a formal leave of absence must apply for re-admission as new students."
+          ]
+        },
+        {
+          "name": "QUESTION 23",
+          "patterns": [
+            "What is the regular grading system at Dr. Yanga Colleges Inc?"
+          ],
+          "responses": [
+            "1.0 - 98-100<br>1.25 - 95-97<br>1.50 – 92-94<br>1.75 – 89-91<br>2.00 – 86-88<br>2.25 – 83-85<br>2.50 – 80-82<br>2.75 – 77-79<br>3.00 – 75-76<br>5.00 – Fail<br>Inc. – Incomplete<br>Fda. – Failure due to absences<br>Drp. – Officially dropped"
+          ]
+        },
+        {
+          "name": "QUESTION 24",
+          "patterns": [
+            "What are the criteria for President’s Lister?"
+          ],
+          "responses": [
+            "To qualify for president’s lister need to meet these specific criteria:<br>• Students are required to achieve a minimum GWA of 1.75, which is often significantly higher than the average GWA for all students.<br>• Students must have regular loads based on CHED contents<br>• No grade lower than 2.0 or 2.25<br>• No incomplete grades<br>• Full-time students.<br>• For irregular students must have completed a minimum of 18 units and above."
+          ]
+        },
+        {
+          "name": "QUESTION 25",
+          "patterns": [
+            "What are the procedures for INC Grades?"
+          ],
+          "responses": [
+            "• Secure completion form from the frontline office.<br>• Pay the completion fee<br>• Submit completion form with the attached receipts to the office of the dean.<br>• The dean's office endorses the completion form to the faculty for issuing completion requirements.<br>• The faculty returns the completed completion form to the dean's office for signature, and it is then forwarded to the registrar's office."
+          ]
+        },
+        {
+          "name": "QUESTION 26",
+          "patterns": [
+            "What happens if the removal is not done within six months after the releasing of grades?"
+          ],
+          "responses": [
+            "The grade shall automatically become 5.0(failure)"
+          ]
+        },
+        {
+          "name": "QUESTION 27",
+          "patterns": [
+            "What are the steps for applying for graduation?"
+          ],
+          "responses": [
+            "• Accomplish application to graduate form from the frontline office<br>• Pay for corresponding fee to the finance office<br>• Verify clearance from necessary faculty and dean or vice dean before submitting to the office of the registrar"
+          ]
+        },
+        {
+          "name": "QUESTION 28",
+          "patterns": [
+            "Can I get a full refund for the tuition fee before the opening of classes?"
+          ],
+          "responses": [
+            "Yes, you can get a refund of 100% of the tuition and other fees except the registration fee"
+          ]
+        },
+        {
+          "name": "QUESTION 29",
+          "patterns": [
+            "Can I get a refund three weeks after the opening of classes?"
+          ],
+          "responses": [
+            "After the 2nd week of classes, no refund shall be charged for all school fees."
+          ]
+        },
+        {
+          "name": "QUESTION 30",
+          "patterns": [
+            "What is the policy regarding penalty fees for students who enroll two weeks after the start of classes?"
+          ],
+          "responses": [
+            "A student who enrolls two weeks after the start of sessions will be charged a penalty fee."
+          ]
+        }
+      ]
+    }
+    
+  ]
+  }
+

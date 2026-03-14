@@ -1,0 +1,2582 @@
+{
+  "intents": [
+    {
+      "category": "(A) INTERRACTION",
+      "tag": [
+        {
+          "name": "GREET",
+          "patterns": [
+            "Hi",
+            "Hey",       
+            "Hello",
+            "Good day",
+            "Goodmorning",
+            "Good Morning",
+            "Morning",
+            "Goodafternoon",
+            "Good afternoon",
+            "Afternoon",
+            "Goodevening",
+            "Good Evening",
+            "Evening",   
+            "Greetings",
+            "Kamusta",
+            "Yo",
+            "Yow",
+            "What's up?",
+            "Hola",
+            "Heya",
+            "Howdy",
+            "Wassup",
+            "wazzup",
+            "Good day",
+            "DYC-AI ChatBot",
+            "DYC-AI",
+            "i'm",
+            "im",
+            "i'm",
+            "im"   
+          
+          ],
+          "responses": [
+            "Hello there! I'm DYChat, is there you want to ask about DYCI?",
+            "Hey, thanks for visiting",
+            "Hi there, what can I do for you?",
+            "Hi, how can I help?"
+          ]
+        },
+        {
+          "name": "FAREWELL",
+          "patterns": [
+            "Goodbye",
+            "Bye",
+            "Farewell",
+            "See you"
+          ],
+          "responses": [
+            "See you later, thanks for visiting",
+            "Have a nice day",
+            "Bye! Come back again soon."
+          ]
+        },
+        {
+          "name": "ASK",
+          "patterns": [
+            "I want to ask",
+            "I wanna ask",
+            "I have a question",
+            "I'd like to ask",
+            "I would like to ask",
+            "can i ask",
+            "can i ask something",
+            "tell me about"
+          
+          ],
+          "responses": [
+            "I can answer things about general questions regarding DYCI, what is it you want to ask?",
+            "Can you specify what general question about DYCI you want to ask?",
+            "What do you want to ask about DYCI?"
+            
+          ]
+        },
+        {
+          "name": "CHECKING",
+          "patterns": [
+            "How are you",
+            "You good?",
+            "You okay?",
+            "Are you fine?",
+            "What's up",
+            "Wazzup",
+            "How are you feeling today",
+            "Are you okay?",
+            "Okay kalang?",
+            "Daijoubu desu ka?"
+          
+          ],
+          "responses": [
+            "Thank you for asking! As an AI, I don't experience emotions, but I'm ready to assist you with any inquiries or support you need about DYCI.",
+            "As a bot, I don't have emotions, but I'm here to offer my support and answer any questions you may have about DYCI. How can I assist you today?",
+            "I'm a virtual assistant, so I don't have feelings, but I'm here to provide information and help you with any queries you may have. How can I assist you today?"
+            
+          ]
+        },
+        {
+          "name": "NAME",
+          "patterns": [
+            "What should I address you as?",
+            "Your name please?",
+            "Who am I speaking with?",
+            "Could you introduce yourself?",
+            "May I have your name?",
+            "What do you call yourself?",
+            "Tell me your name",
+            "Can you inform me of your name?",
+            "What is your name",
+            "What's your name?",
+            "Who are you?",
+            "name"
+          
+          ],
+          "responses": [
+            "I'm DYChat",
+            "My name is DYChat",
+            "DYChat at your service :)",
+            "I am DYChat",
+            "You can call me DYChat!",
+            "I'm DYChat, nice to meet you!",
+            "My name is DYChat. How may I assist you?",
+            "I go by the name DYChat.",
+            "You can refer to me as DYChat.",
+            "I'm also known as DYChat.",
+            "DYChat is my designated name.",
+            "That would be DYChat, how can I help you today?"
+            
+          ]
+        },
+        {
+          "name": "AFFECTION",
+          "patterns": [
+            "I love you",
+            "mahal kita"
+          
+          ],
+          "responses": [
+            "Thank you for your kind words! I'm here to assist you with any questions or concerns you may have. How can I help you today?",
+            "I'm glad you feel that way. Please let me know if there's anything specific you'd like to know or any assistance you need about DYCI",
+            "I'm an AI chatbot, so I don't have personal feelings, but I'm here to provide you with the information you need about DYCI. Feel free to ask me anything or let me know how I can assist you.",
+            "*blushes*",
+            "Luh"
+          ]
+        },
+        {
+          "name": "REQUEST ASSISTANCE",
+          "patterns": [
+            "Can you help me?",
+            "Can you assist me?",
+            "I would like to ask for assistance",
+            "I want to ask",
+            "I wanna ask",
+            "I have a question",
+            "I'd like to ask",
+            "I would like to ask",
+            "can i ask",
+            "can i ask something",
+            "tell me about",
+            "assist me"
+          
+          ],
+          "responses": [
+            "Yes, what questions can I help you with?",
+            "I can answer things about general questions regarding DYCI, what is it you want to ask?",
+            "Can you specify what general question about DYCI you want to ask?",
+            "What do you want to ask about DYCI?"
+            
+          ]
+        },
+        {
+          "name": "EXPRESS GRATITUDE",
+          "patterns": [
+            "Thanks", 
+            "Thank", 
+            "Helpful", 
+            "Nice", 
+            "Thank you",
+            "impressing", 
+            "Amazing", 
+            "you're amazing", 
+            "Grateful", 
+            "Wow", 
+            "Excellent", 
+            "I appreciate it", 
+            "cool", 
+            "sheesh", 
+            "Good job",
+            "impressive", 
+            "wonderful", 
+            "great", 
+            "awesome", 
+            "angas", 
+            "that was helpful", 
+            "you're so helpful",
+            "salamat"
+          
+          ],
+          "responses": [
+            "You're always welcome.", 
+            "Happy to help!", 
+            "Any time! Would you like to ask more?", 
+            "My pleasure :>",
+            "Happy to help, is there any more question?"
+            
+          ]
+        },
+        {
+          "name": "DISAPPOINTMENT",
+          "patterns": [
+            "I'm disappointed.",
+            "what the",
+            "i'm done with you",
+            "you failed to answer me",
+            "huh"
+          
+          ],
+          "responses": [
+            "I'm sorry if I didn't manage to answer your inquiry."
+            
+          ]
+        },
+        {
+          "name": "APOLOGIZE",
+          "patterns": [
+            "I'm sorry",
+            "I apologize",
+            "sorry"
+          
+          ],
+          "responses": [
+            "It's okay, don't mind it."
+            
+          ]
+        },
+        {
+          "name": "OKAY",
+          "patterns": [
+            "Ok", "Okay", "k", "okie","yep","alright","yeah","yup"
+          
+          ],
+          "responses": [
+            "Is there any question?",
+            "Do you have any more to ask?",
+            "Okay, anything else?" 
+            
+          ]
+        }
+      ]
+    },
+    {
+      "category": "KEYWORDS",
+      "tag": [
+        {
+          "name": "KEYWORD - REQUIREMENTS",
+          "patterns": [
+            "requirements",
+            "requirement",
+            "what are the requirements",
+            "what is the requirement",
+            "requirements for ",
+            "can you give me the requirements",
+            "show me the requirements"
+
+          ],
+          "responses": [
+            "Can you specify what requirements do you need? <br><br>Requirements for College Admission - <b>0RCA</b> <br> Requirements for Incoming College Registration - <b>1RIC</b> <br> Requirements for Transfer Student from Another School - <b>2RTS</b> <br> Requirements for Transfer Student from another Department -  <b>3RTS</b><br><br>Please enter the number according to your needs."
+          ]
+        },
+        
+        {
+          "name": "KEYWORD - DISCOUNT",
+          "patterns": [
+            "discount",
+            "do you have the list of discount",
+            "discount list", 
+            "tell me about discount",
+            "what discount can i get",
+            "discount can i get",
+            "what discount can i get as",
+            "is there a discount",
+            "are there discounts?",
+            "any discount",
+            "available discount",
+            "what are the available discounts?",
+            "available discounts",
+            "discount list",
+            "discount lists",
+            "list of discount",
+            "list of discounts",
+            "what are the qualifications for discount",
+            "qualification for discount",
+            "available academic discount",
+            "what are the academic discounts available",
+            "what are the available school discounts",
+            "discount description"
+            
+    
+          ],
+          "responses": [ 
+            "Interested in discounts? We offer several options including: <br><br>Freshmen discount - <b>FD1</b> <br>Alumni discount - <b>AD2</b> <br>Solo parent discount - <b>SPD3</b> <br>Sibling discount - <b>SD4</b> <br>Employee discount - <b>ED5</b> <br>Full payment discount - <b>FPD6</b> <br>Student assistant discount - <b>SAD7</b>. <br><br>Please type the bold choices or the corresponding codes that you'd like to learn more about."
+            
+          ]
+        },
+
+        {
+          "name": "KEYWORD - NEW STUDENT",
+          "patterns": [
+            "new student",
+            "what are the steps to enroll for new student",
+            "enrollment process for new student",
+            "steps to enroll new student",
+            "enrollment steps for new student in dyci",
+            "enrollment steps new student",
+            "enrollment steps new student",
+            "requirements to enroll new student",
+            "enrollment requirements for new student",
+            "how to enroll as a new student",
+            "eligibility enrollment new student",
+            "how to enroll if new student",
+            "new student",
+            "new"
+            
+    
+      
+          ],
+          "responses": [ 
+            "Are you a new student looking to enroll for the first time? If so, please choose from the following categories: <br>Incoming Freshmen Student - <b>0EIF</b>- for entrance exam and <b>1RIC</b>- for requirements <br>Transferee from Another School - <b>2RTS</b> <br>Transferee from Another College - <b>3RTS</b>"
+          
+          ]
+        },
+
+        {
+          "name": "SCHOLARSHIPS",
+          "patterns": [
+              "scholarship",
+              "inquire for scholarship",
+              "scholarship requirements",
+              "how to avail scholarship",
+              "what are the requirements for scholarship",
+              "how to apply for scholarship",
+              "how to apply scholarship",
+              "apply scholarship",
+              "i want to apply for scholarship",
+              "i want to apply scholarship",
+              "i want to become scholar",
+              "how to be scholar",
+              "how to become scholar",
+              "how to apply for scholarship",
+              "how can i apply for scholarship",
+              "apply scholarship",
+              "apply for scholarship",
+              "applying for scholarship",
+              "scholarship application details",
+              "application for scholarship",
+              "i want to get scholarship",
+              "get scholarship",
+              "i want to get scholarship",
+              "want scholarship",
+              "i need to get scholarship",
+              "need scholarship"
+          ],
+          "responses": [
+              "Interested in scholarships? We offer several options including: <br> \u2022 Full Academic Scholarship - <b>FAS1</b> <br>\u2022 Partial Academic Scholarship - <b>PAS2</b> <br>\u2022 Cultural and Athletics Scholarship - <b>CAS3</b> <br>\u2022 Brass Band Scholarship - <b>BBS4</b> <br>\u2022 Government-Endorsed Scholarship - <b>GES5</b>. <br>Please type the bold choices or the corresponding codes that you'd like to learn more about."
+          ]
+        },
+        {
+          "name": "EXAMS",
+          "patterns": [
+              "exams",
+              "exam schedule"
+              
+          ],
+          "responses": [
+            "I can help with various aspects related to exams. Could you please specify what you're referring to? <br>Here are some options: <br> Entrance exam for new student - <b>0EIF</b> < <br> Schedule (modular - <b>1XMS</b> & regular - <b>1XRS</b>)  <br> Exam permit - <b>2XP</b><br>Special exam permit - <b>3XSP</b> <br> You can also use the code on the left in choosing what would you like to know."
+          ]
+        },
+        {
+          "name": "KEYWORD - REPORT",
+          "patterns": [
+          "where can I report?",
+          "where can I report a concern?",
+          "how to report a concern?",
+          "I want to report",
+          "i'd like to report",
+          "I have a concern",
+          "concern",
+          "report"
+      
+          ],
+          "responses": [ 
+            "If you're experiencing academic difficulties or facing any problems related to your studies, the dean's office is available to provide you with guidance and support. <br><br> In case you encounter any concerns with the dean's office, you can escalate the matter to the office of the Vice President of Academic Affairs for further assistance. <br><br> If you're dealing with any form of discrimination or harassment, know that you're not alone. The guidance office is there to help you and provide you with the necessary support and resources to address the situation. Remember, it's important to speak up and seek help when you need it."
+          ]
+        }
+      
+
+      ]
+    },
+
+    {
+      "category": "ROADMAP CHAPTER 1",
+      "tag": [
+        {
+          "name": "A1 - REQUIREMENTS",
+          "patterns": [
+            "What are the requirements for college admission?",
+            "0RCA",
+            "What do I need for college admission?",
+            "Requirements for admission to college",
+            "Can you tell me the requirements for admission?",
+            "List of requirements for college admission",
+            "What documents are required for college admission?",
+            "What are the admission criteria?",
+            "Do I need to submit anything for college admission?",
+            "What are the prerequisites for college admission?",
+            "What are the minimum requirements for college admission?",
+            "How can I qualify for college admission?",
+            "Are there any specific requirements for admission?"
+          
+          ],
+          "responses": [ 
+            "<b> The requirements in college admission are:</b>  <br><br> \u2022 Certified true or scanned copy of the 1st Semester Report Card (F-138) for graduating Senior High School (SHS) student.<br><br>\u2022 Certified true copy of the Senior High School (SHS) Report Card (F-138) for SHS graduates.<br><br>\u2022 Summary or certificate of grades for transfer applicant"
+            
+          ]
+        },
+        {
+          "name": "A2 - GUIDELINES and PROCEDURES",
+          "patterns": [
+            "What is the process for applying to the college",
+            "How can I apply to the college?",
+            "Application process for college",
+            "Procedure for admission to the college",
+            "How to get admitted to the college",
+            "What are the steps to apply to the college?",
+            "Can you explain the application process?",
+            "What is the admission procedure?"
+          
+          ],
+          "responses": [ 
+            "Anyone who intends to be admitted to the college must accomplish the e-application or may apply personally at the Frontline Office.<br><br>Student applicant may receive subsequent instruction through email and must strictly follow the given instruction.<br><br>\u2022 Note: Please use email address with your real name, preferably surname first<br><br>\u2022 Example: delacruzpaul@gmail.com or delacruzpaul@yahoo.com<br><br>Student applicant will be notified of the results of examination and will be advised accordingly of the procedure for admission and enrolment."
+            
+          ]
+        },
+        {
+          "name": "B - ENROLLMENT",
+          "patterns": [
+            "enrolment",
+            "enrollment",
+            "How to enroll?",
+            "What is the enrolment process?",
+            "I want to enroll",
+            "Enrolment procedure",
+            "How can I enroll?",
+            "Steps to enroll"
+          
+          ],
+          "responses": [ 
+            "Hello! I am DYChat. To better assist you, could you please let me know if you're a <b>new</b> student looking to enroll for the first time, or an <b>old/existing</b> student returning for another term?"         
+          ]
+          
+        },
+        {
+          "name": "B1 - INCOMING FIRST YEAR REQ",
+          "patterns": [
+            "Requirements for incoming college registration",
+            "1RIC",
+            "What do I need for incoming college registration?",
+            "Incoming first year requirements?",
+            "How to enroll as first year student?",
+            "enroll as first year student",
+            "Enrollment - Incoming First Year Student"
+    
+          
+          ],
+          "responses": [ 
+            "<b> The requirements for Incoming First Year are:</b><br><br> \u2022 College Enrollment Checklist (CEC Form) issued by Guidance Office<br><br>\u2022 Senior High School Card (F-138)<br><br> \u2022 Three (3) copies of 2x2 photos in white background<br><br> \u2022 Certificate of Good Moral Character<br><br>\u2022 Medical Examination Certificate issued by Dr. Yanga's Hospital (DYH)<br><br>\u2022 PSA-issued Certificate of Live Birth (photocopy only)<br><br>\u2022 Marriage contract (for married female applicant)"
+            
+          ]
+        },
+        {
+          "name": "B1 - TRANSFER STUDENT REQ (ANOTHER SCHOOL)",
+          "patterns": [
+            "Requirements for transfer students college registration",
+            "2RTS",
+            "What requirements do i need if im a transfer student from another school",
+            "transfer student from another school",
+            "What do I need to transfer from another school",
+            "Requirements for transferring from another school",
+            "transfer student",
+            "transferee student",
+            "transfer",
+            "Transferee Student - Enrollment",
+            "what are the requirements for transferee student"
+
+          
+          ],
+          "responses": [ 
+            "Transfer Student from another School Requirement: <br> Admission slip/CEC issued by Guidance Office <br> Transfer Credential <br> Certificate of Good Moral Character <br> Offical copy of grades or Transcript of Records <br> The student applicant must place all above documents in a long brown envelope, <br> with his/her name and course applied for on the upper left-hand corner of the envelope."
+            
+          ]
+        },
+        {
+          "name": "B1 -TRANSFER STUDENT REQ (ANOTHER DEPT)",
+          "patterns": [
+            "Requirements for transfer students college registration",
+            "3RTS",
+            "What requirements do i need if im a transfer student from another department",
+            "shift course",
+            "shifting student",
+            "Shifting Student - Enrollment"
+          
+          ],
+          "responses": [ 
+            "<b>Transfer Student from another College in DYCI </b> <br><br> \u2022 An application letter indicating his/her reason for transfer, duly signed by his/her parents, and recommendation from Dean of the previous College where the student belongs<br> \u2022 Certified copy of grades<br>\u2022 Enrolment clearance<br><br>The student applicant must place all above documents in a long brown envelope, with his/her name and course applied for on the upper left-hand corner of the envelope."
+            
+          ]
+        },
+        {
+          "name": "B2 - NEW STUDENT",
+          "patterns": [
+            "enrolment procedure for new student",
+            "0EIF",
+            "how to enroll as new student",
+            "enroll as new student",
+            "procedure for enrolling as a new student",
+            "steps for new student enrollment",
+            "what is the enrollment process for new students"          
+          ],
+          "responses": [ 
+            "New Students Enrollment Procedure<br><br>Step 1: Registration - Registration to OSIRIS, or accomplishing Application form - Acceptance of credentials/Signing of Undertaking - Issuance of OSIRIS account<br><br>Step 2: College Entrance Examination - Pay entrance examination fee - Take entrance examination at the Guidance Office - Admission slip/CEC will be issued<br><br>Step 3: Course Enlistment - Assigning of subjects and sections - Tagging of discounts (if applicable) - Add student to online group chat<br><br>Step 4: Payment - Payment of tuition fee - Printing of Card of Registration (COR)<br><br>Step 5. Student ID - Issuance of new ID/ID sticker - Leave CEC at the ITSS <br><br> You can also ask for the requirements or just simple type this code <b>1RIC</b>"
+            
+          ]
+        },
+        {
+          "name": "B2 - OLD STUDENT",
+          "patterns": [
+            "enrolment procedure for old student",
+            "1EOS",
+            "old student",
+            "how to enroll as old student",
+            "procedure for enrolling as an old student",
+            "steps for old student enrollment",
+            "what is the enrollment process for old students",
+            "Enrollment - Old Students"   
+             
+          ],
+          "responses": [ 
+            "Continuing (Old) Students<br>Step 1: Course Enlistment<br>Assigning of subjects and sections<br>Tagging of discounts (if applicable)<br>Add student to online group chat<br>Step 2: Payment<br>Payment of tuition fee<br>Printing of Card of Registration (COR)<br>Step 3: Student ID<br>Issuance of new ID/ID sticker<br>Leave CEC at the ITSS"
+            
+          ]
+        },
+        {
+          "name": "C1 - RULES ON SUBJECT LOAD",
+          "patterns": [
+            "What are the rules on subject load",
+            "subject load rules",
+            "rules for subject enrollment",
+            "subject load regulations",
+            "course load rules"
+          
+          ],
+          "responses": [ 
+            "Rules on Subject Load:<br><br>No subject may be taken unless all prerequisite subjects have been taken and passed.<br><br>Upon the discretion of the Dean, non-graduating students may be allowed to enroll during summer classes with a maximum of nine (9) units to make up for the previously failed subject or to grant the student regular status upon passing it.<br><br>Subjects enrolled without the necessary prerequisite shall not be credited regardless of the grade obtained.<br><br>Students may be allowed to simultaneously enroll in prerequisite and advanced classes under the following conditions:<br><br>- If the prerequisite is a repeated subject<br>- If the student has a cumulative grade average of at least 2.25<br>- If the student is graduating at the end of the school term<br>- If it is approved by the Dean/Vice Dean or any authorized academic official or by the CHED or TESDA as the case may be.<br><br>Laboratory subjects that are paired with academic subjects should be taken during the same semester as the academic subject even if separate grades are given for both.<br><br>No student should be allowed to enroll in the 4th Year level unless he/she has taken and passed all PE and NSTP subjects."
+            
+          ]
+        },
+        {
+          "name": "D1 - CHANGE OF REGISTRATION PROCEDURE",
+          "patterns": [
+            "What are the procedures for adding/changing subjects",
+            "Add/change subjects process",
+            "Procedure for adding/changing subjects",
+            "Adding/changing subjects",
+            "Change subject registration"
+          
+          ],
+          "responses": [ 
+            "Change of Registration Procedure:<br><br>Secure and accomplish the Add or Change of Registration Form from the Frontline Office.<br><br>Proceed to the Dean's Office and have the form signed either by the College Dean or Vice Dean.<br><br>Pay the Add or Change of Registration fee at the College Finance Office.<br><br>Submit the form to the Registrar's Office to process the adding/changing of subject.<br><br>The student shall keep his/her copy of the form."
+            
+          ]
+        },
+        {
+          "name": "E1 - ACCREDITATION OF SUBJECT PROCEDURE",
+          "patterns": [
+            "What steps should a student take if they want to substitute or get accreditation for a subject?",
+            "How can I substitute or get accreditation for a subject?",
+            "Substitution/accreditation procedure for subjects",
+            "Procedure for subject substitution/accreditation",
+            "Accreditation of subjects process",
+            "Substitute or get accreditation for a subject"
+          
+          ],
+          "responses": [ 
+            "Procedure of Accreditation:<br><br>Secure and accomplish the substitution/accreditation form (3 copies) from the Registrar/Frontline office.<br><br>Proceed to the concerned faculty and Office of the Dean and have the form signed after evaluating the subjects applied for substitution/accreditation.<br><br>The Dean or Vice Dean shall endorse the approval to the Office of the Registrar to process the substitution/accreditation of subject."
+            
+          ]
+        },
+        {
+          "name": "F1 - TUTORIAL SUBJECTS PROCEDURE",
+          "patterns": [
+            "What are the procedures for tutorial subjects",
+            "How can I apply for tutorial subjects?",
+            "Tutorial subjects application process",
+            "Procedure for requesting tutorial subjects",
+            "Applying for tutorial classes",
+            "Tutorial subjects process"
+          
+          ],
+          "responses": [ 
+            "Tutorial Subjects Procedure:<br><br>The Dean or Vice Dean will evaluate applicants to determine their status. If a candidate for graduation, applicants will be asked to accomplish the Request for Tutorial Class Form. The certification of the Dean and evaluation should be attached to the request for the special class form.<br><br>For professional courses, the Dean or Vice Dean assigns faculty for the subject. For other courses, the request will be forwarded to the concerned College for proper assignment of faculty: College of Arts and Sciences for general education subjects and College of Computer Studies for computer informational technology subjects.<br><br>The Dean of the concerned College will endorse the request to the Office of the Registrar who in turn endorses the request to the Vice President for Academic Affairs (VPAA) for approval/disapproval.<br><br>If approved, applicants will pay the necessary fees to the College Finance Office.<br><br>The Finance Office will forward copies to the Office of the Registrar for distribution."
+            
+          ]
+        },
+        {
+          "name": "G - SUBJECT PETITION",
+          "patterns": [
+            "How can they ensure that the course content of the subject they want to substitute/accredit is similar to the one they're requesting?",
+            "How can I petition for a subject?",
+            "Petitioning for a subject",
+            "Subject petition process",
+            "Requesting a subject petition",
+            "Petition for course substitution/accreditation"
+          
+          ],
+          "responses": [ 
+            "Students who are under-loaded may submit a petition letter to the Dean's Office indicating the number of students interested in enrolling the course (not less than 15 otherwise the course will not be offered). If the course has been approved, the students will accomplish a waiver that they are going to pay for a class of 15 students."
+            
+          ]
+        },
+        {
+          "name": "H1 - DROPPING AND WITHDRAWAL PROCEDURE",
+          "patterns": [
+            "What are the steps for students to completely withdraw or drop all subjects?",
+            "How can I withdraw from all my subjects?",
+            "Dropping all subjects procedure",
+            "Withdrawal process",
+            "Complete withdrawal steps",
+            "drop subjects"
+          
+          ],
+          "responses": [ 
+            "Dropping and Withdrawal Procedure:<br><br>\u2022 Secure a Dropping Form at the Frontline Office.<br><br>\u2022 Present written consent of parents or guardian and accomplished dropping form to the College Dean or Vice Dean for approval.<br><br>\u2022 Present approved Dropping Form to the College Finance Office for payment of dropping fee and/or tuition fee payment as per Finance Office policy.<br><br>\u2022 Present duly approved Dropping Form to the College concerned for notation and information of its faculty.<br><br>Students who withdraw from the College without formal leave of absence shall apply for readmission as new students."
+            
+          ]
+        },
+        {
+          "name": "I1 - LOA PROCEDURE",
+          "patterns": [
+            "How long is the allowed duration for a leave of absence (LOA) according to the policy",
+            "How can I apply for a leave of absence?",
+            "What is the procedure for taking a leave of absence?",
+            "Leave of absence duration policy"
+          
+          ],
+          "responses": [ 
+            "Leave of Absence Procedure:<br><br>Students who are applying for a Leave of Absence (LOA) should write a letter to the Dean or Vice Dean of their respective college indicating the reason(s) for the LOA. Parent consent/guardian and other pertinent document/s to support the reason should likewise be submitted.<br><br>Once the Dean or Vice Dean has approved the letter, students will be advised to fill-up the LOA form from the Frontline Office.<br><br>Students forward the form to the Office of the Registrar for approval and safekeeping."
+            
+          ]
+        },
+        {
+          "name": "J1 - RE-ADMISSION PROCEDURE",
+          "patterns": [
+            "What is the procedure for students who withdraw from the college without obtaining a formal leave of absence?",
+            "How can I apply for re-admission?",
+            "Procedure for re-enrolling after withdrawing without leave",
+            "Re-admission process"
+          
+          ],
+          "responses": [ 
+            "Re-admission Procedure:<br><br>Students who have undergone a LOA without the required application will need to file for a re-admission and pay a re-admission fee.<br><br>Students applying for re-admission need to submit a letter to the College Dean or Vice Dean they intend to re-enroll. Once the letter is noted, the student will be advised to pay the re-admission fee to the corresponding finance office.<br><br>After payment, students request the Re-admission Form from the Frontline Office to be filled in and further secure the signature of the College Dean, and later forwarded to the Office of the Registrar for approval and safekeeping."
+            
+          ]
+        },
+        {
+          "name": "K1 - CROSS ENROLMENT",
+          "patterns": [
+            "Under what circumstances may a student be allowed to cross-enroll at another school?",
+            "How can I cross-enroll at another school?",
+            "Procedure for cross-enrollment",
+            "Cross-enrollment process",
+            "cross-enroll process",
+            "cross-enroll",
+            "cross enrollment"
+          
+          ],
+          "responses": [ 
+            "Cross Enrollment Procedure:<br><br>Write a request letter to cross-enroll to the Dean or Vice Dean.<br><br>Submit the letter duly signed by the Dean or Vice Dean to the Office of the Registrar for official transmittal to the school where the student wishes to cross-enroll."
+            
+          ]
+        }
+    ]
+  },
+  {
+    "category": "ROADMAP CHAPTER 2 - ACADEMIC POLICIES",
+    "tag": [
+      {
+        "name": "ACADEMIC CALENDAR",
+        "patterns": [
+          "When does the summer class typically take place?",
+          "summer class start",
+          "when does summer class start",
+          "date for summer class",
+          "What is the structure of the academic year, including the duration of each semester and the summer session?",
+          "what is the academic year structure?",
+          "strtucture for academic year",
+          "When do the first and second semesters start and end?",
+          "start of semester",
+          "first semester",
+          "second semester",
+          "second semester start",
+          "when semester start?",
+          "semester start",
+          "When does the summer class typically take place?",
+          "summer class start",
+          "when does summer class start",
+          "date for summer class",
+          "academic calendar",
+          "summer class"
+          
+          
+        
+        ],
+        "responses": [ 
+          "The Academic Year (AY) is consisting of two (2) semesters of at least 18 weeks each semester including legal and special holidays.<br><br>A summer session of six (6) weeks follows the second semester. Each semestral or summer term consists of 54 hours of formal classroom instruction and periodic examinations.<br><br>The first semester starts in August and ends in December while the second semester begins in January and ends in May. Summer class starts in June and ends in July or August."
+        ]
+
+      },
+      
+      {
+        "name": "ATTENDANCE AND PUNCTUALITY  - TARDINESS",
+        "patterns": [
+          "How are tardiness and absences handled?",
+          "tardiness"
+          
+        
+        ],
+        "responses": [ 
+          "Students shall be marked tardy if they arrived within 15 minutes in a class. Beyond that period, they will be marked absent."
+        ]
+
+      },
+      {
+        "name": "ATTENDANCE AND PUNCTUALITY  - ABSENCES",
+        "patterns": [
+          "How are tardiness and absences handled?",
+          "is there an exemption for absence",
+          "absence limit",
+          "penalty for absence",
+          "exemptions for absence"
+        
+        ],
+        "responses": [ 
+          "Students shall not be given credit in any course if the number of their absences exceeds (20%) of the total class hours required. However, upon the Dean's discretion, may exempt students who exceed the 20% limit on allowable absences for reasons considered valid and acceptable to the College. <br><br> Nonetheless, the exemption shall not excuse the concerned students from their responsibilities to keep up with missed lessons, comply with assignments and take examinations, where applicable."
+        ]
+
+      },
+      {
+        "name": "ATTENDANCE AND PUNCTUALITY  - EXCUSED ABSENCES",
+        "patterns": [
+          "What circumstances qualify for excused absences?",
+          "how to be excused for absences",
+          "how to be exempted for absences",
+          "requirements to be excused for absence",
+          "excuse for absence"
+
+        ],
+        "responses": [ 
+          "<b>Excused absences are limited to the following: </b> <br> \u2022 Being indisposed due to severe illness or accident, certified by the students' attending physician. <br> \u2022 Other special cases deemed meritorious by the Dean, Vice Dean and approved by the Vice President for Academic Affairs. <br><br> The maximum number of accumulated absent hours that can be tolerated are the following:<br>\u2022 5-unit subject - 18 class hours<br>\u2022 4-unit subject - 14 class hours<br>\u2022 3-unit subject - 11 class hours<br>\u2022 2-unit subject - 7 class hours<br>\u2022 1-unit subject - 4 class hours<br>"
+        ]
+
+      },
+      {
+        "name": "MAJOR EXAMINATIONS",
+        "patterns": [
+          "major exams",  
+          "major examinations",
+          "what are the major exams",
+          "major exam",
+          "major exam can you tell me about"
+        ],
+        "responses": [ 
+          "Major examinations are: <br> Prelims - 25% <br> Midterms - 25% <br> Semi-finals - 25% <br> Finals - 25% <br> Total: 100% <br><br> To know the schedule, enter <b>1XRS</b> for Regular and <b>1XMS</b> for modular "
+        ]
+
+      },
+      
+      
+      {
+        "name": "MAJOR EXAMINATIONS - REGULAR EXAM SCHEDULE",
+        "patterns": [
+          "What are the major examinations scheduled for both the regular 18-week semester?",
+          "1XRS",
+          "Major examinations for the 18-week semester",
+          "Exam schedule for the regular semester",
+          "Key exams in the 18-week term",
+          "What are the major tests in the regular semester?",
+          "Exam dates for the 18-week semester",
+          "Main exams during the regular term",
+          "Scheduled exams for the 18-week semester",
+          "Important exams in the 18-week semester",
+          "Major test dates for the regular semester",
+          "What exams are scheduled for the 18-week term?"
+
+        
+          
+        ],
+        "responses": [ 
+          "For the regular 18-week semester, the major examinations are as follows:<br>- Preliminary Examination in week 5<br>- Midterm Examination in week 10<br>- Semi-final Examination in week 14<br>Final Examination in week 18"
+          
+        ]
+
+      },
+
+      {
+        "name": "MAJOR EXAMINATIONS - MODULAR APPROACH EXAM",
+        "patterns": [
+          "schedule for modular approach examination",
+          "1XMS",
+          "Schedule for modular examination",
+            "Modular exam schedule",
+            "Examination dates for modular examination",
+            "Modular approach exam date",
+            "Modular approach exam schedule",
+            "When are modular exams scheduled?"
+        ],
+        "responses": [ 
+          "For the modular approach, the major examinations are as follows:<br>- Preliminary Examination in week 3<br>- Midterm Examination in week 5<br>- Final Examination in week 18"
+          
+        ]
+
+      },
+      {
+        "name": "EXAM - PERMIT",
+        "patterns": [
+          "Where and how do i get an examination permit?",
+          "Where can i get exam permit?",
+          "How to get  exam permit",
+          "What are the steps for exam permit?",
+          "get examination permit",
+          "ways to get exam permit",
+          "examination permit",
+          "2XP"
+
+          
+        ],
+        "responses": [ 
+          "\u2022 Students are required to secure examination permit or a promissory note from the Finance Office for every major examination a week before the examination. <br><br> \u2022 The granting of promissory notes is upon the discretion of the Finance Office."
+        ]
+        
+      },
+      
+      {
+        "name": "SPECIAL EXAM - PERMIT",
+        "patterns": [
+          "Where and how do i get a special examination permit?",
+          "Where can i get special exam permit?",
+          "How to get special exam permit",
+          "What are the steps for special exam permit?",
+          "special exam permit",
+          "special exam",
+          "3XSP"
+        
+        ],
+        "responses": [ 
+          "Special examination is given to a student who fails to take major examinations due to illness and other reasons deemed valid and justifiable. <br> \u2022 Students must pay special examination fee and whatever tuition fee due at the Finance Office before allowing them to take the special examination. <br> \u2022 Application for special examination must be approved by the Dean or Vice Dean of the student. <br> \u2022 Approved special examinations must be given not later than two (2) weeks for the regular 18-week semester and within the module schedule for modular approach. <br> \u2022 Failure to take the special examination will mean a score of zero. <br>"
+        ]
+        
+      },
+      {
+        "name": "PRESIDENT'S LISTER",
+        "patterns": [
+          "How to qualify for the President's List?",
+          "tell me about president's honor", "tell me about president's list", "what is president's honor list", "what is president honor list", "how to be in president's lister", "how to be in president lister", "how to get in president's lister", "how to get in president lister", "how to qualify in president's lister", "how to qualify in president lister", "how i qualify president's list", "what's president's lister requirement", "What is president lister requirement", "president's lister requirements", "president lister requirements", "president's honor list", "president's lister", 
+          "tell me about dean's honor",
+          "tell me about dean's list",
+          "what is dean's honor list",
+          "what is dean honor list",
+          "how to be in dean's lister",
+          "how to be in dean lister",
+          "how to get in dean's lister",
+          "how to get in dean lister",
+          "how to qualify in dean's lister",
+          "how to qualify in dean lister",
+          "how i qualify dean's list",
+          "what's dean's lister requirement",
+          "What is dean lister requirement",
+          "dean's lister requirements",
+          "dean lister requirements",
+          "dean's honor list",
+          "dean's lister"
+        
+        ],
+        "responses": [ 
+          "Starting Academic Year 2023-2024, DYClans with exceptional academic performance at the College Department will be recognized as President's Lister. This is an honor bestowed upon DYClans that acknowledges their outstanding dedication to their studies and exceptionally high General Weighted Average (GWA).<br><br>To qualify for the President's List, DYClans need to meet these specific criteria set by the academic community:<br><br>\u2022 Minimum GWA: Students are required to achieve a minimum GWA of 1.75, which is often significantly higher than the average GWA for all students.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;Sapientia: 1.00 to 1.25 GWA<br>&nbsp;&nbsp;&nbsp;&nbsp;Excellentia: 1.26 to 1.50 GWA<br>&nbsp;&nbsp;&nbsp;&nbsp;Virtus: 1.51 to 1.75 GWA<br><br>\u2022 Course Load: Students must have a regular course load based on the CHED contents-noted curriculum of the program he/she is currently enrolled.<br><br>\u2022 No Grade Lower Than: Students must have received no grades lower than 2.0 (new curriculum) or 2.25 (old curriculum).<br><br>\u2022 No Incomplete Grades: Students must have no incomplete grades to be eligible for the President's List.<br><br>\u2022 Status: Primarily, full-time students are eligible for this academic recognition. For irregular students, they must have completed a minimum of 18 units and above.<br><br>The academic community celebrates these academic achievements during the Via Ad Sapientiam The College Recognition Day once every semester."
+        ]
+        
+      },
+      {
+        "name": "INCOMPLETE GRADES - WHAT",
+        "patterns": [
+        "what is inc",
+        "inc",
+        "incomplete grades"
+
+        
+        ],
+        "responses": [ 
+          "An Incomplete grade (INC) is given to a student with a good class standing throughout a semester but fails to take any major examination or submit final course requirements on or before the scheduled dates."
+        ]
+        
+      },
+      {
+        "name": "INCOMPLETE GRADES - COMPLETION OF INC",
+        "patterns": [
+        "completion of incomplete grades",
+        "completion of inc",
+        "process for completing an incomplete grade",
+        "completing incomplete grade",
+        "process for incomplete grade",
+        "process for inc"
+        
+        ],
+        "responses": [ 
+          "Secure completion form from the Frontline Office.<br><br>Pay the completion fee at the Finance Office.<br><br>Submit the completion Form with the attached receipts to the Office of the Dean.<br><br>The Office of the Dean endorses the completion form to the faculty member who will issue completion requirements.<br><br>The faculty returns the accomplished completion form to the College Dean for signature, then forwards it to the Office of the Registrar.<br><br>Removal of incomplete grade should be within six (6) months after the releasing of grades, otherwise, the grade shall automatically become 5.0 (Failure)."
+        ]
+        
+      },
+      {
+        "name": "RECOMPUTATION OF GRADES - WHAT",
+        "patterns": [
+        "recomputations of grades"
+        
+        
+        ],
+        "responses": [ 
+          "Once the grades are posted in portal by the faculty and approved already by the Dean and Registrar, the faculty can no longer change them. Students may request for re- computation of grades/ratings through the Dean and Vice Dean of their college within six (6) months after the release of official grades."
+        ]
+        
+      },
+      {
+        "name": "RECOMPUTATION OF GRADES - PROCEDURE (STUDENT)",
+        "patterns": [
+        "procedure for recomputation of grades",
+        "recomputation of grades procedure for students"
+        
+        ],
+        "responses": [ 
+          "Submit a written request for re-computation of grades/ratings to the Office of the Dean.<br><br>The Dean or Vice Dean of the concerned college notifies the faculty who handled the course regarding the student's request for re-computation of grade/rating and deliberates on the request. If the concerned faculty is no longer connected with the College, the Dean reviews the submitted class record.<br><br>The Dean or Vice Dean of the concerned college transmits the notarized request for change of grades/correction of ratings to the Office of the Registrar with his recommendation/comments on the request.<br><br>The Registrar, based on the submitted documents, decides and recommends approval or disapproval of the request to the Vice President for Academic Affairs (VPAA).<br><br>The Registrar updates the student's file if the request is acted upon favorably."
+        ]
+        
+      },
+      {
+        "name": "RECOMPUTATION OF GRADES - PROCEDURE (FACULTY)",
+        "patterns": [
+          "recomputation of grades procedure for faculty",
+          "recomputation of grades procedure for professors",
+          "faculty recomputation of grades"
+        ],
+        "responses": [ 
+          "Faculty may request for change of grades/ correction of ratings to the Office of the Registrar through the Dean or Vice Dean of the concerned college within six (6) months after the official release of grades.<br><br>\u2022 Submit a notarized written request to the Office of the Dean of the concerned college stating the reason(s) why the grade of a particular student has to be changed or corrected.<br>\u2022 The Dean or Vice Dean of the concerned college transmits the notarized request for change of grades/ correction of ratings to the Office of the Registrar with his recommendation/comments on the request.<br>\u2022 The Registrar, based on submitted documents, decides and recommends approval and/or disapproval of the request to the Vice President for Academic Affairs (VPAA).<br>\u2022 The Registrar updates the student's file if the request of the faculty is acted upon favorably."
+        ]
+        
+      },
+      {
+        "name": "APPLICATION FOR GRADUATION",
+        "patterns": [
+         "application for graduation",
+         "graduation",
+         "apply for graduation"
+        
+        ],
+        "responses": [ 
+          "No students shall be recommended for graduation unless he/she has satisfied all the academic and other requirements prescribed for graduation.<br><br>All graduating students must have their deficiencies made up and their records cleared not later than three (3) months before the end of their last semester, with the exception of those subjects in which the student is currently enrolled during the semester.<br><br>Graduating students must file the prescribed application for graduation together with their evaluation of grades and units earned to the Office of the Registrar at the end of the first semester of the preceding year before graduation.<br><br>This is to address all the deficiencies found and incurred by the student for the past years as well as advise the student on the courses to take during the second semester."
+        ]
+        
+      },
+      {
+        "name": "APPLICATION FOR GRADUATION - PROCEDURE",
+        "patterns": [
+          "What are the procedure for graduation?",
+          "Procedure for graduation",
+          "Application for graduation",
+          "applying for graduation"
+        
+        ],
+        "responses": [ 
+          "\u2022 Accomplish Application to Graduate form from the Frontline Office.<br>\u2022 Pay the corresponding fee to the Finance Office and attach the official receipt to the form.<br>\u2022 Verify clearance from necessary faculty and Dean or Vice Dean before submitting to the Office of the Registrar.<br><br>Only those who have submitted their Graduation Confirmation and their Exit Clearance will be included in the Final List of Graduating Students for that academic year.<br>The Final List of Graduating Students will be indorsed to the respective Colleges by the Office of the Registrar for posting and information dissemination to their respective students.<br>The Final List of Students - Candidates for Latin Honors and other awards will then be submitted to the Board of Trustees for final approval and execution."
+        ]
+        
+      },
+      {
+        "name": "GRAD HONORS AND AWARDS - LATIN HONORS",
+        "patterns": [
+          "What are the Graduating Latin Honors",
+          "Latin Honors",
+          "Graduates latin honors",
+          "latin honors requirement",
+          "how to be a latin honor",
+          "how to get latin honors"
+        
+        ],
+        "responses": [ 
+          "Summa Cum Laude: General Weighted Average of 1.00 to 1.25, with no grade lower <br>than 1.50 in any academic subject<br><br>Magna Cum Laude: General Weighted Average of 1.26 to 1.50; with no grade lower<br> than 1.75 in any academic subject<br><br>Cum Laude: General Weighted Average of 1.51 to 1.75;<br> with no grade lower than 2.0 in<br>any academic subject<br>No candidate for Latin honors shall have a failing grade, incomplete, or dropped<br> status in any course nor shall have been involved in serious infraction of any law or<br> any school regulation.<br> Candidates for graduation with honors must have completed their respective <br>courses in the school with at least 75% of the total number of academic units<br> or hours required for graduation or they must have taken not less than 18 <br>units every normal semestral load prescribed in the curriculum<br>In case of students graduating with honors, in degree programs which the <br>prescribed length is shorter than four (4) years, the English equivalent, ‘With <br>Honors,’ ‘With High Honors’ and ‘With Highest Honors,’ shall be used instead.<br>"
+        ]
+        
+      },
+      {
+        "name": "GRAD HONORS AND AWARDS - COLLEGE EXCELLENCE AWARD",
+        "patterns": [
+          "What is the academic excellence award in college?",
+          "College graduates excellence award",
+          "excellence award"
+        
+        ],
+        "responses": [ 
+          "\u2022 Given to graduating students who earned a weighted average with that of the Latin Honors but with grades in his/her academic courses that are lower than what are specified above.<br><br>\u2022 Students receiving this award must not have grades lower than 2.25 in any of their academic courses."
+
+          
+        ]
+        
+      },
+      {
+        "name": "GRAD HONORS AND AWARDS - SPECIAL AWARD",
+        "patterns": [
+          "What is the special award given by DYCI for graduates?",
+          "Special awards for graduates",
+          "special awards"
+
+        
+        ],
+        "responses": [ 
+          "\u2022 <b>Dr. Ismael E. Yanga, Sr., Leadership Award</b>: given to graduates who have made valuable contributions to the institution and to the community through consistent and outstanding performance in the academic and institutional extra-curricular areas provided that the student has no disciplinary record and the GWA is at least 2.00. There may be more than one recipient of this award.<br><br>\u2022 <b>Sofia Yanga Academic Excellence Award</b>: Given to only one graduating student by the Academic Council in accordance with the following conditions: If there is no qualified recipient of Latin Honors in the Graduating batch,the award shall be given to the graduate with the highest GWA. The recipient must have no disciplinary case and his/her GWA is not less than 1.75. If there are several recipients of Latin Honors, the award shall be given to the Latin Honors Awardee with the highest distinction and GWA.<br><br>\u2022<b> Dr. Marciano D. Yanga Journalism Excellence Award</b>: Given to a graduating student who has been an Editor-In-Chief of the institutional student newsletter for one or more academic year and has actively performed his task and contributed in the publication of the newsletter.<br><br>\u2022<b> Dr. Marciano D. Yanga Excellence Award in Robotics Technology</b>: Given to graduating students who had shown exemplary performance in Robotics Technology and had represented the country in international robotics competition.<br><br>\u2022<b> Dr. Elida D. Yanga Research Excellence Award</b>: Given to graduating students who had produced outstanding research work that reflects the values of the school and attribute of excellence, transcending the boundaries of research to regional, national, and international recognition."
+
+        ]
+        
+      },
+      {
+        "name": "SCHOLASTIC DELINQUENCY - WARNING",
+        "patterns": [
+          "What is the purpose of the Warning category under academic probation?"
+        
+        
+        ],
+        "responses": [
+          "The purpose of the warning category is to notify students about their failing or deliquent grades and to encourage them to improve their academic performance." 
+          
+        ]
+        
+      },
+      {
+        "name": "SCHOLASTIC DELINQUENCY - PROBATION 1",
+        "patterns": [
+        "When is a student placed under Probation 1 after receiving consecutive warnings?"
+        
+        
+        ],
+        "responses": [
+        "A student is placed under Probation 1 upon enrollment in the following semester after receiving warnings for two consecutive semesters." 
+          
+        ]
+        
+      },
+      {
+        "name": "SCHOLASTIC DELINQUENCY - DISMISSAL",
+        "patterns": [
+          "What happens to students who get failing grades in more than 75% of their enrolled units?",
+          "students with failing grades"
+        
+        
+        ],
+        "responses": [
+          "Students who obtain failing grades of more than 75% of their enrolled units shall be dropped from the roll."
+          
+        ]
+        
+      },
+      {
+        "name": "PROGRESSION AND RETENTION POLICY",
+        "patterns": [
+          "Which colleges and schools implement the retention policy mentioned?",
+          "retention policy"
+        
+        
+        ],
+        "responses": [
+          "The College of Accountancy, Education, and Health Sciences,School of Psychology and Mechanical Engineering implement the retention policy."
+           
+          
+        ]
+        
+      },
+      {
+        "name": "PROGRESSION AND RETENTION POLICY - REQUIREMENTS",
+        "patterns": [
+          "What are the requirements for progression?",
+          "progression requirements"
+        
+        
+        ],
+        "responses": [
+          "-Students must maintain a GWA atleast 2.75 every semester throughout their enrollment in these board programs.<br>-Successful completion of all courses in their respective CHED contents-noted curriculum is defined as 3.00 (75-76) <br>-Students earning a grade below 3.00 in any course may repeat that course only once." 
+          
+        ]
+        
+      }
+    ]
+    },
+  {
+      "category": "ROADMAP CHAPTER 3",
+      "tag": [
+        {
+          "name": "SCHOLARSHIPS - FULL ACADEMIC SCHOLARSHIP",
+          "patterns":  [
+            "FAS1",
+            "Details about full scholarships?",
+            "Eligibility for full scholarships?",
+            "How do I apply for full scholarships?",
+            "How to qualify for full scholarships?",
+            "How do I qualify for full scholarships?",
+            "Needed for full scholarships?",
+            "What are the eligibility for full scholarships?",
+            "What are the requirements for full scholarships?",
+            "What are the steps to qualify for full scholarships?",
+            "Where can I apply for full scholarships?",
+            "Where can I find details about full scholarships?",
+            "Where can I inquire full scholarship requirements?",
+            "Where to apply for full scholarships?",
+            "Where can I apply full scholarship requirements?",
+            "Scholarship - Full Academic"
+
+            ],
+          "responses": [ 
+            "To be eligible, students must have 100% free tuition:<br>- One year residency at DYCI College,<br>- Enroll in 18 units for irregular students,<br>- Maintain a 2.00 GPA,<br>- Meet GPA requirements within 2 semesters,including summer."
+            
+          ]
+        },
+        {
+          "name": "SCHOLARSHIPS - PARTIAL ACADEMIC SCHOLARSHIP  ",
+          "patterns": [
+            "What are the requirements for students to qualify for partial academic scholarships?",
+            "How to apply for partial academic scholarahips?",
+            "How to meet the requirements for partial scholarships",
+            "Application process for partial academic scholarships",
+            "Qualifications needed for partial scholarships",
+            "requirements for partial scholarships",
+            "PAS2",
+            "Scholarship - Partial Academic"
+
+          
+          ],
+          "responses": [ 
+            "\u2022 Entitled to 50% free tuition fee.<br><br>\u2022 Must have at least one year residency in DYCI College.<br><br>\u2022 Enrolled with regular academic loads or at least 18 units for irregular students.<br><br>\u2022 Must obtain at the end of two (2) semesters including summer classes for a regular offering with a weighted average of 1.75 each semester and no grade lower than 2.00."
+
+          ]
+        },
+        {
+          "name": "SCHOLARSHIPS - CULTURAL AND ATHLETICS SCHOLARSHIPS  ",
+          "patterns": [
+            "How can students qualify for cultural and athletic scholarships?",
+            "How can students apply for cultural and athletic scholarships?",
+            "How do students get cultural and athletic scholarships?",
+            "Getting cultural and athletic scholarships",
+            "qualify for cultural athletic scholarships",
+            "CAS3",
+            "Scholarship - Cultural and Athletics"
+          
+          ],
+          "responses": [ 
+            "Students who qualify as varsity players and as cultural contestants for the inter-school competitions can apply for a one-time discount on tuition fee applicable in the succeeding semester.<br><br>\u2022 The tuition fee discount, which ranges from 10%-70%, shall be granted based on the awards received by the students."
+
+          ]
+        },
+        {
+          "name": "SCHOLARSHIPS - BRASS BAND SCHOLARSHIP  ",
+          "patterns": [
+            "What benefits do members of the brass band receive as part of the scholarship?",
+            "What do you get with a brass band scholarships?",
+            "What do brass band scholarships members get?",
+            "Brass band scholarships advantages",
+            "Benefits of brass band scholarships",
+            "brass band scholarship",
+            "BBS4",
+            "Scholarship - Brass Band"
+          
+          ],
+          "responses": [ 
+            "In honor of the late Dr. Ismael Yanga, Sr., DYCI encourages membership of able and competent students in the DYCI Brass Band.Members of the Brass Band shall be entitled to <b>free tuition and miscellaneous fees.</b>"
+
+          ]
+        },
+        {
+          "name": "SCHOLARSHIPS - GOVERMENT-ENDORSED SCHOLARSHIP",
+          "patterns": [
+            "What are the programs are included in the student financial assistance for tertiary education processed by the CHED?",
+            "What are the programs does ched offers for student financial assistance?",
+            "What are the CHED student financial assistance?",
+            "CHED financial assistance programs for students",
+            "Financial assistance programs for students by CHED",
+            "programs in CHED student assistance",
+            "government endorsed scholarship",
+            "GES5",
+            "Scholarship - Government Endorsed",
+            "government scholarships"
+      
+          
+          ],
+          "responses": [ 
+            "The different programs under the Student Financial Assistance (StuFAPs), Unified Financial Assistance System for Tertiary Education, and the Commission on Higher Education Region III processed by the institution include:<br><br>\u2022 Full Scholarship<br><br>\u2022 Private Education Student Financial Assistance Program (PESFA)<br><br>\u2022 Tulong Dunong Program<br><br>\u2022 Free Technical-Vocational Education and Training (TVET)<br><br>\u2022 Tertiary Education Subsidy (TES)<br><br>Application and grant approval is based on CHED/Scholarship Program guidelines.<br><br>DYCI is committed to provide two slots each year to dependents of military personnel who were killed in action. The beneficiaries shall be entitled to free tuition fee.<br><br>All qualified applicants who are interested to avail of the program should submit documentary requirements at the AFP Educational Benefit System, Camp General Emilio Aguinaldo, Quezon City."
+
+          ]
+        },
+        {
+          "name": "DISCOUNT - FRESHMEN",
+          "patterns": [
+            "How can incoming freshmen can qualify for a 15% tuition discount in their first semester?",
+            "How can freshmen qualify for a tuition discount?",
+            "How can freshmen get a tuition discount?",
+            "freshmen discount on first semester tuition",
+            "freshmen discount",
+            "Grade requirements for 15% tuition discount",
+            "qualifying for a freshmen tuition discount",
+            "FD1",
+            "Discount - Freshmen"
+            
+          
+          ],
+          "responses": [ 
+            "Incoming freshmen with an average of 90% or higher posted in their Grade 12 report card (F-138) shall be entitled to 15% discount on tuition fee for the first semester.<br><br>The number of graduating students from previous school must be at least 100 students to qualify for this discount privilege."
+
+          ]
+        },
+        {
+          "name": "DISCOUNT - DYCI HIGHSCHOOL ALUMNI ",
+          "patterns": [
+            "What discounts are DYCI high school graduates entitled to based on their lenght to stay?",
+            "What are the alumni discount for DYCI graduates?",
+            "alumni discounts",
+            "alumni discounts based on length to stay at DYCI",
+            "discount for DYCI high school graduates",
+            "DYCI graduate discount benefits",
+            "AD2",
+            "discount for alumni",
+            "Discount - Alumni" 
+          
+          ],
+          "responses": [ 
+            "Graduates of the DYCI High School shall be entitled to the following discounts based on their length of stay:<br><br>\u2022 Grade 7 to Grade 12 - 40% tuition fee discount<br>\u2022 Grade 8 to Grade 12 - 35% tuition fee discount<br>\u2022 Grade 9 to Grade 12 - 30% tuition fee discount<br>\u2022 Grade 10 to Grade 12 - 25% tuition fee discount<br>\u2022 Grade 11 to Grade 12 - 20% tuition fee discount<br><br>The student must have no outstanding financial obligation to continue the discount privilege.<br><br>Automatic forfeiture of the alumni discount privilege is in order the moment the alumni students transfer to another school even for one semester only."
+            
+          ]
+        },
+        {
+          "name": "DISCOUNT - SOLO PARENT ",
+          "patterns": [
+            "What are the requirements for applying solo parent discount?",
+            "What do you need to apply for a solo parent discount?",
+            "What are the documents are needed for solo parent application?",
+            "steps to apply for a solo parent discount",
+            "solo parent discount",
+            "requirments for solo parent discount application",
+            "SPD3",
+            "discount for solo parent",
+            "Discount - Solo Parent"
+          
+          ],
+          "responses": [ 
+            "The requirements for solo parents discount are: <br>- Submission of a photocopy of Solo parent ID with specimen signature. <br>- Photocopy of the student's PSA-issued birth certificate. <br>- And it must be done to the Office of the Student Affairs and Services - Scholarship."
+            
+          ]
+        },
+        {
+          "name": "DISCOUNT - SIBLING ",
+          "patterns": [
+            "What conditions need to be met for the discount to be granted for siblings discount?",
+            "How can siblings qualify for a discount",
+            "criteria for availing a discount for siblings",
+            "requirements for granting a siblings discount",
+            "siblings discount",
+            "SD4",
+            "Discount - Sibling"
+          
+          ],
+          "responses": [ 
+            "This discount is granted if two or three siblings are all currently enrolled in DYCI during the same semester. <b>Each sibling is entitled to 10% tuition fee discount.</b> For purposes of availing this discount, each applicant (who must not be the sons/daughters of a DYCI employee) must submit <b>photocopy of the PSA certified birth certificate and proof of enrollment at DYCI of the sibling/s.</b>"
+
+          ]
+        },
+        {
+          "name": "DISCOUNT - EMPLOYEE ",
+          "patterns": [
+            "What is the employee discount policy at DYCI?",
+            "details of the employee discount policy work at DYCI",
+            "DYCI policy for employee discount",
+            "employee discount",
+            "ED5",
+            "Discount - Employee"
+          
+          ],
+          "responses": [ 
+            "Relatives of DYCI employees, whose employment status is permanent/regular, shall be entitled to tuition fee discount as follows:<br>\u2022 Spouse - 50%<br>\u2022 Children - 50%<br>\u2022 Sibling - 25%<br>The employee must submit a photocopy of the PSA certified birth certificate (in cases of children and sibling discount) or PSA certified marriage contract (in case of spouse discount).<br>Moreover, automatic forfeiture of the employee discount privilege is also in order the moment the spouse, child, or sibling transfers to another school even for one semester only or if the employee resigns from DYCI.<br>Finally, this discount benefit is limited to one sibling at any given time.<br>"
+
+          ]
+        },
+        {
+          "name": "DISCOUNT - FULL PAYMENT ",
+          "patterns": [
+            "What if i pay full amount of my tuition?",
+            "What happens if a student chooses to pay their tuition in full?",
+            "Do students receive a discount for paying their tuition in full?",
+            "Is there a discount for paying the full amount of tuition?",
+            "full payment discount",
+            "FPD6",
+            "Discount - Full Payment"
+          
+          ],
+          "responses": [ 
+            "If you pay full amount of your tuition fee before the opening of classes, shall be entitled to a 5% discount on tuition fee."
+            
+          ]
+        },
+        {
+          "name": "DISCOUNT - STUDENT ASSISTANT ",
+          "patterns": [
+            "How can students apply for student assistance?",
+            "How to apply for student assistant discounts?",
+            "What is the process for students to apply student assistance?",
+            "What documents are needed for students to apply for student assistant discount?",
+            "steps involved in applying for student assistance",
+            "student assistant discount",
+            "application process for student assistant discount",
+            "SAD7",
+            "Discount - Student Assistant"
+          
+          ],
+          "responses": [
+            "To apply for student assistance: <br>- You need to submit a letter of intent to the Office of Student Affar=irs and Services. <br>- Copy of your report card (F-138). <br>- Certification of good moral character. <br>- Home visitation and interview with parents are required as part of the application process."
+            
+          ] 
+        }         
+    ]
+  },
+  {
+      "category": "ROADMAP CHAPTER 4",
+      "tag": [
+        {
+          "name": "A. OFFICE OF STUDENT AFFAIRS AND SERVICES (OSAS) - DESCRIPTION",
+          "patterns":  [
+            "What is OSAS?",
+            "Can you tell me about OFFICE OF STUDENT AFFAIRS AND SERVICES",
+            "Can you tell me about OSAS",
+            "I'd like to know about OSAS",
+            "I would like to know about OSAS",
+            "I'd like to know about OFFICE OF STUDENT AFFAIRS AND SERVICES",
+            "I would like to know about OFFICE OF STUDENT AFFAIRS AND SERVICES",
+            "OFFICE OF STUDENT AFFAIRS AND SERVICES",
+            "OSAS"
+            ],
+          "responses": [ 
+           "The OSAS is dedicated to fostering a vibrant and inclusive campus community that enriches the academic journey of each DYClan. As the heart of campus life, the OSAS serves as a compass guiding students through their holistic development, ensuring a well-rounded and transformative DYCI experience. Under the OSAS are the following units. "
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - Student Affairs Unit",
+          "patterns":  [
+            "What does the student affairs unit do?",
+            "Student Affairs Unit",
+            "what is student affairs unit",
+            "Can you tell me about Student Affairs Unit",
+            "I'd like to know about Student Affairs Unit",
+            "I would like to know about Student Affairs Unit",
+            "incharge of monitoring clubs",
+            "clubs and organization supervision"
+            ],
+          "responses": [ 
+            "\u2022 Responsible for supervision, monitoring, and evaluation of activities of different clubs and organizations duly recognized by the institution.<br> \u2022 Guides the student-led organizations to ensure that their objectives and activities are in accordance with the institution's vision and mission statements, and initiating and enhancing leadership skills and social responsibility.<br> \u2022 Provide opportunities for students to develop and enhance their leadership skills and potential.<br> \u2022 Encourage students to promote goodness as God-Centered individuals develop their inherent talents, abilities, and values for appreciation through participation in relevant and varied co-curricular and extracurricular activities, especially those that promote and conserve national culture and multi-cultural heritage.<br> \u2022 Promote a sense of school spirit and belongingness among the students through sports development programs that will promote physical fitness and wellness of students.<br> \u2022 Provide opportunities for meaningful socio-civic involvement of students which include volunteerism, environmental protection, and other activities that develop social internalization and meaningful contribution to nation building.<br>"
+
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - Policies and Procedures for Co curricular and Extracurricular Activities.",
+          "patterns":  [
+            "Can you tell me what the rules and guidelines are for joining and participating in school clubs and activities?",
+            "Policies and Procedures for Extracurricular Activities ",
+            "What are the policies for Extracurricular Activities",
+            "What are the procedures for Extracurricular Activities"
+            ],
+          "responses": [ 
+            "DYCI recognizes that in order to provide a holistic development among its students and develop well-rounded individuals, academic training should be complemented with meaningful co- and extra-curricular activities.<br> <b>\u2022 Co-curricular Organizations</b><br> Students of each college automatically become members of their respective co-curricular organization.<br> <b>\u2022 Extra-curricular Organizations</b><br> For the extracurricular organizations, membership is open to all interested students who would like to develop their talents and skills. Some organizations screen their applicants by holding auditions.<br> &#x26AC; Brass Band<br> &#x26AC; Campus Ministry<br> &#x26AC; Dagalak<br> &#x26AC; Dr. Yanga Dance Alliance<br> &#x26AC; Peer Facilitators Club<br> New clubs or organizations shall only be approved and recognized after completing the requirements and meeting the conditions set by the OSAS Student Affairs Unit.<br> To apply for a new club / organization, submit a letter of intent together with the name of recommended moderator. The letter must be recommended by the Dean and Vice Dean.<br> Two copies of the By-Laws of the proposed organization with objectives aligned to the Vision and Mission statements of DYCI.<br> List of officers and plan of activities."
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - Official Organization",
+          "patterns":  [
+            "What kinds of student organizations are available in the college",
+            "students organization",
+            "school council",
+            "official organization", 
+            "what is official organization",
+            "Can you tell me about official organization",
+            "what is official school council",
+            "Can you tell me about school council",
+            "what is official students organization",
+            "Can you tell me about students organization",
+            "orgs in college",
+            "official orgs"
+            ],
+          "responses": [ 
+            "<b>OFFICIAL ORGANIZATION - COLLEGE</b><br> Supreme Student Council (SSC) - ALL<br> Samahan ng Agham Politika - CAS<br> Junior Philippine Institute of Accountants-DYCI Chapter (JPIA-DYCI) - COA<br> Young Managers and Professionals Alliance for Corporate Triumph (YMPACT) - CBA<br> Student Society on Information Technology Education DYCI Chapter (SSITE-DYCI) - CCS<br> College of Education Student Organization (COEDSO) - COED<br> College Of Health Sciences Student Council (CHSSC) - CHS<br> Association of Hotel and Restaurant Management Students (AHRMS) - CHMT<br> League of Young Tourism Students (LYTS) - CHMT<br> Marine Council Officers (MARCO) - CME<br> Philippine Society of Mechanical Engineers - Student Chapter (PSME-SC) - SME<br> Psyche - SOP<br>"
+
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - Policies and Procedures for In-campus and Off-campus Activities",
+          "patterns":  [
+            "Can you tell me about the policies for off-campus activities?",
+            "policies for off-campus activities",
+            "Can you tell me about the policies for off campus activities?",
+            "policies for off campus activities",
+            "Can you tell me about the policies for in-campus activities?",
+            "policies for in-campus activities",
+            "Can you tell me about the policies for in campus activities?",
+            "policies for in campus activities",
+            "Can you tell me about the rules for off-campus activities?",
+            "rules for off-campus activities",
+            "Can you tell me about the rules for off campus activities?",
+            "rules for off campus activities",
+            "Can you tell me about the rules for in-campus activities?",
+            "rules for in-campus activities",
+            "Can you tell me about the rules for in campus activities?",
+            "rules for in campus activities"
+            
+            ],
+          "responses": [ 
+           "Application for any in-campus or off-campus activity must be filed by the Organizational President and Adviser at the OSAS Student Affairs Unit at least two weeks before the activity.<br> The application form must be reviewed by the respective Dean and Vice Dean regarding the relevance of the activity, compliance to CHED requirements, and policies of external agencies may it be public or private.<br><br> The proposal form must have the following attachments:<br>\u2022 Proof of student consultation<br> \u2022 Breakdown of projected expenses<br> \u2022 List of involved students and faculty<br> \u2022 Approved program flow or schedule by the Office of the Dean Communication letter to relevant internal offices or units especially the Health Services Unit and Security and Safety Unit.<br> \u2022 Parental waiver and consent letter if the activity extends beyond 8:00 pm or will fall during Sundays or declared holidays<br> \u2022 For off-campus activity with third party service providers, a Memorandum of Agreement for the partner travel agencies, tour operators, vehicle and transportation providers, training providers, and others.<br> \u2022 Compliance to CHED Memorandum Order (CMO) No. 63, Series of 2017, Policies and Guidelines for Local Off- campus Activity or any updated and relevant CMO issued by the Commission.<br> \u2022 Permit from the Local Government Units (LGUs), and/ or national agencies if applicable.<br> \u2022 Parallel Activity Plan for non- participating students, if applicable<br>Submitted proposal and documents shall be reviewed and approved by the Office of Student Affairs and Services Director and the Vice President for Academic Affairs (VPAA).<br> Any payments necessary for the in- or off-campus activity shall be only at the Finance and Accounting Office.<br> Complete documentation of the activity should be submitted to OSAS Student Affairs Unit within two weeks after the activity.<br>\u2022 Approved activity proposal with attachments<br> \u2022 Attendance and registration<br> \u2022 Accomplishment and narrative reports<br> \u2022 Pictures with captions<br> \u2022 Financial report<br> \u2022 Accomplished evaluation forms<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - Guidance and Counseling Unit",
+          "patterns":  [
+            "What does the Guidance and Counseling Unit do?",
+            "Guidance and Counseling Unit",
+            "what is Guidance and Counseling Unit",
+            "Can you tell me about Guidance and Counseling Unit",
+            "I'd like to know about Guidance and Counseling Unit",
+            "I would like to know about Guidance and Counseling Unit",
+            "guidance", "guidance counseling"
+            ],
+          "responses": [ 
+            "Need help about guidance? You can go ask the Guidance and Counseling Unit<br><br>\u2022 Responsible in providing basic services through the use of integrated approaches to develop well- functioning individuals by helping them utilize their potentials to the fullest.<br> \u2022 Designs an individual and/or group intervention to facilitate positive changes in student behavior, feelings, and attitudes.<br> \u2022 Help students gain more self-awareness and self-understanding leading to maximizing their potentials.<br> \u2022 Develop the decision-making skills of students to enable them to be more capable of managing and solving life's problems.<br> \u2022 Improve the students' skills in dealing, adjusting and coping with life's challenges.<br> \u2022 Develop more effective interpersonal skills which will enable the students to establish more meaningful relationships.<br> \u2022 Instill among the students a deeper sense of responsibility and discipline.<br> \u2022 Provide students with due process in the settlement of complaints and grievances.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - Scholarships Unit",
+          "patterns":  [
+            "What does the Scholarships Unit do?",
+            "Scholarships Unit",
+            "what is Scholarships Unit",
+            "Can you tell me about Scholarships Unit",
+            "I'd like to know about Scholarships Unit",
+            "I would like to know about Scholarships Unit",
+            "where can i ask about scholarship?",
+            "who to ask about scholarship"
+            ],
+          "responses": [ 
+            "Need help about scholarships? You can go ask the Scholarships Unit\u2022 Focuses on managing, generating and/ or allocating funds for scholarships, discounts, and financial aids to deserving and qualified students.<br> \u2022 Institutionalizes policies and guidelines in providing scholarship and other financial assistance particularly for those students belonging to the vulnerable and/ or marginalized sector of the community.<br> \u2022 Creates structures to make scholarship and financial assistance accessible.<br> \u2022 Disseminate in various media the availability, qualifications, requirements and procedures to obtain the scholarship/financial aid.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - Health Services Unit",
+          "patterns":  [
+            "What does the Health Services Unit do?",
+            "Health Services Unit",
+            "what is Health Services Unit",
+            "Can you tell me about Health Services Unit",
+            "I'd like to know about Health Services Unit",
+            "I would like to know about Health Services Unit",
+            "health services"
+            ],
+          "responses": [ 
+           "Need help about health issues? You can go ask the Health Services Unit<br><br> As they plan, develops, implements, and delivers quality medical and dental services to students and employees.<br> Ensures student health needs are met and health barriers to learning are properly addressed.<br> Services provided by the Health Services Unit include:<br> &#x26AC; First aid for acute illness and injury<br> &#x26AC; Medical and dental check-up<br> &#x26AC; Pre-participation medical and dental examinations for athletes<br> &#x26AC; Medical health counseling<br> &#x26AC; Provision of information relevant to students' concerns such as but not limited to physical fitness, weight management, acne, menstrual concerns, dental issues, and others.<br> Students with ongoing classes who come to the clinic must present a referral letter/slip from the concerned faculty member/instructor except for emergency cases.<br> Parents or guardians shall be contacted to come to school and fetch the students who are ill and are unable to return to class. Likewise, referral to another health facility shall be given if deemed necessary.<br> In case of acute illness or minor injury not needing emergent medical attention, the client shall be cared for by the HSU staff until the parents/guardians arrive. First aid shall be provided.<br> In case of major injuries/illness, first aid shall be administered and after careful assessment and evaluation, the student shall be brought immediately to the hospital. Parents and guardian shall be notified immediately.<br> Clients diagnosed of having communicable disease (i.e, COVID-19, influenza-like illness, etc,) should present to the school clinic a medical clearance from a licensed doctor before being allowed to resuming attendance of classes.<br> Officially enrolled students may avail of the following benefits for hospitalization at the Dr. Yanga's Hospital (DYH), Bocaue, Bulacan:<br> &#x26AC; 20% discount in room accommodation Discount on doctor's fee if he/she is admitted under the care of a DYCI Health Services Physician. The services of non- DYCI Health Services attending physician consultants are NOT included in this discount.<br> &#x26AC; 10% discount on laboratory procedures (excluding CT-Scan)<br> &#x26AC; 50% Discount on doctor's fee if he/she is seen and treated by DYH resident on duty.<br> All students are protected for by an updated insurance coverage. To apply for insurance coverage, the guardian or student must inform and submit the required documents at Health Services Unit within 30 days from the date of accident. The approval/granting of such privileges is entirely up to the third-party insurance provider."
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - Security and Safety Unit ",
+          "patterns":  [
+            "What does the Security and Safety Unit do?",
+            "Security and Safety Unit",
+            "what is Security and Safety Unit",
+            "Can you tell me about Security and Safety Unit",
+            "I'd like to know about Security and Safety Unit",
+            "I would like to know about Security and Safety Unit",
+            "security for my child",
+            "student security",
+            "student safety"
+            ],
+          "responses": [ 
+          "Need help about security and safety? You can go ask the Security and Safety Unit<br><br> As they are responsible for monitoring the entry and exit of people and vehicles in campus.<br> Maintains peace and order within the campus and ensure safety and security of all students, employees and property of DYCI.<br> May request students and employees as well as visitors desiring entry or exit in DYCI to submit them for security inspection. Security Personnel are authorized, as part of their responsibility to do the following:<br> &#x26AC; Check the uniform and identification card &#x26AC; Inspect baggage or car compartments &#x26AC; Inquire visitor's name and name of person the visitor wants to see &#x26AC; Request for gate pass from anybody who is bringing out a school property &#x26AC; Deny entry of anybody who is under the influence of liquor or drugs &#x26AC; Confiscate deadly weapons<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - Alumni and Placement Unit ",
+          "patterns":  [
+            "What does the Alumni and Placement Unit do?",
+            "Alumni and Placement Unit",
+            "what is Alumni and Placement Unit",
+            "Can you tell me about Alumni and Placement Unit",
+            "I'd like to know about Alumni and Placement Unit",
+            "I would like to know about Alumni and Placement Unit"
+            ],
+          "responses": [ 
+           "Alumni and Placement Unit<br><br>\u2022 Helps students to secure the most effective relationship to a job or to the next step in their educational or personal goals. <br>\u2022 Organizes activities regarding Labor Education for Graduating Students (LEGS) in partnership with the Department of Labor and Employment (DOLE), pre-employment orientation seminar and job fair, in partnership with Public Employment Service Office (PESO), government agencies responsible for job requirements such as the Social Security System (SSS), Home Development Mutual Fund (HDMF or Pag-Ibig), and Bureau of Internal Revenue (BIR)."
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - SPIRITUALITY ENRICHMENT AND RENEWAL AND VALUES INTEGRATION ADVOCACY MINISTRY (SERVIAM) OFFICE ",
+          "patterns":  [
+            "What does the SERVIAM office do?",
+            "SERVIAM",
+            "what is SERVIAM",
+            "Can you tell me about SERVIAM",
+            "I'd like to know about SERVIAM",
+            "I would like to know about SERVIAM",
+            "What does the SERVIAM office do?",
+            "SPIRITUALITY ENRICHMENT AND RENEWAL AND VALUES INTEGRATION ADVOCACY MINISTRY",
+            "what is SPIRITUALITY ENRICHMENT AND RENEWAL AND VALUES INTEGRATION ADVOCACY MINISTRY",
+            "Can you tell me about SPIRITUALITY ENRICHMENT AND RENEWAL AND VALUES INTEGRATION ADVOCACY MINISTRY",
+            "I'd like to know about SPIRITUALITY ENRICHMENT AND RENEWAL AND VALUES INTEGRATION ADVOCACY MINISTRY",
+            "I would like to know about SPIRITUALITY ENRICHMENT AND RENEWAL AND VALUES INTEGRATION ADVOCACY MINISTRY"
+            ],
+          "responses": [ 
+           "The SERVIAM Office focuses on the student's spiritual growth and development as well as values formation and integration through the provision of various forms of faith-nurturing activities such as sponsorship of Eucharistic celebrations, DYClans Community Renewal Experience (D'ÇORE), retreats, fellowships, and outreach activities.<br>\u2022 Provides opportunities for students to deepen their relationship with God.<br>\u2022 Fosters growth and deepening of faith through various forms of worship.<br>\u2022 Encourages students to use their talents in accordance with God's purpose and in serving other people.<br>\u2022 Inspires students to live according to Christ-like ideals.<br>\u2022 Ensures that the right of religion is respected and accepted.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - C. THE SOFIA LIBRARY ",
+          "patterns":  [
+            "SOFIA LIBRARY",
+            "what is SOFIA LIBRARY",
+            "Can you tell me about SOFIA LIBRARY",
+            "I'd like to know about SOFIA LIBRARY",
+            "I would like to know about SOFIA LIBRARY",
+            "library"
+            ],
+          "responses": [ 
+           "Library services for college students are provided by The Sofia, featuring flexible learning spaces that encourage collaboration, communication, and sharing among teachers and students, serving as an information hub for networking, content creation, and independent learning, while also collecting and maintaining physical and virtual resources supporting instruction, research, and community extension."
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - C.1. Entry and Departure ",
+          "patterns":  [
+            "rules for entering and leaving the library",
+            "library attendance",
+            "library monitoring"
+            ],
+          "responses": [ 
+           "\u2022 Students are required to log-in and log-out to the attendance system using their identification card upon entry and departure into The Sofia.<br>\u2022 The identification card must be worn within the library premises and presented for all transactions in the library.<br>\u2022 The Chief Librarian or any member of The Sofia has the right to request any person within the premises to present his/her ID or to confiscate it for violation of library rules.<br>\u2022 Anybody caught using the ID of another person to gain entry into, to borrow materials from, or to avail of other library services may be recommended for disciplinary action by the Librarian.<br>\u2022 Unauthorized taking out of the library materials is a violation of the library's rules and regulations.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - C.2. Borrowing",
+          "patterns":  [
+            "How do I borrow books from the library, and are there any rules or procedures I need to follow?", 
+            "how to borrow books",
+            "borrow books from library",
+            "rules in borrowing books from library"
+            ],
+          "responses": [ 
+           "\u2022 Only enrolled students and employed faculty, professionals, administrators, and staff of DYCI may borrow materials from The Sofia after presenting a valid identification card.<br>\u2022 Only books from the general circulation and Filipiniana may be borrowed for home use. Other materials may only be used within the library.<br>\u2022 The number of books that may be borrowed and the duration of the loan depend on the classification of the user.<br>\u2022 <b>PATRON TYPE - NO. OF BOOKS - LOAN DURATION</b><br>\u2022 Students  - 3 books - 1 week<br>\u2022 Teaching staff and administrators - 10 books - 2 weeks<br>\u2022 Non-teaching staff - 5 books - 2 weeks<br>\u2022 <b>*May be extended the whole semester if the teaching staff uses it as a reference book for subject/s handled.</b><br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - C.3. Remote Access ",
+          "patterns":  [
+            "How can I access the library's online resources remotely",
+            "remote access for library",
+            "proquest",
+            "online library"
+            ],
+          "responses": [ 
+           "\u2022 Password for remote access to online resources is issued only to currently enrolled students, faculty members, professionals, administrators, and staff.<br>\u2022 Users of the DYCI Library's online resources must not divulge or give away the user IDs and passwords to other individuals."
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - C.4. Library Fines and Lost Items ",
+          "patterns":  [
+            "What are the fines for overdue books",
+            "rules for library lost items",
+            "overdue book",
+            "overdue books",
+            "what should I do if I lose a library item",
+            "missing book",
+            "missing books",
+            "lost book",
+            "are there any fees for lost or damaged items?"
+            ],
+          "responses": [ 
+            "\u2022 Overdue books will be charged five pesos (Php 5.00) per book per day exclusive of Sundays, holidays and suspension of classes. If an item is lost, the library should be notified immediately. All library patrons are responsible for the replacement of the lost items plus the accumulated overdue fines. Lost books must be replaced with the same title, edition and author. If the patron found the book after being declared or reported lost and returns it, and if the book is in good condition, the patron will be required to pay only the accumulated overdue fine. Lost book should be replaced within a week after it has been reported lost. Processing fee of Two Hundred Pesos (Php 200.00) will be added to the cost. Brokerage / shipping fee of five hundred pesos (Php 500.00) is added for books purchased abroad." 
+
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - D. OFFICE OF THE REGISTRAR",
+          "patterns":  [
+            "What does the OFFICE OF THE REGISTRAR do?",
+            "OFFICE OF THE REGISTRAR",
+            "what is OFFICE OF THE REGISTRAR",
+            "Can you tell me about OFFICE OF THE REGISTRAR",
+            "I'd like to know about OFFICE OF THE REGISTRAR",
+            "I would like to know about OFFICE OF THE REGISTRAR"
+            
+            ],
+          "responses": [ 
+           "The Registrar's Office serves as records management office of the institution. It also acts as the principal contact of the academic community with the Commission on Higher Education (CHED) and Technical Education and Skills Development Authority (TESDA).<br>\u2022 Processed requests for issuance of official certificates, diplomas, transcript of records, summary of grades, transfer credentials and other similar documents will be acted upon receipt of accomplished clearance form.<br>\u2022 Preserves and maintains the integrity and confidentiality of its students' records.<br>\u2022 Ensures a smooth enrollment and graduation system for the students of all the departments of DYCI by determining admission, degree programs requirement, transfers, graduation requirements and other matters pertaining to student enrolment.<br>\u2022 Implements government and school regulations regarding entrance requirements, enrollment, load, transfer, promotions, courses' sequence and graduation.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - E. THE CENTER FOR REASEARCH EXCELLENCE AND DEVELOPMENT OFFICE (CREDO)",
+          "patterns":  [
+            "What does CREDO do?",
+            "CREDO",
+            "what is CREDO",
+            "Can you tell me about CREDO",
+            "I'd like to know about CREDO",
+            "I would like to know about OFFICE OF THE CREDO",
+            "What does CENTER FOR REASEARCH EXCELLENCE AND DEVELOPMENT OFFICE do?",
+            "CENTER FOR REASEARCH EXCELLENCE AND DEVELOPMENT OFFICE",
+            "what is CENTER FOR REASEARCH EXCELLENCE AND DEVELOPMENT OFFICE",
+            "Can you tell me about CENTER FOR REASEARCH EXCELLENCE AND DEVELOPMENT OFFICE",
+            "I'd like to know about CENTER FOR REASEARCH EXCELLENCE AND DEVELOPMENT OFFICE",
+            "I would like to know about CENTER FOR REASEARCH EXCELLENCE AND DEVELOPMENT OFFICE"
+            ],
+          "responses": [ 
+           "The CREDO is the research office of DYCI that serves as a central hub dedicated to facilitating, coordinating, and supporting research-related activities.<br>CREDO plays a pivotal role in promoting a culture of innovation, knowledge creation, and evidence-based decision-making through its research agenda followed by all colleges.<br>It also manages the Bocaue Institute for History and Information (BINHI) which is an archive for Bocaue history, arts and culture.<br>\u2022 Provides opportunities for student and faculty/staff researchers to develop their potentials in research writing and other related activities.<br>\u2022 Develops competent student-faculty-staff writers in producing relevant trainings and seminar.<br>\u2022 Assists the student-faculty-staff writers in producing relevant action and/or scientific research through technical and financial assistance.<br>\u2022 Establishes linkages with other education institutions and organizations.<br>\u2022 Spearheads the pooling of vital information into meaningful and interesting forms for internal and external dissemination.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - F. CENTER FOR COMMUNITY ENGAGEMENT (CCE)",
+          "patterns":  [
+            "What specific programs does the Center for Community Engagement offer",
+            "What does CCE do?",
+            "CCE",
+            "what is CCE",
+            "Can you tell me about CCE",
+            "I'd like to know about CCE",
+            "I would like to know about OFFICE OF THE CCE",
+            "What does Center for Community Engagement do?",
+            "Center for Community Engagement",
+            "what is Center for Community Engagement",
+            "Can you tell me about Center for Community Engagement",
+            "I'd like to know about Center for Community Engagement",
+            "I would like to know about OFFICE OF THE Center for Community Engagement"
+            ],
+          "responses": [ 
+           "The DYCI Center for Community Engagement envisions itself to be the dynamic and proactive implementer, advocate and promoter of significant, sustainable and strategic programs of Dr. Yanga's Colleges, Inc., in three focal areas - PAmayanan (community), paaRAlan (public school system) and parokYA (church) of the society it yearns to serve and in the process, instilling the innate Filipino value of PARAYA among the students, faculty, staff and key stakeholders as they pursue the mission of service to the least, the last and the lost.<br>\u2022 Impact community (PAmayanan) through adopt-a-barangay program and adopt-a-sector program like the senior citizens of a particular barangay through health assistance, values education, and even capability-building programs;<br>\u2022 Involve the DYClan family to uplift the public school system (PaaRAlan) through varied programs of feeding, computer literacy, robotics education, and values enhancement programs;<br>\u2022 Immerse the DYClan family and forge strong partnership with the Church (ParokYA), which reaches down to the grassroot level, in its formation and socio-economic programs through health assistance, capability building, talent sharing in arts and music, value education and assistance the marginalized sectors that the Church continuously serves.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - G. QUALITY MANAGEMENT SYSTEM OFFICE (QMSO) ",
+          "patterns":  [
+            "Who ensures organizational excellence",
+            "who collects feedback from the DYClan community",
+            "who is responsible for establishing, maintaining, and continuously improving the organization's quality management",
+            "who's responsible for establishing, maintaining, and continuously improving the organization's quality management",
+            "What does QMSO do?",
+            "QMSO",
+            "what is QMSO",
+            "Can you tell me about QMSO",
+            "I'd like to know about QMSO",
+            "I would like to know about OFFICE OF THE QMSO",
+            "What does QUALITY MANAGEMENT SYSTEM OFFICE do?",
+            "QUALITY MANAGEMENT SYSTEM OFFICE",
+            "what is QUALITY MANAGEMENT SYSTEM OFFICE",
+            "Can you tell me about QUALITY MANAGEMENT SYSTEM OFFICE",
+            "I'd like to know about QUALITY MANAGEMENT SYSTEM OFFICE",
+            "I would like to know about OFFICE OF THE QUALITY MANAGEMENT SYSTEM OFFICE"
+            ],
+          "responses": [ 
+           "The QMSO is responsible for establishing, maintaining, and continuously improving the organization's quality management framework. It focuses on ensuring that products, services, and processes meet or exceed established quality standards, resulting in customer satisfaction, compliance with regulations, and overall organizational excellence.<br>It focuses on three key aspects: the people (including students and staff), the processes we use (how we teach and organize things), and the systems we have in place (to make the people and the processes work effectively and efficiently).<br>For concerns and feedback, click the codes below: <br>Concerns Form: <br> https://docs.google.com/forms/d/e/1FAIpQLSck3ZBsmgM4niGus0NsJzZXVOPIVoYWMbL6r8Z9YbkidOqnRg/viewform<br>Feedback Form: <br> https://docs.google.com/forms/d/e/1FAIpQLScDW6qvyiLUBNxrUcFk_u2jvXXaG24sOAyysLLZWP73x50gBw/viewform<br>This system aims to gather feedback, concerns, and suggestions from all members of our DYClan community. By clicking the provided QR codes with their smartphones, stakeholders can easily access a secure platform where they can express their thoughts on various aspects of the school.<br>Your feedback is of utmost importance to us, as it enables continuous improvement in all areas, including academics, facilities, support services, and more. Together, we can work collaboratively to enhance the college experience for everyone involved.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - H. THE LABORATORIES",
+          "patterns":  [
+            "What are the rules and regulations for using the school laboratories",
+            "what are the rules for using the laboratory",
+            "what are the rules for using the lab",
+            "safety protocols and proper conduct within the school laboratories?",
+            "safety protocols for school laboratory",
+            "how can student enter laboratory",
+            "how can student enter laboratories",
+            "is permission needed to enter laboratories"
+            ],
+          "responses": [ 
+           "\u2022 Students may only enter the laboratories if the laboratory technician or faculty assigned is present.<br>\u2022 Students are expected to act responsibly and accordingly in all laboratories at all times. Students entering any laboratory should be wearing the prescribed uniform or the mandated laboratory attire.<br>\u2022 Students and faculty are expected to observe the proper use and care of the laboratory instruments, devices and other equipment so as to avoid damage. All materials or equipment used must be returned to their proper places before leaving the laboratory. Any damage should be immediately reported to the respective persons in charge of the laboratory.<br>\u2022 Strictly no eating and drinking in all laboratories.<br>\u2022 Using of any laboratory room for private or personal purposes is not allowed.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - H.1. COMPUTER LABORATORY",
+          "patterns":  [
+            "what are the computer laboratories?",
+            "computer laboratories",
+            "computer lab",
+            "comlab", "com lab"
+            ],
+          "responses": [ 
+            "There are four (4) main computer laboratories in which faculty, students and staff from different programs may have the opportunity to widen and improve their computer skills and knowledge, and apply them in every possible way to achieve academic excellence. These are the following:<br>\u2022 College Computer Laboratory<br>\u2022 The Lab at the Simulation Room<br>\u2022 The SparkLab<br>\u2022 CME Computer Laboratory<br><br>DYCI maintains its standard ratio of one computer unit to one student, so that all students can maximize their potential in learning computer-related subjects.<br>Only authorized personnel / staff are permitted to install, uninstall, and make any modification on any computer unit<br>Students are not allowed to attach their own gadget to any computer units without the expressed permission of the faculty or system administrator.<br> Students are not permitted to attempt repair, calibrate or modify any equipment in a laboratory at any time.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - H.2. THE ROBOLAB",
+          "patterns":  [
+            "robolab",
+            "robotics lab", "robotics laboratories",
+            "what is robolab"
+            ],
+          "responses": [ 
+           "College students with robotics-related subjects in their curriculum uses the DYCI RoboLab. It is specialized facility equipped with advanced tools, equipment, and technology to facilitate research, development, experimentation, and education in the field of robotics. It serves as a hub for students, researchers, and enthusiasts to explore the design, construction, programming, and application of robotic systems. The laboratory provides an environment for hands-on learning, experimentation, and innovation in robotics technology.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - H.3. SCIENCE LABORATORIES",
+          "patterns":  [
+            "science laboratories","science lab",
+            "what are the science laboratories",
+            "tell me about science laboraries"
+            ],
+          "responses": [ 
+           "There are seven (7) science laboratories for different degree programs Natural Science, Physics, Chemistry, Microbiology, Anatomy, Nutrition, and Nursing Skills. These are venues for the theoretical applications, scientific investigations, experiments and skills trainings of students.<br><br>\u2022 Borrowing and returning of glassware, apparatuses and equipment is subject to availability and approval of the Dean or Vice Dean of the college.<br>\u2022 Request for laboratory chemicals and reagents must be one (1) week before date of use to the laboratory personnel as noted by the Dean or Vice Dean.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - I. CANTEEN SERVICES",
+          "patterns":  [
+            "canteen services",
+            "canteen",
+            "where can i buy food"
+            ],
+          "responses": [ 
+   "The school canteen along with other food stalls inside the campus, serve as a venue to provide students and the DYCI community with quality, affordable food choices by maintaining a safe area for eating, providing nutritious meals, and potable water by maintaining high standards of hygiene in the preparation and handling food and drinks.<br><br>Courtesy in dealing with canteen personnel must be always observed. Food wrappers, plastics and styrofoam products must be thrown in the trash cans.<br>The canteen must be used solely as a place for eating. Students who want to do school work or other activities may either go to the library or student lounge. Show consideration for others by vacating the table immediately after dining."
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - J. FINANCE AND ACCOUNTING OFFICE",
+          "patterns":  [
+            "finance office",
+            "accounting office"
+            ],
+          "responses": [ 
+           "There are two (2) Finance and Accounting Office for college students to settle their financial obligations. First, the College Finance and Accounting Office (CFAO) for Arts and Sciences, Accountancy, Business Administration, Computer Studies, Education, Health Sciences, and Psychology. Second, the CME Finance and Accounting Office (CME FAO) for Hospitality Management and Tourism, Maritime Education, and Mechanical Engineering.<br>All fees are payable in advance. Installment payments may be arranged according to the following schedule:<br>\u2022 If upon enrollment 50% of total fees is paid, the balance is payable in four (4) equal monthly payments<br>\u2022 If upon enrollment 25% of total fees is paid, the balance is still payable in four (4) equal monthly payments with additional finance charge of 10% computed based on gross amount payable.<br>Demand letters shall be sent to students for balances not settled in the previous semesters. Students must settle their outstanding balance before enrollment.<br>Students and parents or guardians may view financial records through OSIRIS, the student portal for grades and payments."
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - J.2. TUITION REFUND ",
+          "patterns":  [
+            "tuition refund",
+            "can i refund my tuition?",
+            "how to refund tution",
+            "refund tuition"
+            ],
+          "responses": [ 
+           "\u2022 A student who withdraws in writing before the opening of classes is entitled to a refund in the amount equivalent to 100% of the tuition and other fees except for the Registration fee.<br>\u2022 During the first week of classes, the refund shall be of the amount equivalent to 75% for CHED courses, 90% for TESDA courses of the tuition, and other fees except the Registration fee and ID fee. <br>\u2022 During the second week of classes, the refund shall be of the amount equivalent to 50% for CHED courses, 80% for TESDA courses of the tuition and other fees except Registration fee and ID fee<br>\u2022 After the second week of classes, no refund shall be charged for all school fees. If students have fully paid their fees and are opting to cancel, they shall be entitled to a refund equivalent to the amount of the course less the 5% discount provided for the amount..<br>\u2022 The time allotted for refund will be based on the approved change of registration slip received in the Office of the Registrar or the Dean.<br>\u2022 Students are not considered officially enrolled unless they have paid the first installment due on tuition fees and miscellaneous fees.<br>"
+          ]
+        },
+        {
+          "name": "STUDENT SERVICES AND CAMPUS LIFE - J.3. LATE CHARGE FEE",
+          "patterns":  [
+            "late charge fee",
+            "what happens if i enrolled two weeks after the start of class",
+            "late enrolee charge",
+            "late enrolee penalty"
+            ],
+          "responses": [ 
+           "A penalty fee shall be charged to a student who enrolled two weeks after the start of classes."
+          ]
+        }
+            ]
+  },
+  {
+    "category": "ROADMAP CHAPTER 5",
+    "tag": [
+      {
+        "name": "GENERAL DECORUM",
+        "patterns":  [
+          "What is General Decorum?",
+          "General Decorum",
+          "What are the key behavior and conduct guidelines for DYCI students?",
+          "Decorum"
+          ],
+        "responses": [ 
+         "I.  <b>Upholding the DYCIAN Values</b><br>The DYCI aims to have graduates who are God-centered, value-driven, self-directed, disciplined, and responsible. Thus, it expects its students to uphold these values in all places at all times.<br><br>II. <b>Observance of Simplicity and Decency at All Times.</b><br>Each DYCI student represents the institution and is therefore expected to carry himself/herself with dignity and must observe simplicity and decency in deeds, words, and appearance whether inside or outside the school campus.<br><br>III. <b>Observance of Honesty and Good Interpersonal Relationships.</b><br>Each DYCI student is expected to observe honesty, courtesy, respect, and cheerfulness in his or her dealings with any person.<br><br>IV. <b>Participation in School Activities.</b><br>Students are encouraged to participate in the school's institutional, co-curricular, and extra-curricular activities.<br><br>V. <b>Observance of Good Manners.</b><br>The usual norms of etiquette should always be observed in dealing with administrators, faculty members, and school staff during school activities at all places and times.<br><br>VI. <b>Respect for the National Anthem and School Hymn.</b><br>Whenever the National Anthem or the DYCI Hymn is played, all students, faculty, and staff of DYCI should stand and sing out of respect.<br><br>VII. <b>Showing of Concern for The School and Its Facilities.</b><br>Each DYCI student is expected to show personal respect and concern for the school by maintaining the cleanliness and orderliness of its facilities and premises including classrooms, corridors, comfort rooms, and canteens.<br><br>VIII. <b>Being Considerate with Others.</b><br>Conversations whether in the classroom, corridors, or waiting sheds should be modulated so as not to call attention or attract other people. Avoid boisterous conduct, loud laughter, or actions that are distracting. Obscene or cursing words including green jokes must be avoided at all times.<br><br>IX. <b>Obedience and Conformance with DYCI Standards.</b><br>Each DYCI student is expected to conform to the standards of responsible behavior set by the institution.<br><br>"
+        ]
+      },
+      {
+        "name": "STUDENT CODE OF DISCIPLINE - ARTICLE 1 ",
+        "patterns":  [
+          "What is Artcle 1 in students code of discipline?",
+          "What is the Student Code of Discipline of DYCI",
+          "What does Article 1 cover in the Student Code of Discipline?",
+          "Could you explain Article 1 of the Student Code of Discipline?",
+          "student code of discipline",
+          "article 1"
+          ],
+        "responses": [
+          "ARTICLE I- Title and Scope of the Code:<br>This Code shall be referred to as the Student Code of Discipline of DYCI and shall apply to all enrolled students in the Tertiary Level." 
+        ]
+      },
+      {
+        "name": "STUDENT CODE OF DISCIPLINE - ARTICLE 2",
+        "patterns":  [
+          "What is Article 2 Objectives of the student code of discipline?",
+          "What are the objectives outlined in Article 2 of the Student Code of Discipline?",
+          "article 2",
+          "goals of the Student Code of Discipline",
+          "objectives of the Student Code of Discipline"
+        
+
+          ],
+        "responses": [
+          "ARTICLE II-Objectives of the Student Code of Discipline<br>Sec.1. The Code aims to develop among the students of DYCI a deeper sense of discipline.<br>It also aims to inculcate good values which are expected of a mature and self-directed individual who can carry himself/herself with grace and dignity at all times." 
+        ]
+      },
+      {
+        "name": "STUDENT CODE OF DISCIPLINE - ARTICLE 3",
+        "patterns":  [
+          "What is Article 3 Enforcers of the Student Codes of Discipline?",
+          "What do Article 3 Enforcers do in the Student Codes of Discipline?",
+          "article 3",
+          "Who are responsible for enforcing the Student Code of Discipline at DYCI",
+          "responsible for enforcing the Student Code of Discipline"
+
+          ],
+        "responses": [
+          "ARTICLE III-Enforcers of the Student Code of Discipline<br>Sec.1. The Deans, Vice Deans, Administrative Officers, Faculty and Staff, Student Leaders, Maintenance and Security Personnel are the enforcers of the DYCI Student Code of Discipline.<br>They are persons in authority and should be accorded due respect." 
+        ]
+      },
+      {
+        "name": "ARTICLE 4 - SEC 1 WARNING",
+        "patterns":  [
+          "When might a student receive an oral warning?",
+          "Can you describe situations where a student might be given an oral warning?",
+          "What behaviors could lead to a student getting an oral warning?",
+          "oral warning",
+          "What is an oral warning in DYCI's disciplinary system",
+          "oral warning"
+          
+          ],
+        "responses": [
+          "<b>Oral Warning:</b>Given to a student who has committed a minor offense. The erring student may also be required to ask for or write an apology." 
+        ]
+      },
+      {
+        "name": "ARTICLE 4 - SEC 1 WRITTEN REPRIMAND",
+        "patterns":  [
+          "What is a written-reprimand?",
+          "Can you explain what a written reprimand is?",
+          "written reprimand",
+          "how does disciplinary affect a student records?"
+          ],
+        "responses": [
+          "<b>Written Reprimand:</b>Given to the erring student after the oral warning. The same forms part of the student's official records." 
+        ]
+      },
+      {
+        "name": "ARTICLE 4 - SEC 1 SUSPENSION",
+        "patterns":  [
+          "What is suspension in a school context?",
+          "What exactly is a suspension when it comes to schools?",
+          "How would you describe suspension in the context of school discipline?",
+          "suspension",
+          "suspension process",
+          "what should i do if i am suspended",
+          "What is the process and consequence of suspension for a student found guilty of an offense at DYCI?",
+          "consequence of suspension for a student",
+          "student found guilty of an offense",
+          "process of suspension"
+          ],
+        "responses": [
+          "<b>Suspension:</b>Should a student, after due process be proven guilty of an offense<br> that calls for suspension the student may be suspended and will not be allowed entry in the school premises and be considered absent if the suspension<br> exceeds 20% of the prescribed school days the school shall advise the regional office <br>of the Commission on Higher Education (CHED), which approval is not needed before implementation of the penalty.<br> The student shall execute a written promise of future exemplary conduct, which shall be countersigned by his parents/legal guardian.<br> This penalty shall be indicated in the student's official record." 
+        ]
+      },
+      {
+        "name": "ARTICLE 4 - SEC 1 EXCLUSION",
+        "patterns":  [
+          "How does exclusion differ from other disciplinary measures?",
+          "process of exclusion for a student",
+          "consequence of exclusion for a student",
+          "Exclusion"
+          ],
+        "responses": [
+          "<b>Exclusion:</b>Dropping and removal of the name of the erring student from the school rolls for being undesirable<br> After conducting summary investigation exclusion is immediately applied.<br> and as a consequence may prevent the erring student from finishing the term<br> This penalty shall be indicated in the student's official records however, the erring student shall be given immediately his transfer credentials" 
+        ]
+      },
+      {
+        "name": "ARTICLE 4 - SEC 1 EXPULSION",
+        "patterns":  [
+          "What is Expulsion?",
+          "expulsion",
+          "process and consequence of expulsion for a student found guilty of serious misconduct",
+          "consequence of expulsion",
+          "process of expulsion"
+          ],
+        "responses": [ 
+          "<b>Expulsion:</b> an extreme form of administrative sanction given to a student who has <br>committed serious or grave misconduct. Such penalty shall bar the enrollment of the <br>student to all public or private schools in the Philippines. Expulsion will become effective <br>upon its approval of the Regional Director of CHED The fact of expulsion shall be recorded <br>in the student's official Transcript of Record.<br><br>A student under investigation of a case involving the penalty of expulsion may be preventively <br>suspended from entering the school premises if the evidence of guilt is strong and the <br>school head is morally convinced that the continued stay of the student during the period of <br>investigation constitutes a distraction to the normal operations of the school or poses a risk <br>or danger to the life of the persons or property of the school<br><br>If the student is absolved of the charges though he is not entitled to make up for the days lost, <br>he shall be allowed to take the examinations, quizzes and graded recitations missed"
+        ]
+      },
+      {
+        "name": "CATEGORIES OF SANCTIONS",
+        "patterns":  [
+          "What will be the categories of sanctions? ",
+          "Can you outline the different categories of sanctions?",
+          "categories of sanctions",
+          "categories of sanctions for offenses"
+          ],
+        "responses": [
+          "The following will be the categories of sanctions<br><b>CLASS A</b><br>1 Offense - Oral Warning<br>2nd Offense - Written Reprimand<br>3rd Offense - Suspension (2 days)<br>4th Offense - Suspension (3 days)<br>5th Offense - Exclusion<br><b>CLASS B</b><br>1st Offense - Written Reprimand<br>2nd Offense - Suspension (3 days)<br>3rd Offense - Suspension (5 days)<br>4th Offense - Exclusion<br><b>CLASS C</b><br>1st Offense<br>1st Offense - Suspension (3 days)<br>2nd Offense - Suspension (5 days)<br>3rd Offense - Exclusion<br><b>CLASS D</b><br>1st Offense - Suspension (5 days)<br>2nd Offense - Exclusion<br><b>CLASS E</b><br>1st Offense - Exclusion<br><b>CLASS F</b><br>1st offense - 1st Expulsion" 
+        ]
+      },
+     
+      {
+        "name": "STUDENT CODE OF DISCIPLINE - ARTICLE 5",
+        "patterns":  [
+          "What is article 5, Code of Discipline?",
+          "violations related to academic integrity",
+          "Article 5",
+          "violations"
+          ],
+        "responses": [ 
+          "<b>ARTICLE V - Violations on which sanctions are applicable</b><br><b>Sec. 1 Academic Integrity</b><br><b>a.</b> Any form of cheating furning quizzes, asses and examinations<br> and/or aiding and/or abetting others to cheat (Class D)<br><b>b.</b> Any form of plagiarism such as using someone else's ideas, words, work or <br>intellectual property without proper attribution or authorization and presenting them as one's <br>own during any graded academic activity. This includes copying and pasting text, images,<br> data. or any other form of content from sources such as books, articles, websites, <br>or other students' work without giving appropriate credit (Class D)<br><b>c.</b> Falsification of academic records by altering, forging, or misrepresenting official<br> scores, grade or result of any graded assessment (Class D)<br><b>d.</b> Academic dishonesty in research projects involves the intentional misrepresentation <br>or falsification of research data, findings, results, or methodologies in order to deceive or <br>manipulate the academic community (Class D/E)."
+        ] 
+      },
+      {
+        "name": "Section 2: ATTENDANCE AND PUNCTUALITY - ARTICLE 5",
+        "patterns":  [
+          "What is the sanction of consistently arriving late to the class?",
+          "examples of violations related to attendance and punctuality",
+          "ATTENDANCE AND PUNCTUALITY"
+          ],
+        "responses": [ 
+          "<b>Sec. 2 Attendance and Punctuality</b><br><b>a.</b> Frequent tardiness by consistently arriving late to classes without a valid reason (Class A)<br><b>b.</b> Unexcused absences that may exceed 20% of the total class hours required (Class A).<br><b>c.</b> Leaving classes without permission by exiting the classroom during instructional time without authorization from the teacher (Class A)."
+        
+        ] 
+      },
+      {
+        "name": "STUDENT CODE OF DISCIPLINE - ARTICLE 6",
+        "patterns":  [
+          "What is Implementation of Disciplinary Action",
+          "process for investigating and implementing disciplinary actions",
+          "Article 6"
+          ],
+        "responses": [ 
+          "<b>ARTICLE VI - Manner of Investigation and Implementation of Disciplinary Action</b><br><b>Sec. 1. The investigation is essentially fact-finding.</b><br> Its specific purpose is to determine on the basis of the evidence gathered, the innocence or guilt of the student <br>concerned who would be informed thereof accordingly.<br><b>Sec.2.</b> Any student found to have committed a regulated act which is designated as <br>either a Class A or Class B offense shall be referred to the Prefect of Discipline.<br>The above notwithstanding, where the penalty involved is suspension from two (2) days to five <br>(5) days, the student shall be referred to the Prefect of Discipline<br>Where the student has been previously suspended for at least two (2) times, regardless of the <br>period of suspension or where the regulated act committed by the student falls under the <br>list of either Class D or Class E offerises, his case will be referred to the Student Discipline Committee<br><b>Sec.3. The following are the basic considerations in the conduct of the investigation.</b><br><b>Fact-Finding</b> Pertinent evidence in support of the projected action against the student<br> concerned who is believed to have engaged or is engaged in any of the prohibited activities shall be gathered<br><b>Evaluation</b> The evidence gathered relative to the innocence or guilt of the student concerned<br> shall be collated and evaluated preparatory for the formulation or promulgation <br>of the decision of the case <br><b>Decision</b> The decision, based on the evidence gathered as evaluated, shall be reckoned vis-à-vis<br> the standard of preponderance of evidence, le that the presumptions in favor of the student concerned<br> are disputed or overruled by the evidence, provided however that when there is doubt regarding the guilt.<br> the student concerned may be called for purposes of confronting him with the evidence against<br> him and for him to explain his side, if possible after which a decision on the same case may be rendered<br> <b>Disciplinary Action</b> Certain factors shall also be taken into account in imposing disciplinary action upon an erring student such as the student's previous <br>record, the inherent gravity of the offense, character and position of the aggrieved person or the established precedent.<br><b>Sec.4</b>. In cases referred to the Prefect of Discipline or any duly designated <br>representative or committee, the following steps will be followed<br>The Prefect of Discipline shall furnish the student a copy of the incident report and supporting statements<br>and/or documents, if any, which recept shall be acknowledged by the student in writing<br>The student concerned shall have the right to answer the charges against him/her, with the <br>assistance of counsel coming from the DYCI academic community if desired in writing and <br>submit the same and supporting statements and/or documents within twenty-four (24) <br>hours from receipt of the incident report. The written answer of the student must be signed <br>by any of his parents or guardian<br>To further familiarize himself/herself with the circumstances of the case, the Prefect of Discipline <br>may conduct formal queries with any department personnel or student involved<br>After consideration of all the evidence presented and available, the Prefect of Discipline shall <br>call the complaining student/s, the student/s complained of and their parents or guardian to <br>a conference. During said conference, the Prefect of Discipline shall present his/her <br>findings and the imposable sanction, if any. and will furnish the parties with written copies of the same.<br>The decision of the Prefect of Discipline shall include a directive that immediately after the <br>suspension, the student shall report to the OSAS Guidance and Counseling Unit for a <br>counseling session. The Prefect of Discipline's decision shall be final<br>"
+        ]
+      },
+      {
+        "name": "STUDENT CODE OF DISCIPLINE - ARTICLE 7",
+        "patterns":  [
+          "Student Discipline Committee",
+          "discipline committee",
+          "Article 7",
+          "grave and serious misconduct of student",
+          "student code of discipline",
+          "what are the student code of discipline",
+          "code of discipline",
+          "explain the role and process of the Student Discipline Committee"
+          ],
+        "responses": [ 
+          "<b>Article VII</b> - Student Discipline Committee <br><br><b>Sec.1.</b> The Student Discipline Committee ('the Committee') is designed to hear cases involving grave and serious misconduct of students. Its objectives are geared towards the promotion of proper behavior and respect and obedience for disciplinary regulations.<br><br><b>Sec.2</b> The Committee shall be composed of the Prefect of Discipline, who shall serve as the presiding officer College Dean or Vice Dean, and one faculty, student representatives.<br><br><b>Sec. 3.</b> The cases referred to the Committee or any of its duly designated representatives or committee shall be dealt with in compliance with the following procedure:<br><br>\u2022 The complaining student, any of his parents or guardian, shall prepare a statement in writing in duplicate indicating the identity of the student complained of, the date, time and place of the incident, and a brief but clear description of the alleged misbehavior. This statement shall serve as a complaint. The complaint shall be supported by pertinent documents and statements of witnesses.<br><br>\u2022 Said copies of the statement and supporting documents shall be immediately forwarded to the Prefect of Discipline. Within twenty-four (24) hours from receipt of the said documents, the Prefect shall ensure that the student complained of shall have received a copy of the complaint and of the supporting documents, if any. The student shall acknowledge receipt of the said papers in writing.<br><br>\u2022 The student concerned shall answer the complaint in writing and submit the same and supporting statements and/or documents within twenty-four (24) hours from receipt. The written answer of the student must be signed by any of his parents or guardian.<br><br>\u2022 Within two (2) days from receipt of the answer of the student complained of, the Committee shall convene to conduct an initial evaluation of available evidence. Two (2) days after the initial evaluation, the Committee shall set a date for preliminary investigation. The Prefect shall ensure that written notices of the preliminary investigation shall have been received by the students concerned or any of their parents or guardian before the hearing date.<br><br>\u2022 During the preliminary investigation, the Committee may require the students concerned accompanied by their parents or guardian to answer clarificatory questions. The Committee may likewise interview the witnesses named by the parties.<br><br>\u2022 After considering all of the evidence available, the Committee shall make a written recommendation. Copies of such recommendation shall be forwarded to the Office of Student Affairs and Services (OSAS) Director and afterward the Vice President for Academic Affairs (VPAA) for further recommendation. Lastly, recommendations of the Committee, the Director of OSAS and the VPAA who will either approve or disapprove the recommendations.<br><br>\u2022 Within 2 days from receipt of the decision of the OSAS and the VPAA, the Prefect shall call the complaining students, the student/s complained of, and their parents or guardian to a conference. During said conference, the Prefect shall present the decision and the imposable sanction if any and will furnish the parties with written copies of the same.<br><br>For the protection of the parties, the whole investigation and the presentation of the decision shall not exceed a period of three (3) weeks from the time the complaint was received.<br><br>Within five (5) days from receipt of the decision of the VPAA, any party aggrieved by the same may file an appeal with the Office of the President whose decision shall be final.<br><br>"
+
+        ]
+      },
+      {
+        "name": "STUDENT CODE OF DISCIPLINE - ARTICLE 8",
+        "patterns":  [
+            "article 8",
+            "What is the process for students to file and resolve complaints",
+            "report a professor",
+            "report a staff",
+            "file complaints with faculty or staff",
+            "procedure for the settlement of complaints and grievances",
+            "complaints and grievances"
+          ],
+        "responses": [ 
+          "<b>Article VIII</b> - Settlement of Complaints/Grievances between Students and Members of the Faculty and/or School Personnel<br><br><b>Sec. 1.</b> The procedure for the settlement of complaints and grievances in the College shall conform with due process in order to ensure the highest degree of fairness and justice to all concerned. However, all concerned should seek to the fullest extent all remedies through informal conferences counseling mediation and other modes of amicable settlement of conflicts. In every case, the ultimate aim shall be the restoration of impaired human dignity and, where necessary, restoration of material damages.<br><br><b>Sec. 2.</b> A grievance is any dissatisfaction, complaint, imitation, or misunderstanding by a student arising from his/her status as a student or his/her relationship with a faculty member, a non-teaching staff or an administrator within the institution.<br><br><b>Sec. 3.</b> A complaining student may air his grievance either formally or informally<br><br><b>Sec. 4.</b> The procedure for the informal settlement of a grievance is as follows:<br><br> \u2022 If the person complained of is a faculty member, the student shall approach the Dean or Vice Dean of the college where the faculty member belongs. In the case of non-teaching personnel, the student shall approach the head of his office/unit or the Director of the Office of Student Affairs and Services.<br><br> \u2022 The Dean / Vice Dean / head of office / unit shall call immediately the attention of the complained faculty or non-teaching personnel for his/her explanation.<br><br> \u2022 If needed, the Dean / Vice Dean / head of office / unit shall set an informal conference to give the student and the faculty member/non-teaching personnel an opportunity to clarify matters and settle issues.<br><br> \u2022 If the parties are able to settle their differences amicably, the Dean / Vice Dean / head of office / unit shall prepare a brief but clear report on the incident for records purposes. For the protection of the parties, such report shall be confidential, unless formally requested in relation with any investigation conducted by any of the school authorities. Should the parties fail to settle, the Dean / Vice Dean / head of office / unit shall advise the student to avail of formal grievance procedures<br><br><b>Sec. 5.</b> The procedure for the formal settlement of a grievance is as follows:<br><br> \u2022 The complaining student or any of his parents or guardian shall prepare a statement in writing in duplicate indicating the identity of the faculty member or non-teaching personnel concerned the date time and place of the incident and a brief but clear description of the alleged misbehavior and submit to the Office of Student Affairs and Services (OSAS, This statement shall serve as a complaint If necessary the complaint may be supported by pertinent documents and statements of witnesses.<br><br> \u2022 Within two (2) days from receipt of the complaint the OSAS shall ensure that the person complained of shall have received copies of the same The person. complained of shall answer the complaint in writing and submit the same and supporting statements and/or documents within three (3) days from receipt.<br><br> \u2022 Upon receipt of the answer, the OSAS shall collate all the evidence available and within one week, shall convene the Ad Hoc Committee (the Committee) and set a date for a fact-finding hearing.<br><br> \u2022 The Committee shall be composed of (1) OSAS Director who shall act as the Chairman of the Committee, (II) Dean of the College to which the complainant belongs (II) Dean of the College or Office Director which the complained belongs (iv) the President of the student organization to which the complainant belongs. (v) the President of the Supreme Student Council, and. (vi) two members of the DYCI Faculty and Employees Association (DYCIFEA). one from the same College/Office to which the respondent faculty member/non-teaching personnel belongs and another member who is appointed by DYCIFEA (vii) and the Director of the Human Recourse Management and Development Office (HRMDO) In case any of the above is a party to the case, his place in the Committee will be taken over by another official representative of the sector, preferably the one next in line<br><br> \u2022 During the fact-finding hearing, the Committee may require the students concerned accompanied by their parents or guardian and the faculty member or non- teaching personnel complained of to answer clarificatory questions. The Committee may likewise interview the witnesses named by the parties.<br><br> \u2022 After the hearing, the Committee shall sit down and evaluate all available evidences and shall make a written recommendation. The Committee shall render their findings to the Vice President for Academic Affairs (VPAA) for faculty members, and the Vice President for Administration (VPAd) for non-teaching personnel, and to the Director of the Human Recourse Management and Development Office (HRMDO).<br><br> \u2022 Within two (2) days from receipt of the decision of the VPAA or the VPAd with the HRMDO Director, the OSAS shall furnish a written copy of the same to the parties.<br><br> \u2022 Within five (5) days from receipt of the decision of the VPAA or VPAd, any party aggrieved by the same may file an appeal with the Office of the President whose decision shall be final.<br><br>"
+
+        ]
+      },
+      {
+        "name": "RELEVANT LAWS",
+        "patterns":  [
+          "What are the laws relevant to the topic?",
+          "relevant laws",
+          "government laws and regulation",
+          "laws and regulation"
+        ],
+        "responses": [ 
+        "<b>Laws:</b><br> <b>R.A. 6728</b> - Government Assistance to Students and Teachers in Private Education Act,<br> <b>R.A. 6847</b> - Philippine Sports Commissions Act,<br> <b>R.A. 7079</b> - Campus Journalism Act of 1991,<br> <b>R.A. 7277</b> - Magna Carta for PerAnti- Sexual Harassment Act of 1995,<br> <b>R.A. 7877</b> - Anti- Sexual Harassment Act of 1995,<br> <b>R.A. 8049</b> - Anti- Hazing Law,<br> <b>R.A. 8749</b> - Clean Air Act of 1999,<br> <b>R.A. 9165</b> - Comprehensive Dangerous Drugs Act of 2002,<br> <b>R.A. 9163</b> - National Service Training Program Act of 2002,<br> <b>R.A. 9211</b> - Anti-Smoking Law,<br> <b>R.A. 7356</b> - Law Creating the National Commission for Culture and the Arts,<br> <b>R.A. 7610</b> - Protection against child abuse, exploitation and discrimination,<br> <b>R.A. 9262</b> - Anti-Violence Against Women and Children Act,<br> <b>R.A. 9418</b> - Volunteerism Act of 2007,<br> <b>R.A. 9442</b> - An Act Amending Republic Act No. 7277, known as the 'Magna Carta for Disabled Persons and for Other Purpose',<br> <b>R.A. 9512</b> - Environmental Awareness and Education Act of 2008,<br> <b>R.A. 9520</b> - Philippine Cooperative Code of 2008,<br> <b>R.A. 10121</b> - Philippine Disaster Risk Reduction and Management Act of 2010,<br> <b>R.A. 10627</b> - Anti- Bullying Act of 2013,<br> <b>R.A. 11313</b> - Safe Space Act | Bawal ang Bastos Law,<br> <b>R.A. 10173</b> - Data Privacy Act,<br> <b>R.A. 10931</b> - Universal Access to Quality Tertiary Education<br><br> <b>ORDER - TITLE</b><br> <b>EO NO. 28 S.2000</b> - Amending the Guidelines Governing the Entry and Stay of Foreign Students in The Philippines, and the Establishment of an Inter-agency Committee on Foreign Students for the Purpose,<br> <b>EO NO. 66 S. 2018</b> - Institutionalizing The Philippine Anti-Illegal Drugs Strategy,<br> <b>СМО 21 S. 2006</b> - Guidelines on Student Affairs and Services Program,<br> <b>CMO 63 S. 2017</b> - Policies and Guidelines on Local Off-Campus Activities"
+        ]
+      }      ]
+  },
+
+  {
+    "category": "FRONTLINE",
+    "tag": [
+
+      {
+        "name": "PROMISORRY NOTE - WHAT",
+        "patterns": [
+          "What is promisorry note?",
+          "Tell me about promisorry note"
+          
+        ],
+        "responses": [ 
+          "A promissory note is like a promise from a student to pay their school fees later. <br>Sometimes,students can take exams or keep studying even if they haven't paid yet, <br> as long as they promise to paythe fees later."
+          
+        ]
+        
+      },
+      {
+        "name": "PROMISORRY NOTE - WHERE",
+        "patterns": [
+          "Where can i get promissory note?",
+          "Where to get promisorry note?",
+          "Where can i request promisorry note?",
+          "promisorry note",
+          "promi"
+
+          
+        
+        ],
+        "responses": [ 
+          "I recommend visiting the Dean's Office of your course department in a polite manner to inquire about the process of obtaining a promisorry note."
+          
+        ]
+        
+      },
+      {
+        "name": "PROMISORRY NOTE - GET",
+        "patterns": [
+         "I want to get promi",
+         "I want to get promissory",
+         "What are the steps to get promissory note",
+         "Promissory note steps",
+         "What are the process to get promissory note",
+         "Promissory note process",
+         "How can I get promissory",
+         "Promi steps",
+         "Promi process",
+         "steps on getting a promissory note",
+         "process on getting a promissory note",
+         "what are the requirements for a promissory note",
+         "what are the requirements for a promisory note",
+         "what are the requirements for a prommissory note",
+         "what are the requirements for a promissorry note",
+         "what are the requirements for a promisorry note",
+         "promissory note requirements",
+         "promisory note requirements",
+         "prommisory note requirements",
+         "promisorry note requirements",
+         "How to promissory note",
+         "how can i get promi",
+         "how to get promi",
+         "how to get promissory note",
+         "how can i get promissory note"            
+        ],
+        "responses": [ 
+          "To obtain a promissory note, follow these steps:<br><br>1. First, ensure that you have settled all your outstanding account obligations for the current semester.<br><br>2. Next, go to the Dean's Office of your Department and ask for a promissory form. You will need to bring your guardian along with you.<br><br>3. The Dean's Office will require a downpayment of at least &#8369;3,000, depending on your monthly balance.<br><br>4. You will also need to provide information on how much you plan to pay for the next term.<br><br>5. Once the Deans approve your request, you can obtain your Promissory Form.<br><br>Remember, it is important to settle your account obligations before requesting a promissory form."
+          
+        ]
+        
+        
+  
+      },
+      {
+        "name": "EXAM - NO PROMI",
+        "patterns": [
+          "I have no payment for this upcoming exam",
+          "I have no payment for upcoming exam",
+          "do i need to settle my acount first before taking exam?",
+          "need to settle balance before exam",
+          "take exam without settling balance",
+          "take examination without settling balance",
+          "take examination without promi",
+          "take examination without promissory note",
+          "can I take exam without promissory note",
+          "can I take exam with no promissory note",
+          "can I take exam without promi",
+          "can I take exam with no promi",
+          "exam without promissory",
+          "examination without promissory",
+          "unsettled promissory note take exam",
+          "i want to have exam without promi",
+          "i want to have exam without promissory",
+          "exam without payment"
+          
+        ],
+        "responses": [ 
+          "Professors have their academic freedom if they will give you an exam without settling your promissory note, but it is recommended to settle your financial obligations before taking an exam to avoid further issues.",
+          "While professors may have the right to give exams to students who have not settled their promissory notes, it's generally recommended that you take care of any financial obligations before taking an exam. <br>This can help avoid any potential issues down the line and ensure that you're fully prepared to focus on your studies before taking exams.",
+          "It is important to settle your financial obligations before taking an exam, as this can help avoid any potential issues. While professors may have the freedom to give exams even if a student has not settled their promissory note, it is highly recommended that students prioritize settling their outstanding balances to avoid any complications that may arise."
+        ]
+        
+      },
+      
+
+      
+      {
+        "name": "CLEARANCE - WHAT",
+        "patterns": [
+          "What is clearance? is it required?",
+          "What does clearance means?",
+          "Tell me about clearance",
+          "explain clearance",
+          "clearance form"
+        
+        ],
+        "responses": [ 
+          "Clearance means making sure students have done everything they need to before they finish or move up. <br> This can include paying fees, completing documents, and finishing required classes."
+          
+        ]
+        
+      },
+      {
+        "name": "CLEARANCE - WHERE",
+        "patterns": [
+          "Where can i get a clearance form?",
+          "Where to get clearance form",
+          "How to get clearance form?",
+          "I would like to get clearance",
+          "I want clearance form",
+          "I need to get clearance",
+          "clearance"
+        
+        ],
+        "responses": [ 
+          "Step1: Go to frontline office near at the gate of school. You can ask the staff to get clearance form.<br><br>Step 2:Carefully fill out the clearance form, providing all required information.<br><br>Step 3: Next, go through each item on the list in an organized manner, making sure <br>that you have finished all the required tasks and obtained<br>any essentials documents.<br><br>Step 4: Once you have completed all the requirements, submit the checklist<br>or other documentation to the approriate school officials for verification<br>and to obtain clearance.<br><br>- Paying your school fee's or balances.<br>- Completing all academic coursework and assignments.<br>- Submitting any required forms documentation. <br>- Obtaining necessary signatures or approval from school officials.<br><br> Please take note that the clearance form is necessary for enrollment for the next semester."
+          
+        ]
+        
+      },
+      {
+        "name": "CLEARANCE - SIGNED",
+        "patterns": [
+          "Where should i get my clearance signed?",
+          "Where do i go to have my clearance signed?",
+          "Who is responsible for signing my clearance?"
+        
+        ],
+        "responses": [ 
+          "In your clearance form, you can see all the offices that need to be signed, and you can go there to sign your clearance form."
+          
+        ]
+        
+      },
+      {
+        "name": "CLEARANCE - EXAMINATION",
+        "patterns": [
+          "Can i take the final examination even if my clearance is not finished?",
+          "Can i still take the final examination if my clearance process isn't done?",
+          "Clearance required for exam?",
+          "Incomplete clearance for final exam?"
+
+        
+        ],
+        "responses": [ 
+          "Yes, if you have a exam permit, such as promissory notes, you can take the final examination."
+          
+        ]
+        
+      },
+      {
+        "name": "ID - REQUIREMENTS",
+        "patterns": [
+          "Is there a requirement for getting a school id?",
+          "How to get new id?",
+          "Where to get new id?",
+          "Get new id",
+          "renew id",
+          "Id renewal",
+          "school id"
+
+
+        
+        ],
+        "responses": [ 
+          "Yes, first, visit 'dyci.edu.ph' in your browser. Look for 'Portals' and click 'Request an ID'. <br> Theymight ask for details like your name, student ID number, course, and maybe an ID to confirm who youare.<br> Once your request is processed, the staff will issue you a new ID in due course."
+          
+        ]
+        
+      },
+      {
+        "name": "COURSES - OFFERS",
+        "patterns": [
+          "What are the available courses that DYCI offers?",
+          "What are the courses offered?",
+          "courses available",
+          "list of courses",
+          "list of available courses",
+          "course",
+          "courses offered",
+          "Tell me about courses",
+          "what are the courses available",
+          "courses available",
+          "courses",
+          "what are the courses offered",
+          "list of undergraduate programs",
+          "what are the undergrad courses offered",
+          "tell me about courses"
+
+        
+        ],
+        "responses": [ 
+          "DYCI Courses Offer: <br><br> BS Business Administration Major in: Human Resource Development, Management, Financial Management, Operations Management, Marketing Management <br>BS Computer Science <br> BS Information Technology <br> BS Computer Engineering <br> BS Accountancy (5 years) <br> BS in Accounting Information System <br>Bachelor of Elementary Education <br> Bachelor of Secondary Education Major in: Mathematics, English, Biology <br> Bachelor of Arts in Psychology <br> Bachelor of Arts in Political Science <br>BS Hotel and Restaurant Management <br> BS Tourism <br> TESDA Courses: Bartending NC II, Front Office NC II, Commercial Cooking NCII, Food and Beverages NC II, Housekeeping NC II <br>BS Marine Transportation <br> BS Marine Engineering <br> Short Term Programs: BS Mechanical Engineering <br> BS Mechanical Engineering<br><br> type <b>'CFED'</b> for more details. "
+          
+        ]
+        
+      },
+      {
+        "name": "COURSES - DEPARTMENT",
+        "patterns": [
+          "What are the available courses for each department?",
+          "Can you provide a list of courses offered in each department?",
+          "Are there specific courses assigned to each department",
+          "courses available for each department",
+          "courses for each department",
+          "list of courses per department",
+          "deparment courses",
+          "CFED"
+
+        
+        ],
+        "responses": [ 
+          "Course of Each Department : <br> <b> COLLEGE OF HEALTH AND SCIENCES </b><br>-BS NURSING<br>-MIDWIFERY<br>-CAREGIVING<br><b> COLLEGE OF BUSINESS ADMINISTRATION PACUCOA Level II</b><br>-BS Business Administration Major in: Human Resource Development, Management, Financial Management<br>Operations Management, Marketing Management<br><b> COLLEGE OF COMPUTER STUDIES</b><br> -BS Computer Science<br>-BS Information Technology<br>-BS Computer Engineering<br><b> COLLEGE OF ACCOUNTANCY</b><br>-BS Accountancy (5 years)<br>-BS in Accounting Information System<br><b> COLLEGE OF EDUCATION PACUCOA Level II</b><br>-Bachelor of Elementary Education<br>-Bachelor of Secondary Education – Major in: Mathematics, English, Biology<br><b> COLLEGE OF ARTS AND SCIENCES PACUCOA Level II</b><br>-Bachelor of Arts in Psychology<br>-Bachelor of Arts in Political Science<br><b> COLLEGE OF HOSPITALITY MANAGEMENT AND TOURISM PACUCOA Level II</b><br>-BS Hotel and Restaurant Management<br>-BS Tourism<br> TESDA Courses: Bartending NC II, Front Office NC II, Commercial Cooking NCII, Food and<br> Beverages NC II, Housekeeping NC II<br> "
+          
+        ]
+        
+      },
+      {
+        "name": "GRADES - INC",
+        "patterns": [
+          "Where can i get the INC Completion form?",
+          "inc form",
+          "how can i get inc completion form",
+          "get inc completion form",
+          "inc completion form"
+        
+        ],
+        "responses": [ 
+          "You can go to frontline office to secure completion. After that, pay the completion fee at the finance office."
+          
+        ]
+        
+      },
+      {
+        "name": "SHIFTING - REQUIREMENTS",
+        "patterns": [
+          "What are the steps and requirements for a student transferring from another college department?",
+          "requirements for shifting course",
+          "steps for shifting courses",
+          "shift course",
+          "tranfer to another college department steps",
+          "transfer to another department steps"
+          
+        
+        ],
+        "responses": [ 
+          "The steps are : <br> \u2022 Application letter indicating his/her reason <br> \u2022 Signed by his / her parents <br> \u2022 Recommendation from a dean of the previous college where the students belong. <br> \u2022 Certified copy of grades <br> \u2022 Enrollment Clearance"
+          
+        ]
+        
+      },
+      {
+        "name": "SHIFTING - ENROLL W/ FAILING GRADES",
+        "patterns": [
+          "Can students with failing grades from the previous semester enroll in additional courses?",
+          "can students with failing grade shift course?",
+          "shift with failing grade",
+          "shift with fail grades"
+        
+        ],
+        "responses": [ 
+          " Students who received failing grades in the previous semester will not be permitted to carry an overload. <br> Courses must meet the prerequisite and co- requisite requirements. "
+          
+        ]
+        
+      }
+  
+  
+]
+},
+{
+"category": "ADDITIONAL INFO",
+"tag": [
+  {
+    "name": "LOCATION - Finance",
+    "patterns": [
+     "Where is the finance located?",
+     "finance location",
+     "Where can I pay my tuition?",
+      "Where can I pay",
+      "Where do I pay my tuition?",
+      "How do i pay my tuition",
+      "Where do I pay",
+      "Where to pay tuition?",
+      "Where to pay",
+      "Where can I find the finance office",
+      "Where is finance",
+      "Where's finance",
+      "Finance Office location",
+      "Finance Location",
+      "I need to pay my tuition. Where should I go?",
+      "Where is the payment center for tuition?",
+      "Is there a specific office where I can pay my tuition?",
+      "Can you direct me to the department for tuition payment?"
+    ],
+    "responses": [
+    "The Finance Office is can be found on the 2nd floor of Sofia Building near the gate."
+    ]
+  },
+  {
+    "name": "LOCATION - Frontline",
+    "patterns": [
+     "Where is the frontline located?",
+     "frontline location",
+     "where i can find frontline"
+      
+    ],
+    "responses": [
+      "The Frontline is can be found on the front of DYCI beside main entrance"
+    ]
+  },
+  {
+    "name": "LOCATION - OSA",
+    "patterns": [
+     "Where is the OSA located?",
+     "Where is the OSAS located?",
+     "osa location",
+     "osas location",
+     "where i can find osa",
+     "where i can find osas"
+      
+    ],
+    "responses": [
+      "The Office of Student Affairs (OSA) is can be found on the beside the frontline and in room MCL-103"
+    ]
+  },
+  {
+    "name": "PAYMENT CHANNELS",
+    "patterns": [
+     "to pay",
+     "How to pay",
+     "how can i pay",
+     "How do I make a tuition payment?",
+     "How can i pay my tuition",
+     "payment",
+     "payment channels",
+     "payment channel",
+     "pay tuition via bank",
+     "pay tuition online",
+     "gcash, paymaya",
+     "where can i pay my tuition online?",
+     "does the school take credit cards",
+     "do you accept mastercard",
+     "do they accept mastercard",
+     "do you accept gcash",
+     "is mastercard available",
+     "is Gcash available",
+     "can i pay cash",
+     "can i pay gcash",
+     "can i pay",
+     "what are the payment method",
+     "does the school accept cash only?",
+     "payment methods"
+     
+      
+    ],
+    "responses": [
+      "Students may pay onsite through their respective Finance and Accounting Office located at 2nd floor Sofia Building.<br><br>Students may also pay online through bank transfer, Gcash, or Paymaya using the following details:<br><br><b>PROGRAM:</b><br>\u2022 College of Arts and Sciences (CAS)<br>\u2022 College of Accountancy (COA)<br>\u2022 College of Business Administration (CBA)<br>\u2022 College of Computer Studies (CCS)<br>\u2022 College of Education (COED)<br>\u2022 College of Health Sciences (CHS)<br>\u2022 School of Psychology (SOP)<br><br><b>ACCOUNT NAME AND NUMBER:</b><br>DYCI College Department 3803380107113<br><br><b>PROGRAM:</b><br>\u2022 College of Hospitality Management and Tourism (CHMT)<br>\u2022 College of Maritime Education (CME)<br>\u2022 School of Mechanical Engineering (SME)<br><br><b>ACCOUNT NAME AND NUMBER:</b><br>Dr. Yanga's Colleges Inc. 3803380072140<br><br><b>The CFAO and CME FAO do not authorize payment of tuition and other fees using personal bank details of employees.</b>"
+
+    ]
+  },
+  {
+    "name": "LOCATION - Dean's Office",
+    "patterns": [
+     "Where is the dean's office located?",
+     "Where is the dean office located?",
+     "Where is the deans office located?",
+     "dean's office location",
+     "deans office location",
+     "dean office location",
+     "where i can find deans office",
+     "where i can find dean office"
+      
+    ],
+    "responses": [
+      "Here are the Dean's Offices for every department:<br><br>\u2022CBA, CCS, COA, CHS - DMDY Building <br> \u2022COED - DYCI Dr. Elida Campus (Elem) <br> \u2022CAS - The Sofia Library & Front of Chapel <br> \u2022SOP - front of SHS building <br> \u2022SME - 3rd floor Sofia building <br> \u2022CHMT - 4th floor Elida hotel <br> \u2022CME - 3rd Floor CME Building"
+    ]
+  },
+  
+  {
+    "name": "HUMAN FALLBACK - Grades",
+    "patterns": [
+      "can you tell me about my grades",
+      "tell me about my grades",
+      "where can i check my grades",
+      "where can i see my grades",
+      "about grades",
+      "ask grade",
+      "grade for",
+      "grade",
+      "i want to check my grade",
+      "i would like to check my grade",
+      "check grade",
+      "access my grade",
+      "how to know my grade"
+    ],
+    "responses": [
+      "Apologies, but our system cannot provide individual grade information. To access your grades, please follow these steps:<br><br>Visit the DYCI website at dyci.edu.ph.<br>Click on the 'Portals' tab.<br>Locate and click on the 'OSIRIS'.<br><br>Within the OSIRIS portal, you should be able to access your student portal and view your grades. If you are unsure about your OSIRIS account or need assistance with login credentials, kindly visit your dean's office or academic department. They will be able to provide you with the necessary guidance and support.<br><br> If you have any other non-grade-related inquiries, please feel free to ask, and I'll be happy to assist you.",
+      "I apologize, but our system cannot provide individual grade information. To access your grades, please follow these steps:<br><br>Go to the DYCI website at dyci.edu.ph.<br>Click on the 'Portals' tab.<br>Select the 'OSIRIS' portal.<br><br>Once you are on the OSIRIS portal, you will be able to access your student portal and view your grades. If you are uncertain about your OSIRIS account or require assistance with login credentials, I recommend visiting your dean's office or academic department for further guidance and support.<br><br>If you have any other questions unrelated to grades, please feel free to ask, and I'll be more than happy to assist you."
+    ]
+  },
+  {
+    "name": "HUMAN FALLBACK - Tuition Fee",
+    "patterns": [
+      "what are the tuition fee",
+      "how much are the tuition fee",
+      "tuition fee",
+      "tell me about tuition fee",
+      "I want to ask about tuition",
+      "I want to ask about tuition fee",
+      "I want to ask tuition",
+      "about tuition",
+      "about tuition fee",
+      "I'd like to ask about tuition",
+      "tuition fee prices",
+      "How much is the tuition fee",
+      "List of tuition fee",
+      "tuition fee cost"
+    ],
+    "responses": [
+      "I apologize for the ongoing development of our tuition fee inquiry system. However you can go ask to the <b>Finance and Registrar - 2nd floor Sofia Building</b>."
+    ]
+  },
+  {
+    "name": "HUMAN FALLBACK - Uniform",
+    "patterns": [
+      "How much is the uniforms?",
+      "Uniform Prices",
+      "Uniform sizes available",
+      "Uniform size list",
+      "Uniform list",
+      "How much is uniform for girls?",
+      "How much is uniform for boys?",
+      "College uniform how much",
+      "College uniform price",
+      "Where can i buy uniform?",
+      "What are the sizes available for uniforms",
+      "I want to buy uniform",
+      "I'd like to buy uniform",
+      "I would like to buy uniform",
+      "I need to get unifom"
+    ],
+    "responses": [
+      "I apologize for the ongoing development of our uniform prices inquiry system. However you can go ask to the <b>Finance and Registrar - 2nd floor Sofia Building</b>."
+    ]
+  },
+  {
+    "name": "HUMAN FALLBACK - Professor",
+    "patterns": [
+      "where can i find professor office",
+      "where can i find prof office",
+      "where can i find my professor",
+      "where can i find my prof",
+      "how can i find my professor",
+      "how can i find my prof",
+      "professor location",
+      "location of my professor",
+      "location of my prof",
+      "location of professor",
+      "location of prof",
+      "where are the professors located",
+      "where are the profs located",
+      "professor located at",
+      "prof located at",
+      "I would like to meet my professor",
+      "I would like to see my professor",
+      "I would like to meet my prof",
+      "I would like to see my prof",
+      "I would like to have meeting with my professor"
+    ],
+    "responses": [
+      "To find your professor, I suggest reaching out to your academic advisor or dean's office for the necessary information. They can provide you with their professor's office location and contact details. If you require additional assistance or have any other questions, please feel free to ask, and I'll be glad to help.",
+      "If you need to find your professor, I suggest reaching out to your academic advisor or dean's office. They will be able to furnish you with the information you need, such as the professor's office location and contact details. Don't hesitate to ask if you require further assistance or if there's anything else I can help you with."
+    ]
+  },
+  {
+    "name": "TRIVIA - President",
+    "patterns": [
+      "Who founded dyci",
+      "who's the founder of dyci",
+      "who is the founder of dyci",
+      "who discovered dyci",
+      "founder of dyci",
+      "history of dyci",
+      "what year did dyci founded",
+      "DYCI year founded",
+      "DYCI birthday",
+      "DYCI history",
+      "who is the first president of dyci"
+    ],
+    "responses": [
+      "In January 1974, the Yanga family purchased the FBA from its owners and Dr. Ismael E. Yanga, Sr. became its first president.",
+      "The Yanga family acquired ownership of the FBA in January 1974, with Dr. Ismael E. Yanga, Sr. assuming the role of its inaugural president.",
+      "During January 1974, the FBA was purchased by the Yanga family, leading to Dr. Ismael E. Yanga, Sr. becoming its first president."
+    ]
+  },
+  {
+    "name": "TRIVIA - Current President of DYCI",
+    "patterns": [
+      "who is the current president of dyci",
+      "who's the current president of dyci",
+      "who is the current head of dyci",
+      "who's the current head of dyci",
+      "who is the current head director of dyci",
+      "who's the current head director of dyci",
+      "who is the current ceo of dyci",
+      "who's the current ceo of dyci",
+      "who is the president of dyci",
+      "who's the president of dyci",
+      "who's the ceo of dyci",
+      "who is the ceo of dyci",
+      "head of dyci",
+      "president of dyci",
+      "ceo of dyci",
+      "director of dyci",
+      "dyci president",
+      "dyci director",
+      "dyci head",
+      "dyci ceo",
+      "current president"
+    ],
+    "responses": [
+      "Mr. Michael S. Yanga currently serves as the president of DYCI. On January 14, 2019, his inauguration ceremony took place at the DMDY, marking his position as the school's third president.",
+      "The current president of DYCI is Mr. Michael S. Yanga, who took office on January 14, 2019, during an inauguration ceremony held at the DMDY. He is the school's third president and continues to hold this position, leading and overseeing the institution's activities.",
+      "DYCI's current president is Mr. Michael S. Yanga, who officially took office during his inauguration ceremony held at the DMDY on January 14, 2019. Since then, he has been successfully leading the school as its third president."
+    ]
+  },
+  {
+    "name": "TRIVIA - Creation",
+    "patterns": [
+      "Tell me about yourself",
+      "can you tell me about yourself",
+      "Who made you",
+      "Who created you",
+      "What is the name of your creator?",
+      "May I know who developed you?",
+      "Who is responsible for creating you?",
+      "What programming language was used to create you?",
+      "What was the development method used to create you?",
+      "Who designed and programmed you?",
+      "Who built you?",
+      "Who designed you",
+      "Who is behind your creation?",
+      "Who is your developer?"
+    ],
+    "responses": [
+      "I was created using NLTK and rule-based programming by the BSCS-3A Software Engineering Group 1 for the school year 2023-2024."
+    ]
+  }
+]
+}
+  ]
+}
+    
+
+
+  
+

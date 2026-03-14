@@ -1,0 +1,67 @@
+<!-- <html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>User Registeration Form</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">              
+</head>
+<body>
+<div class="container">
+	<h2>User Registration</h2>
+	<form action="{{ url_for('register') }}" method="post">
+        {% if mesage is defined and mesage %}
+			<div class="alert alert-warning">{{ mesage }}</div>
+		{% endif %}
+		<div class="form-group">
+			<label for="name">Name:</label>
+			<input type="text" class="form-control" id="name" name="name" placeholder="Enter name" name="name">
+		</div>
+		<div class="form-group">
+			<label for="email">Email:</label>
+			<input type="email" class="form-control" id="email" name="email" placeholder="Enter email" name="email">
+		</div>
+		<div class="form-group">
+			<label for="pwd">Password:</label>
+			<input type="password" class="form-control" id="password" name="password" placeholder="Enter password" name="pswd">
+		</div>    
+		<button type="submit" class="btn btn-primary">Register</button>
+		<p class="bottom">Already have an account?  <a class="bottom" href="{{url_for('login')}}"> Login here</a></p>
+	</form>
+</div>        
+</body>
+</html> -->
+
+<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Registration</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='register.css')}}">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">              
+	</head>
+	<body class="register_body">
+		<div class="register_fbody">
+			<h2 class="reg_title">Registration</h2>
+			<form action="{{ url_for('register') }}" method="post">
+				{% if mesage is defined and mesage %}
+					<div class="alert alert-warning">{{ message }}</div>
+				{% endif %}
+				<div class="form-group">
+					<span for="name" style="color: white;">Name:</span>
+					<input type="text" class="form-control" id="name" name="name" placeholder="Enter name" name="name" autocomplete="on">
+				</div>
+				<div class="form-group">
+					<span for="email" style="color: white;">Email:</span>
+					<input type="email" class="form-control" id="email" name="email" placeholder="Enter email" name="email" autocomplete="on">
+				</div>
+				<div class="form-group">
+					<span for="pwd" style="color: white;">Password:</span>
+					<input type="password" class="form-control" id="password" name="password" placeholder="Enter password" name="pswd" autocomplete="on">
+				</div>    
+				<button type="submit" class="btn btn-primary">Register</button>
+				<p class="bottom">Already have an account?  <a class="bottom" style = "color: #027FDB" href="{{url_for('login')}}">Login here</a></p>
+			</form>
+		</div>        
+	</body>
+</html>
+
