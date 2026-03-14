@@ -4,7 +4,7 @@ from intent_matcher import build_intent_context
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
-GROQ_MODEL   = os.environ.get("GROQ_MODEL", "llama3-8b-8192")
+GROQ_MODEL   = os.environ.get("GROQ_MODEL", "llama-3.1-8b-instant")
 
 BASE_SYSTEM_PROMPT = """You are DYChat, the official AI assistant of Dr. Yanga's Colleges, Inc. (DYCI), \
 a private educational institution in Bocaue, Bulacan, Philippines.

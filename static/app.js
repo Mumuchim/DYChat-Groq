@@ -7,11 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 clearButton: document.querySelector('.clear__button'),
                 inputField:  document.querySelector('#inputField'),
             };
-            this.messages = [];
+            this.messages = [];         // UI messages (for rendering)
+            this.history  = [];         // Groq conversation history {role, content}
 
             // Clear chat
             this.args.clearButton.addEventListener('click', () => {
                 this.messages = [];
+                this.history  = [];
                 this.updateChatText(this.args.chatBox);
             });
 
@@ -22,7 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // ── Sidebar toggle ──────────────────────────────
             const sidebar = document.querySelector('.sidebar');
-
             const sidebarToggleBtn = document.getElementById('sidebarToggle');
             if (sidebarToggleBtn) {
                 sidebarToggleBtn.addEventListener('click', () => {
@@ -90,6 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const text = textField.value.trim();
             if (!text) return;
 
+            // Add user message to UI
             this.messages.push({ name: 'User', message: text });
             this.updateChatText(chatbox);
             textField.value = '';
@@ -98,20 +100,34 @@ document.addEventListener('DOMContentLoaded', () => {
             this.messages.push({ name: 'DYC-AI', message: '<div class="typing-indicator"><span></span><span></span><span></span></div>' });
             this.updateChatText(chatbox);
 
-            // Use relative URL so it works both locally and on Vercel
+            // Send message + full conversation history to backend
             fetch('/predict', {
                 method: 'POST',
-                body: JSON.stringify({ message: text }),
+                body: JSON.stringify({
+                    message: text,
+                    history: this.history   // ← send history every time
+                }),
                 headers: { 'Content-Type': 'application/json' },
             })
             .then(r => r.json())
             .then(r => {
+                const answer = r.answer;
+
+                // Add both sides to history for next request
+                this.history.push({ role: 'user',      content: text   });
+                this.history.push({ role: 'assistant', content: answer });
+
+                // Keep history to last 10 exchanges (20 messages) to avoid token bloat
+                if (this.history.length > 20) {
+                    this.history = this.history.slice(-20);
+                }
+
                 setTimeout(() => {
                     this.messages.pop(); // remove typing indicator
-                    this.messages.push({ name: 'DYC-AI', message: r.answer });
+                    this.messages.push({ name: 'DYC-AI', message: answer });
                     this.updateChatText(chatbox);
                     this.scrollToBottom(chatbox);
-                }, 800);
+                }, 600);
             })
             .catch(err => {
                 console.error('Error:', err);
