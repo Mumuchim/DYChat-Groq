@@ -30,7 +30,7 @@ app.secret_key = os.environ.get('SECRET_KEY', 'change-me-in-production')
 
 def get_db():
     """Open a Supabase/Postgres connection using the DATABASE_URL connection string."""
-    return psycopg2.connect(os.environ.get('DATABASE_URL'), sslmode='require')
+    return psycopg2.connect(os.environ.get('DATABASE_URL'))
 
 
 # ── ROUTES ──────────────────────────────────────────
