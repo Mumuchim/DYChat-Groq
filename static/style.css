@@ -131,9 +131,7 @@ body {
   border-color: var(--gold-dim);
 }
 
-.sidebar.close .sidebar__toggle i {
-  transform: rotate(180deg);
-}
+/* burger icon stays as burger — no rotation */
 
 .sidebar__toggle i {
   transition: transform var(--transition);
