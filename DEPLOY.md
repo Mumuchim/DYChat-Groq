@@ -18,12 +18,19 @@
 In your Supabase project → **SQL Editor** → paste and run:
 
 ```sql
+-- Create the user table
 CREATE TABLE IF NOT EXISTS "user" (
   id       SERIAL PRIMARY KEY,
   name     VARCHAR(100) NOT NULL,
   email    VARCHAR(100) NOT NULL UNIQUE,
   password VARCHAR(255) NOT NULL
 );
+
+-- Allow the REST API to read/write it (required for publishable key access)
+ALTER TABLE "user" ENABLE ROW LEVEL SECURITY;
+
+CREATE POLICY "allow_all" ON "user"
+  FOR ALL USING (true) WITH CHECK (true);
 ```
 
 ### Get your connection string
@@ -87,7 +94,8 @@ git push -u origin main
 
 | Variable | Where to find it |
 |---|---|
-| `DATABASE_URL` | Supabase → Project Settings → Database → Connection string → URI |
+| `SUPABASE_URL` | Supabase → Connect panel → Project URL |
+| `SUPABASE_PUBLISHABLE_KEY` | Supabase → Connect panel → Publishable Key |
 | `GROQ_API_KEY` | [console.groq.com](https://console.groq.com) |
 | `GROQ_MODEL` | `llama3-8b-8192` |
 | `SECRET_KEY` | Any random string |

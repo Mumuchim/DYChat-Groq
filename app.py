@@ -1,14 +1,12 @@
 from flask import Flask, render_template, request, jsonify, session, redirect, url_for
 from flask_cors import CORS
-import psycopg2
-import psycopg2.extras
+import requests as http
 from chat import get_response
 from groq_handler import is_groq_configured
 import re
 import json
 import os
 
-# Load .env for local development
 try:
     from dotenv import load_dotenv
     load_dotenv()
@@ -27,10 +25,45 @@ with open(os.path.join(BASE_DIR, 'intents.json'), 'r') as file:
 
 app.secret_key = os.environ.get('SECRET_KEY', 'change-me-in-production')
 
+# Supabase REST API config
+SUPABASE_URL = os.environ.get('SUPABASE_URL')          # e.g. https://xxxx.supabase.co
+SUPABASE_KEY = os.environ.get('SUPABASE_PUBLISHABLE_KEY')  # sb_publishable_...
 
-def get_db():
-    """Open a Supabase/Postgres connection using the DATABASE_URL connection string."""
-    return psycopg2.connect(os.environ.get('DATABASE_URL'))
+def supa_headers():
+    return {
+        'apikey': SUPABASE_KEY,
+        'Authorization': f'Bearer {SUPABASE_KEY}',
+        'Content-Type': 'application/json'
+    }
+
+def supa_get_user(email, password):
+    """Fetch a user by email + password."""
+    res = http.get(
+        f'{SUPABASE_URL}/rest/v1/user',
+        headers={**supa_headers(), 'Accept': 'application/json'},
+        params={'email': f'eq.{email}', 'password': f'eq.{password}', 'limit': 1}
+    )
+    data = res.json()
+    return data[0] if data else None
+
+def supa_get_by_email(email):
+    """Check if an email already exists."""
+    res = http.get(
+        f'{SUPABASE_URL}/rest/v1/user',
+        headers={**supa_headers(), 'Accept': 'application/json'},
+        params={'email': f'eq.{email}', 'limit': 1}
+    )
+    data = res.json()
+    return data[0] if data else None
+
+def supa_create_user(name, email, password):
+    """Insert a new user row."""
+    res = http.post(
+        f'{SUPABASE_URL}/rest/v1/user',
+        headers={**supa_headers(), 'Prefer': 'return=minimal'},
+        json={'name': name, 'email': email, 'password': password}
+    )
+    return res.status_code in (200, 201)
 
 
 # ── ROUTES ──────────────────────────────────────────
@@ -40,7 +73,6 @@ def get_db():
 def login():
     message = ''
 
-    # Show success flash from registration redirect
     if 'flash' in session:
         message = session.pop('flash')
 
@@ -48,18 +80,11 @@ def login():
         email    = request.form.get('email', '').strip()
         password = request.form.get('password', '').strip()
 
-        if email and password:
+        if not (email and password):
+            message = 'Please fill in all fields.'
+        else:
             try:
-                conn = get_db()
-                cur  = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
-                cur.execute(
-                    'SELECT * FROM "user" WHERE email = %s AND password = %s',
-                    (email, password)
-                )
-                user = cur.fetchone()
-                cur.close()
-                conn.close()
-
+                user = supa_get_user(email, password)
                 if user:
                     session['loggedin'] = True
                     session['name']     = user['name']
@@ -68,9 +93,7 @@ def login():
                 else:
                     message = 'Incorrect email or password.'
             except Exception as e:
-                message = f'Database error: {e}'
-        else:
-            message = 'Please fill in all fields.'
+                message = f'Error: {e}'
 
     return render_template('login.html', message=message)
 
@@ -90,26 +113,15 @@ def register():
             message = 'Invalid email address.'
         else:
             try:
-                conn = get_db()
-                cur  = conn.cursor()
-                cur.execute('SELECT id FROM "user" WHERE email = %s', (email,))
-                if cur.fetchone():
+                if supa_get_by_email(email):
                     message = 'An account with that email already exists.'
-                else:
-                    cur.execute(
-                        'INSERT INTO "user" (name, email, password) VALUES (%s, %s, %s)',
-                        (name, email, password)
-                    )
-                    conn.commit()
-                    cur.close()
-                    conn.close()
+                elif supa_create_user(name, email, password):
                     session['flash'] = 'Account created! You can now log in.'
                     return redirect(url_for('login'))
-
-                cur.close()
-                conn.close()
+                else:
+                    message = 'Failed to create account. Please try again.'
             except Exception as e:
-                message = f'Database error: {e}'
+                message = f'Error: {e}'
 
     return render_template('register.html', message=message)
 
@@ -132,7 +144,6 @@ def predict():
 @app.get('/status')
 def status():
     return jsonify({
-        'local_model':  True,
         'groq_enabled': is_groq_configured(),
         'groq_model':   os.environ.get('GROQ_MODEL', 'llama3-8b-8192')
     })
